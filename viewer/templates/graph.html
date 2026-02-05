@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }} — Moonstone Viewer{% endblock %}
+
+{% block content %}
+<div class="graph-page">
+    <header class="graph-header">
+        <h1>{{ title }}</h1>
+        <p>{{ description }}</p>
+    </header>
+    <div class="graph-container">
+        {{ graph_html | safe }}
+    </div>
+</div>
+{% endblock %}

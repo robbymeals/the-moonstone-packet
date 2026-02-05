@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }} — Moonstone Viewer{% endblock %}
+
+{% block content %}
+<div class="matrix-page">
+    <header class="matrix-header">
+        <h1>{{ title }}</h1>
+        <p>{{ description }}</p>
+    </header>
+
+    <div class="legend">
+        <span class="legend-item"><span class="cell direct"></span> Direct witness</span>
+        <span class="legend-item"><span class="cell hearsay"></span> Hearsay</span>
+        <span class="legend-item"><span class="cell retrospective"></span> Retrospective</span>
+        <span class="legend-item"><span class="cell inferred"></span> Inferred</span>
+        <span class="legend-item"><span class="cell not_covered"></span> Not covered</span>
+    </div>
+
+    <div class="matrix-container">
+        <table class="matrix">
+            <thead>
+                <tr>
+                    <th class="event-header">Event</th>
+                    {% for narrator in narrators %}
+                    <th class="narrator-header">{{ narrator.replace('_', ' ').title()[:10] }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for event in events %}
+                <tr>
+                    <td class="event-name">{{ event.replace('_', ' ') }}</td>
+                    {% for narrator in narrators %}
+                    {% set coverage = matrix.get(narrator, {}).get(event, 'not_covered') %}
+                    <td class="cell {{ coverage }}" title="{{ narrator }}: {{ coverage }}"></td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

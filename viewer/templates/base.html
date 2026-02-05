@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Moonstone Viewer{% endblock %}</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="/" class="brand">Moonstone</a>
+        <a href="/counterfactual">Counterfactual</a>
+        <a href="/causal">Causal</a>
+        <a href="/knowledge">Knowledge</a>
+        <a href="/asymmetry">Asymmetry</a>
+        <a href="/locations">Locations</a>
+        <a href="/perspectives">Perspectives</a>
+    </nav>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+</body>
+</html>

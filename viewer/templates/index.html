@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block title %}Moonstone Viewer{% endblock %}
+
+{% block content %}
+<div class="index-page">
+    <h1>The Moonstone Packet</h1>
+    <p class="subtitle">Narrative structure graphs for Wilkie Collins' <em>The Moonstone</em> (1868)</p>
+
+    <div class="card-grid">
+        <a href="/counterfactual" class="card">
+            <h2>Counterfactual DAG</h2>
+            <p>45 nodes. The actual path vs what could have happened. Hinge points where the story pivots.</p>
+        </a>
+
+        <a href="/causal" class="card">
+            <h2>Causal Chain</h2>
+            <p>22 events. What caused what. Required vs contingent.</p>
+        </a>
+
+        <a href="/knowledge" class="card">
+            <h2>Knowledge State</h2>
+            <p>Who knows what facts, and when they learned them.</p>
+        </a>
+
+        <a href="/asymmetry" class="card">
+            <h2>Knowledge Asymmetry</h2>
+            <p>Who knows more than whom. The information gaps that drive the plot.</p>
+        </a>
+
+        <a href="/locations" class="card">
+            <h2>Locations</h2>
+            <p>30 places. Spatial relationships and perception constraints.</p>
+        </a>
+
+        <a href="/perspectives" class="card">
+            <h2>Event-Perspective Matrix</h2>
+            <p>Which narrators cover which events, and how (direct, hearsay, retrospective).</p>
+        </a>
+    </div>
+
+    {% if hinge_points %}
+    <div class="hinge-summary">
+        <h2>Most Contingent Hinge Points</h2>
+        <p>Where the story could have gone differently:</p>
+        <ol>
+            {% for h in hinge_points %}
+            <li>
+                <strong>{{ h.description }}</strong>
+                <span class="probability">P = {{ "%.0f"|format(h.p_actual * 100) }}%</span>
+            </li>
+            {% endfor %}
+        </ol>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
