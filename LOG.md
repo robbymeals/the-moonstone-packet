@@ -272,3 +272,34 @@ Build computational graph representations for narrative structure extraction:
 - Computational graph infrastructure complete
 - All foundation documents (ACTIONS, CHARACTERS, PERSPECTIVES, TONE) verified against graphs
 - Ready for: Generation testing, perturbation experiments, alternative narrative generation
+
+---
+
+## 2026-02-05 — Session 6: Graph Viewer
+
+### Requested
+Build a minimal, parsimonious viewer for the narrative graphs. Not minimal in functionality—minimal in the sense of a clean foundation that can be iterated rapidly.
+
+### Delivered
+
+**Viewer** (`viewer/`):
+- Flask + PyVis web app
+- Six views: Counterfactual DAG, Causal Chain, Knowledge State, Knowledge Asymmetry, Locations, Event-Perspective Matrix
+- Clean CSS optimized for screenshots
+- Interactive graphs with hover info
+
+**Dependencies added**: flask, pyvis
+
+**Run with**: `poetry run python viewer/app.py` → http://localhost:5050
+
+### Architecture Notes
+
+The viewer is part of the larger system for growing the story into a meta-story. The plan (per user):
+- Parameterize the story
+- Fill in probability distributions from what's in the text and what's implied by worldbuilding
+- The graphs are the skeleton; the viewer is the interface; the packet is the artifact
+
+### Current State
+- Viewer running and functional
+- Ready for iteration via screenshots and discussion
+- Next: refine visualizations, add interactivity, connect to generation
