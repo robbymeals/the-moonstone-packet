@@ -2,7 +2,7 @@
 
 Extracting the narrative structure of Wilkie Collins' *The Moonstone* (1868) into graphs and documents.
 
-Collins wrote the novel as multiple witnesses testifying about the same events. We're pulling that structure apart to see what's load-bearing.
+Collins wrote the novel as multiple witnesses testifying about the same events. We're pulling that structure apart to see what's load-bearing. And seeing what else that structure can be used to plausibly grow, in terms of interesting alternate narratives in this specific set of circumstances. Or boring alternatives. We're trying to understand the alternatives. For fun.  
 
 ## Quickstart
 
