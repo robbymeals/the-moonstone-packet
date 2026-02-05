@@ -1,0 +1,498 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-02-04">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="6" title="relationship" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="description" type="string" />
+      <attribute id="1" title="location_type" type="string" />
+      <attribute id="2" title="parent" type="string" />
+      <attribute id="3" title="floor" type="long" />
+      <attribute id="4" title="key_feature" type="string" />
+      <attribute id="5" title="tidal" type="string" />
+    </attributes>
+    <nodes>
+      <node id="verinder_house" label="verinder_house">
+        <attvalues>
+          <attvalue for="0" value="The Verinder family estate in Yorkshire" />
+          <attvalue for="1" value="building" />
+        </attvalues>
+      </node>
+      <node id="entrance_hall" label="entrance_hall">
+        <attvalues>
+          <attvalue for="0" value="Main entrance hall of the Verinder house" />
+          <attvalue for="1" value="room" />
+          <attvalue for="2" value="verinder_house" />
+        </attvalues>
+      </node>
+      <node id="drawing_room" label="drawing_room">
+        <attvalues>
+          <attvalue for="0" value="Drawing room where the birthday dinner guests gathered" />
+          <attvalue for="1" value="room" />
+          <attvalue for="2" value="verinder_house" />
+        </attvalues>
+      </node>
+      <node id="dining_room" label="dining_room">
+        <attvalues>
+          <attvalue for="0" value="Dining room where the birthday dinner was held" />
+          <attvalue for="1" value="room" />
+          <attvalue for="2" value="verinder_house" />
+        </attvalues>
+      </node>
+      <node id="rachels_sitting_room" label="rachels_sitting_room">
+        <attvalues>
+          <attvalue for="0" value="Rachel's private sitting-room with the Indian cabinet (First floor)" />
+          <attvalue for="1" value="room" />
+          <attvalue for="2" value="verinder_house" />
+          <attvalue for="3" value="1" />
+          <attvalue for="4" value="Indian cabinet where diamond was kept" />
+        </attvalues>
+      </node>
+      <node id="rachels_bedroom" label="rachels_bedroom">
+        <attvalues>
+          <attvalue for="0" value="Rachel's bedroom, adjacent to her sitting-room" />
+          <attvalue for="1" value="room" />
+          <attvalue for="2" value="verinder_house" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="franklins_room" label="franklins_room">
+        <attvalues>
+          <attvalue for="0" value="Franklin Blake's guest bedroom" />
+          <attvalue for="1" value="room" />
+          <attvalue for="2" value="verinder_house" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="godfreys_room" label="godfreys_room">
+        <attvalues>
+          <attvalue for="0" value="Godfrey Ablewhite's guest bedroom" />
+          <attvalue for="1" value="room" />
+          <attvalue for="2" value="verinder_house" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="servants_hall" label="servants_hall">
+        <attvalues>
+          <attvalue for="0" value="Servants' common area" />
+          <attvalue for="1" value="room" />
+          <attvalue for="2" value="verinder_house" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="betteredges_room" label="betteredges_room">
+        <attvalues>
+          <attvalue for="0" value="Betteredge's quarters" />
+          <attvalue for="1" value="room" />
+          <attvalue for="2" value="verinder_house" />
+        </attvalues>
+      </node>
+      <node id="rosannas_room" label="rosannas_room">
+        <attvalues>
+          <attvalue for="0" value="Rosanna Spearman's room in servants' quarters" />
+          <attvalue for="1" value="room" />
+          <attvalue for="2" value="verinder_house" />
+        </attvalues>
+      </node>
+      <node id="painted_door" label="painted_door">
+        <attvalues>
+          <attvalue for="0" value="The freshly painted door to Rachel's sitting-room" />
+          <attvalue for="1" value="feature" />
+          <attvalue for="2" value="rachels_sitting_room" />
+          <attvalue for="4" value="Paint wet on night of June 21" />
+        </attvalues>
+      </node>
+      <node id="first_floor_corridor" label="first_floor_corridor">
+        <attvalues>
+          <attvalue for="0" value="Corridor connecting bedrooms on first floor" />
+          <attvalue for="1" value="passage" />
+          <attvalue for="2" value="verinder_house" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="verinder_grounds" label="verinder_grounds">
+        <attvalues>
+          <attvalue for="0" value="Grounds surrounding the Verinder house" />
+          <attvalue for="1" value="outdoor" />
+        </attvalues>
+      </node>
+      <node id="terrace" label="terrace">
+        <attvalues>
+          <attvalue for="0" value="Terrace outside the house" />
+          <attvalue for="1" value="outdoor" />
+          <attvalue for="2" value="verinder_grounds" />
+        </attvalues>
+      </node>
+      <node id="shrubbery" label="shrubbery">
+        <attvalues>
+          <attvalue for="0" value="The shrubbery walk where Indians appeared" />
+          <attvalue for="1" value="outdoor" />
+          <attvalue for="2" value="verinder_grounds" />
+        </attvalues>
+      </node>
+      <node id="shivering_sand" label="shivering_sand">
+        <attvalues>
+          <attvalue for="0" value="Tidal quicksand area on the coast" />
+          <attvalue for="1" value="outdoor" />
+          <attvalue for="4" value="Where Rosanna hid the nightgown and drowned herself" />
+          <attvalue for="5" value="True" />
+        </attvalues>
+      </node>
+      <node id="cobbs_hole" label="cobbs_hole">
+        <attvalues>
+          <attvalue for="0" value="Fishing village, home of Limping Lucy's family" />
+          <attvalue for="1" value="village" />
+        </attvalues>
+      </node>
+      <node id="yolland_cottage" label="yolland_cottage">
+        <attvalues>
+          <attvalue for="0" value="The Yolland family cottage" />
+          <attvalue for="1" value="building" />
+          <attvalue for="2" value="cobbs_hole" />
+        </attvalues>
+      </node>
+      <node id="frizinghall" label="frizinghall">
+        <attvalues>
+          <attvalue for="0" value="Nearby town" />
+          <attvalue for="1" value="town" />
+        </attvalues>
+      </node>
+      <node id="frizinghall_bank" label="frizinghall_bank">
+        <attvalues>
+          <attvalue for="0" value="Bank where diamond was kept before birthday" />
+          <attvalue for="1" value="building" />
+          <attvalue for="2" value="frizinghall" />
+        </attvalues>
+      </node>
+      <node id="dr_candys_house" label="dr_candys_house">
+        <attvalues>
+          <attvalue for="0" value="Dr. Candy's residence and practice" />
+          <attvalue for="1" value="building" />
+          <attvalue for="2" value="frizinghall" />
+        </attvalues>
+      </node>
+      <node id="london" label="london">
+        <attvalues>
+          <attvalue for="0" value="London" />
+          <attvalue for="1" value="city" />
+        </attvalues>
+      </node>
+      <node id="lukers_bank" label="lukers_bank">
+        <attvalues>
+          <attvalue for="0" value="Mr. Luker's bank/money-lending establishment" />
+          <attvalue for="1" value="building" />
+          <attvalue for="2" value="london" />
+        </attvalues>
+      </node>
+      <node id="bruffs_office" label="bruffs_office">
+        <attvalues>
+          <attvalue for="0" value="Matthew Bruff's law offices" />
+          <attvalue for="1" value="building" />
+          <attvalue for="2" value="london" />
+        </attvalues>
+      </node>
+      <node id="wheel_of_fortune" label="wheel_of_fortune">
+        <attvalues>
+          <attvalue for="0" value="The inn where Godfrey was murdered" />
+          <attvalue for="1" value="building" />
+          <attvalue for="2" value="london" />
+          <attvalue for="4" value="Site of Godfrey's death" />
+        </attvalues>
+      </node>
+      <node id="lady_verinder_london" label="lady_verinder_london">
+        <attvalues>
+          <attvalue for="0" value="Lady Verinder's London residence" />
+          <attvalue for="1" value="building" />
+          <attvalue for="2" value="london" />
+        </attvalues>
+      </node>
+      <node id="india" label="india">
+        <attvalues>
+          <attvalue for="0" value="India" />
+          <attvalue for="1" value="country" />
+        </attvalues>
+      </node>
+      <node id="seringapatam" label="seringapatam">
+        <attvalues>
+          <attvalue for="0" value="Site of the 1799 siege where diamond was stolen" />
+          <attvalue for="1" value="city" />
+          <attvalue for="2" value="india" />
+        </attvalues>
+      </node>
+      <node id="somnauth_shrine" label="somnauth_shrine">
+        <attvalues>
+          <attvalue for="0" value="Hindu shrine where the Moonstone originated and returned" />
+          <attvalue for="1" value="building" />
+          <attvalue for="2" value="india" />
+          <attvalue for="4" value="The Moon-God idol" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="verinder_house" target="entrance_hall" id="0" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="CONTAINS" />
+        </attvalues>
+      </edge>
+      <edge source="verinder_house" target="drawing_room" id="1" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="CONTAINS" />
+        </attvalues>
+      </edge>
+      <edge source="verinder_house" target="dining_room" id="2" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="CONTAINS" />
+        </attvalues>
+      </edge>
+      <edge source="verinder_house" target="rachels_sitting_room" id="3" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="CONTAINS" />
+        </attvalues>
+      </edge>
+      <edge source="verinder_house" target="rachels_bedroom" id="4" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="CONTAINS" />
+        </attvalues>
+      </edge>
+      <edge source="verinder_house" target="franklins_room" id="5" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="CONTAINS" />
+        </attvalues>
+      </edge>
+      <edge source="verinder_house" target="godfreys_room" id="6" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="CONTAINS" />
+        </attvalues>
+      </edge>
+      <edge source="verinder_house" target="servants_hall" id="7" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="CONTAINS" />
+        </attvalues>
+      </edge>
+      <edge source="verinder_house" target="betteredges_room" id="8" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="CONTAINS" />
+        </attvalues>
+      </edge>
+      <edge source="verinder_house" target="rosannas_room" id="9" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="CONTAINS" />
+        </attvalues>
+      </edge>
+      <edge source="verinder_house" target="first_floor_corridor" id="10" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="CONTAINS" />
+        </attvalues>
+      </edge>
+      <edge source="verinder_house" target="terrace" id="11" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="ADJACENT_TO" />
+        </attvalues>
+      </edge>
+      <edge source="verinder_house" target="verinder_grounds" id="12" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="ADJACENT_TO" />
+        </attvalues>
+      </edge>
+      <edge source="entrance_hall" target="drawing_room" id="13" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="ADJACENT_TO" />
+        </attvalues>
+      </edge>
+      <edge source="drawing_room" target="entrance_hall" id="14" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="ADJACENT_TO" />
+        </attvalues>
+      </edge>
+      <edge source="drawing_room" target="dining_room" id="15" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="ADJACENT_TO" />
+        </attvalues>
+      </edge>
+      <edge source="drawing_room" target="terrace" id="16" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="VISIBLE_FROM" />
+        </attvalues>
+      </edge>
+      <edge source="dining_room" target="drawing_room" id="17" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="ADJACENT_TO" />
+        </attvalues>
+      </edge>
+      <edge source="rachels_sitting_room" target="painted_door" id="18" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="VISIBLE_FROM" />
+        </attvalues>
+      </edge>
+      <edge source="rachels_sitting_room" target="rachels_bedroom" id="19" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="AUDIBLE_FROM" />
+        </attvalues>
+      </edge>
+      <edge source="rachels_sitting_room" target="first_floor_corridor" id="20" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="ADJACENT_TO" />
+        </attvalues>
+      </edge>
+      <edge source="rachels_bedroom" target="rachels_sitting_room" id="21" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="AUDIBLE_FROM" />
+        </attvalues>
+      </edge>
+      <edge source="rachels_bedroom" target="first_floor_corridor" id="22" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="ADJACENT_TO" />
+        </attvalues>
+      </edge>
+      <edge source="franklins_room" target="first_floor_corridor" id="23" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="ADJACENT_TO" />
+        </attvalues>
+      </edge>
+      <edge source="godfreys_room" target="first_floor_corridor" id="24" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="ADJACENT_TO" />
+        </attvalues>
+      </edge>
+      <edge source="painted_door" target="rachels_sitting_room" id="25" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="VISIBLE_FROM" />
+        </attvalues>
+      </edge>
+      <edge source="painted_door" target="first_floor_corridor" id="26" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="VISIBLE_FROM" />
+        </attvalues>
+      </edge>
+      <edge source="first_floor_corridor" target="rachels_sitting_room" id="27" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="ADJACENT_TO" />
+        </attvalues>
+      </edge>
+      <edge source="first_floor_corridor" target="franklins_room" id="28" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="ADJACENT_TO" />
+        </attvalues>
+      </edge>
+      <edge source="first_floor_corridor" target="godfreys_room" id="29" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="ADJACENT_TO" />
+        </attvalues>
+      </edge>
+      <edge source="first_floor_corridor" target="rachels_bedroom" id="30" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="ADJACENT_TO" />
+        </attvalues>
+      </edge>
+      <edge source="first_floor_corridor" target="painted_door" id="31" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="VISIBLE_FROM" />
+        </attvalues>
+      </edge>
+      <edge source="verinder_grounds" target="terrace" id="32" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="CONTAINS" />
+        </attvalues>
+      </edge>
+      <edge source="verinder_grounds" target="shrubbery" id="33" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="CONTAINS" />
+        </attvalues>
+      </edge>
+      <edge source="verinder_grounds" target="shivering_sand" id="34" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="ADJACENT_TO" />
+        </attvalues>
+      </edge>
+      <edge source="verinder_grounds" target="verinder_house" id="35" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="ADJACENT_TO" />
+        </attvalues>
+      </edge>
+      <edge source="terrace" target="verinder_house" id="36" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="ADJACENT_TO" />
+        </attvalues>
+      </edge>
+      <edge source="terrace" target="shrubbery" id="37" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="VISIBLE_FROM" />
+        </attvalues>
+      </edge>
+      <edge source="terrace" target="drawing_room" id="38" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="VISIBLE_FROM" />
+        </attvalues>
+      </edge>
+      <edge source="shrubbery" target="terrace" id="39" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="VISIBLE_FROM" />
+        </attvalues>
+      </edge>
+      <edge source="shivering_sand" target="verinder_grounds" id="40" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="ADJACENT_TO" />
+        </attvalues>
+      </edge>
+      <edge source="shivering_sand" target="cobbs_hole" id="41" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="ADJACENT_TO" />
+        </attvalues>
+      </edge>
+      <edge source="cobbs_hole" target="yolland_cottage" id="42" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="CONTAINS" />
+        </attvalues>
+      </edge>
+      <edge source="cobbs_hole" target="shivering_sand" id="43" weight="0.5">
+        <attvalues>
+          <attvalue for="6" value="ADJACENT_TO" />
+        </attvalues>
+      </edge>
+      <edge source="frizinghall" target="frizinghall_bank" id="44" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="CONTAINS" />
+        </attvalues>
+      </edge>
+      <edge source="frizinghall" target="dr_candys_house" id="45" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="CONTAINS" />
+        </attvalues>
+      </edge>
+      <edge source="london" target="lukers_bank" id="46" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="CONTAINS" />
+        </attvalues>
+      </edge>
+      <edge source="london" target="bruffs_office" id="47" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="CONTAINS" />
+        </attvalues>
+      </edge>
+      <edge source="london" target="wheel_of_fortune" id="48" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="CONTAINS" />
+        </attvalues>
+      </edge>
+      <edge source="london" target="lady_verinder_london" id="49" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="CONTAINS" />
+        </attvalues>
+      </edge>
+      <edge source="india" target="seringapatam" id="50" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="CONTAINS" />
+        </attvalues>
+      </edge>
+      <edge source="india" target="somnauth_shrine" id="51" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="CONTAINS" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

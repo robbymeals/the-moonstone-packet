@@ -1,0 +1,713 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d3" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d2" for="edge" attr.name="coverage_type" attr.type="string" />
+  <key id="d1" for="node" attr.name="label" attr.type="string" />
+  <key id="d0" for="node" attr.name="node_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="narrator:prologue_cousin">
+      <data key="d0">narrator</data>
+      <data key="d1">prologue_cousin</data>
+    </node>
+    <node id="narrator:betteredge">
+      <data key="d0">narrator</data>
+      <data key="d1">betteredge</data>
+    </node>
+    <node id="narrator:miss_clack">
+      <data key="d0">narrator</data>
+      <data key="d1">miss_clack</data>
+    </node>
+    <node id="narrator:bruff">
+      <data key="d0">narrator</data>
+      <data key="d1">bruff</data>
+    </node>
+    <node id="narrator:franklin_blake">
+      <data key="d0">narrator</data>
+      <data key="d1">franklin_blake</data>
+    </node>
+    <node id="narrator:ezra_jennings">
+      <data key="d0">narrator</data>
+      <data key="d1">ezra_jennings</data>
+    </node>
+    <node id="narrator:sergeant_cuff">
+      <data key="d0">narrator</data>
+      <data key="d1">sergeant_cuff</data>
+    </node>
+    <node id="narrator:murthwaite">
+      <data key="d0">narrator</data>
+      <data key="d1">murthwaite</data>
+    </node>
+    <node id="event:prologue_theft">
+      <data key="d0">event</data>
+      <data key="d1">prologue_theft</data>
+    </node>
+    <node id="event:indians_appear">
+      <data key="d0">event</data>
+      <data key="d1">indians_appear</data>
+    </node>
+    <node id="event:birthday_dinner">
+      <data key="d0">event</data>
+      <data key="d1">birthday_dinner</data>
+    </node>
+    <node id="event:murthwaite_warning">
+      <data key="d0">event</data>
+      <data key="d1">murthwaite_warning</data>
+    </node>
+    <node id="event:diamond_to_rachel">
+      <data key="d0">event</data>
+      <data key="d1">diamond_to_rachel</data>
+    </node>
+    <node id="event:paint_door_discussion">
+      <data key="d0">event</data>
+      <data key="d1">paint_door_discussion</data>
+    </node>
+    <node id="event:franklin_restless_night">
+      <data key="d0">event</data>
+      <data key="d1">franklin_restless_night</data>
+    </node>
+    <node id="event:candy_doses_franklin">
+      <data key="d0">event</data>
+      <data key="d1">candy_doses_franklin</data>
+    </node>
+    <node id="event:franklin_takes_diamond">
+      <data key="d0">event</data>
+      <data key="d1">franklin_takes_diamond</data>
+    </node>
+    <node id="event:rachel_witnesses_theft">
+      <data key="d0">event</data>
+      <data key="d1">rachel_witnesses_theft</data>
+    </node>
+    <node id="event:godfrey_takes_from_franklin">
+      <data key="d0">event</data>
+      <data key="d1">godfrey_takes_from_franklin</data>
+    </node>
+    <node id="event:discovery_morning">
+      <data key="d0">event</data>
+      <data key="d1">discovery_morning</data>
+    </node>
+    <node id="event:seegrave_investigation">
+      <data key="d0">event</data>
+      <data key="d1">seegrave_investigation</data>
+    </node>
+    <node id="event:cuff_arrives">
+      <data key="d0">event</data>
+      <data key="d1">cuff_arrives</data>
+    </node>
+    <node id="event:rosanna_suspicious_behavior">
+      <data key="d0">event</data>
+      <data key="d1">rosanna_suspicious_behavior</data>
+    </node>
+    <node id="event:cuff_paint_analysis">
+      <data key="d0">event</data>
+      <data key="d1">cuff_paint_analysis</data>
+    </node>
+    <node id="event:rosanna_shivering_sand_trips">
+      <data key="d0">event</data>
+      <data key="d1">rosanna_shivering_sand_trips</data>
+    </node>
+    <node id="event:godfrey_to_london">
+      <data key="d0">event</data>
+      <data key="d1">godfrey_to_london</data>
+    </node>
+    <node id="event:rachel_refuses_search">
+      <data key="d0">event</data>
+      <data key="d1">rachel_refuses_search</data>
+    </node>
+    <node id="event:cuff_theory_rachel">
+      <data key="d0">event</data>
+      <data key="d1">cuff_theory_rachel</data>
+    </node>
+    <node id="event:rosanna_suicide">
+      <data key="d0">event</data>
+      <data key="d1">rosanna_suicide</data>
+    </node>
+    <node id="event:cuff_withdraws">
+      <data key="d0">event</data>
+      <data key="d1">cuff_withdraws</data>
+    </node>
+    <node id="event:franklin_departs">
+      <data key="d0">event</data>
+      <data key="d1">franklin_departs</data>
+    </node>
+    <node id="event:indians_attack_godfrey">
+      <data key="d0">event</data>
+      <data key="d1">indians_attack_godfrey</data>
+    </node>
+    <node id="event:indians_attack_luker">
+      <data key="d0">event</data>
+      <data key="d1">indians_attack_luker</data>
+    </node>
+    <node id="event:lady_verinder_death">
+      <data key="d0">event</data>
+      <data key="d1">lady_verinder_death</data>
+    </node>
+    <node id="event:godfrey_proposes_rachel">
+      <data key="d0">event</data>
+      <data key="d1">godfrey_proposes_rachel</data>
+    </node>
+    <node id="event:rachel_breaks_engagement">
+      <data key="d0">event</data>
+      <data key="d1">rachel_breaks_engagement</data>
+    </node>
+    <node id="event:franklin_returns">
+      <data key="d0">event</data>
+      <data key="d1">franklin_returns</data>
+    </node>
+    <node id="event:nightgown_discovery">
+      <data key="d0">event</data>
+      <data key="d1">nightgown_discovery</data>
+    </node>
+    <node id="event:limping_lucy_letter">
+      <data key="d0">event</data>
+      <data key="d1">limping_lucy_letter</data>
+    </node>
+    <node id="event:franklin_reads_letter">
+      <data key="d0">event</data>
+      <data key="d1">franklin_reads_letter</data>
+    </node>
+    <node id="event:jennings_reconstruction">
+      <data key="d0">event</data>
+      <data key="d1">jennings_reconstruction</data>
+    </node>
+    <node id="event:opium_experiment">
+      <data key="d0">event</data>
+      <data key="d1">opium_experiment</data>
+    </node>
+    <node id="event:rachel_watches_experiment">
+      <data key="d0">event</data>
+      <data key="d1">rachel_watches_experiment</data>
+    </node>
+    <node id="event:franklin_reenacts">
+      <data key="d0">event</data>
+      <data key="d1">franklin_reenacts</data>
+    </node>
+    <node id="event:reconciliation">
+      <data key="d0">event</data>
+      <data key="d1">reconciliation</data>
+    </node>
+    <node id="event:godfrey_reclaims_diamond">
+      <data key="d0">event</data>
+      <data key="d1">godfrey_reclaims_diamond</data>
+    </node>
+    <node id="event:godfrey_murdered">
+      <data key="d0">event</data>
+      <data key="d1">godfrey_murdered</data>
+    </node>
+    <node id="event:godfrey_exposed">
+      <data key="d0">event</data>
+      <data key="d1">godfrey_exposed</data>
+    </node>
+    <node id="event:diamond_returns_india">
+      <data key="d0">event</data>
+      <data key="d1">diamond_returns_india</data>
+    </node>
+    <edge source="narrator:prologue_cousin" target="event:prologue_theft">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:betteredge" target="event:prologue_theft">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:betteredge" target="event:indians_appear">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:betteredge" target="event:birthday_dinner">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:betteredge" target="event:murthwaite_warning">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:betteredge" target="event:diamond_to_rachel">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:betteredge" target="event:paint_door_discussion">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:betteredge" target="event:franklin_restless_night">
+      <data key="d2">inferred</data>
+      <data key="d3">0.3</data>
+    </edge>
+    <edge source="narrator:betteredge" target="event:discovery_morning">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:betteredge" target="event:seegrave_investigation">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:betteredge" target="event:cuff_arrives">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:betteredge" target="event:rosanna_suspicious_behavior">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:betteredge" target="event:cuff_paint_analysis">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:betteredge" target="event:rosanna_shivering_sand_trips">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:betteredge" target="event:godfrey_to_london">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:betteredge" target="event:rachel_refuses_search">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:betteredge" target="event:cuff_theory_rachel">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:betteredge" target="event:rosanna_suicide">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:betteredge" target="event:cuff_withdraws">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:betteredge" target="event:franklin_departs">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:miss_clack" target="event:indians_attack_godfrey">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:miss_clack" target="event:indians_attack_luker">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:miss_clack" target="event:lady_verinder_death">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:miss_clack" target="event:godfrey_proposes_rachel">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:miss_clack" target="event:rachel_breaks_engagement">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:bruff" target="event:godfrey_to_london">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:bruff" target="event:indians_attack_godfrey">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:bruff" target="event:indians_attack_luker">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:bruff" target="event:lady_verinder_death">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:bruff" target="event:godfrey_proposes_rachel">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:bruff" target="event:rachel_breaks_engagement">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:bruff" target="event:franklin_returns">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:bruff" target="event:godfrey_exposed">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:prologue_theft">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:indians_appear">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:birthday_dinner">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:murthwaite_warning">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:diamond_to_rachel">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:paint_door_discussion">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:franklin_restless_night">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:candy_doses_franklin">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:franklin_takes_diamond">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:rachel_witnesses_theft">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:godfrey_takes_from_franklin">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:discovery_morning">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:seegrave_investigation">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:cuff_arrives">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:rosanna_suspicious_behavior">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:cuff_paint_analysis">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:rosanna_shivering_sand_trips">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:rachel_refuses_search">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:cuff_theory_rachel">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:rosanna_suicide">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:cuff_withdraws">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:franklin_departs">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:indians_attack_godfrey">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:indians_attack_luker">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:lady_verinder_death">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:godfrey_proposes_rachel">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:rachel_breaks_engagement">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:franklin_returns">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:nightgown_discovery">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:limping_lucy_letter">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:franklin_reads_letter">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:jennings_reconstruction">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:opium_experiment">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:rachel_watches_experiment">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:franklin_reenacts">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:reconciliation">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:godfrey_reclaims_diamond">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:godfrey_murdered">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:franklin_blake" target="event:godfrey_exposed">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:ezra_jennings" target="event:birthday_dinner">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:ezra_jennings" target="event:franklin_restless_night">
+      <data key="d2">inferred</data>
+      <data key="d3">0.3</data>
+    </edge>
+    <edge source="narrator:ezra_jennings" target="event:candy_doses_franklin">
+      <data key="d2">inferred</data>
+      <data key="d3">0.3</data>
+    </edge>
+    <edge source="narrator:ezra_jennings" target="event:franklin_takes_diamond">
+      <data key="d2">inferred</data>
+      <data key="d3">0.3</data>
+    </edge>
+    <edge source="narrator:ezra_jennings" target="event:franklin_returns">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:ezra_jennings" target="event:nightgown_discovery">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:ezra_jennings" target="event:jennings_reconstruction">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:ezra_jennings" target="event:opium_experiment">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:ezra_jennings" target="event:rachel_watches_experiment">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:ezra_jennings" target="event:franklin_reenacts">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:ezra_jennings" target="event:reconciliation">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:prologue_theft">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:indians_appear">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:birthday_dinner">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:murthwaite_warning">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:diamond_to_rachel">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:paint_door_discussion">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:candy_doses_franklin">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:franklin_takes_diamond">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:rachel_witnesses_theft">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:godfrey_takes_from_franklin">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:discovery_morning">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:seegrave_investigation">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:cuff_arrives">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:rosanna_suspicious_behavior">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:cuff_paint_analysis">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:rosanna_shivering_sand_trips">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:godfrey_to_london">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:rachel_refuses_search">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:cuff_theory_rachel">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:rosanna_suicide">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:cuff_withdraws">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:franklin_departs">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:indians_attack_godfrey">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:indians_attack_luker">
+      <data key="d2">retrospective</data>
+      <data key="d3">0.5</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:lady_verinder_death">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:godfrey_proposes_rachel">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:rachel_breaks_engagement">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:franklin_returns">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:nightgown_discovery">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:jennings_reconstruction">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:opium_experiment">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:franklin_reenacts">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:reconciliation">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:godfrey_reclaims_diamond">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:godfrey_murdered">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:sergeant_cuff" target="event:godfrey_exposed">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:murthwaite" target="event:prologue_theft">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:murthwaite" target="event:indians_appear">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:murthwaite" target="event:birthday_dinner">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:murthwaite" target="event:murthwaite_warning">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:murthwaite" target="event:diamond_to_rachel">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+    <edge source="narrator:murthwaite" target="event:godfrey_murdered">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:murthwaite" target="event:godfrey_exposed">
+      <data key="d2">hearsay</data>
+      <data key="d3">0.7</data>
+    </edge>
+    <edge source="narrator:murthwaite" target="event:diamond_returns_india">
+      <data key="d2">direct</data>
+      <data key="d3">1.0</data>
+    </edge>
+  </graph>
+</graphml>

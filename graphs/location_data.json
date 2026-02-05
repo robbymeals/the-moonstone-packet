@@ -1,0 +1,390 @@
+{
+  "locations": {
+    "verinder_house": {
+      "description": "The Verinder family estate in Yorkshire",
+      "type": "building",
+      "parent": null
+    },
+    "entrance_hall": {
+      "description": "Main entrance hall of the Verinder house",
+      "type": "room",
+      "parent": "verinder_house"
+    },
+    "drawing_room": {
+      "description": "Drawing room where the birthday dinner guests gathered",
+      "type": "room",
+      "parent": "verinder_house"
+    },
+    "dining_room": {
+      "description": "Dining room where the birthday dinner was held",
+      "type": "room",
+      "parent": "verinder_house"
+    },
+    "rachels_sitting_room": {
+      "description": "Rachel's private sitting-room with the Indian cabinet (First floor)",
+      "type": "room",
+      "parent": "verinder_house",
+      "floor": 1,
+      "key_feature": "Indian cabinet where diamond was kept"
+    },
+    "rachels_bedroom": {
+      "description": "Rachel's bedroom, adjacent to her sitting-room",
+      "type": "room",
+      "parent": "verinder_house",
+      "floor": 1
+    },
+    "franklins_room": {
+      "description": "Franklin Blake's guest bedroom",
+      "type": "room",
+      "parent": "verinder_house",
+      "floor": 1
+    },
+    "godfreys_room": {
+      "description": "Godfrey Ablewhite's guest bedroom",
+      "type": "room",
+      "parent": "verinder_house",
+      "floor": 1
+    },
+    "servants_hall": {
+      "description": "Servants' common area",
+      "type": "room",
+      "parent": "verinder_house",
+      "floor": 0
+    },
+    "betteredges_room": {
+      "description": "Betteredge's quarters",
+      "type": "room",
+      "parent": "verinder_house"
+    },
+    "rosannas_room": {
+      "description": "Rosanna Spearman's room in servants' quarters",
+      "type": "room",
+      "parent": "verinder_house"
+    },
+    "painted_door": {
+      "description": "The freshly painted door to Rachel's sitting-room",
+      "type": "feature",
+      "parent": "rachels_sitting_room",
+      "key_feature": "Paint wet on night of June 21"
+    },
+    "first_floor_corridor": {
+      "description": "Corridor connecting bedrooms on first floor",
+      "type": "passage",
+      "parent": "verinder_house",
+      "floor": 1
+    },
+    "verinder_grounds": {
+      "description": "Grounds surrounding the Verinder house",
+      "type": "outdoor",
+      "parent": null
+    },
+    "terrace": {
+      "description": "Terrace outside the house",
+      "type": "outdoor",
+      "parent": "verinder_grounds"
+    },
+    "shrubbery": {
+      "description": "The shrubbery walk where Indians appeared",
+      "type": "outdoor",
+      "parent": "verinder_grounds"
+    },
+    "shivering_sand": {
+      "description": "Tidal quicksand area on the coast",
+      "type": "outdoor",
+      "parent": null,
+      "key_feature": "Where Rosanna hid the nightgown and drowned herself",
+      "tidal": true
+    },
+    "cobbs_hole": {
+      "description": "Fishing village, home of Limping Lucy's family",
+      "type": "village",
+      "parent": null
+    },
+    "yolland_cottage": {
+      "description": "The Yolland family cottage",
+      "type": "building",
+      "parent": "cobbs_hole"
+    },
+    "frizinghall": {
+      "description": "Nearby town",
+      "type": "town",
+      "parent": null
+    },
+    "frizinghall_bank": {
+      "description": "Bank where diamond was kept before birthday",
+      "type": "building",
+      "parent": "frizinghall"
+    },
+    "dr_candys_house": {
+      "description": "Dr. Candy's residence and practice",
+      "type": "building",
+      "parent": "frizinghall"
+    },
+    "london": {
+      "description": "London",
+      "type": "city",
+      "parent": null
+    },
+    "lukers_bank": {
+      "description": "Mr. Luker's bank/money-lending establishment",
+      "type": "building",
+      "parent": "london"
+    },
+    "bruffs_office": {
+      "description": "Matthew Bruff's law offices",
+      "type": "building",
+      "parent": "london"
+    },
+    "wheel_of_fortune": {
+      "description": "The inn where Godfrey was murdered",
+      "type": "building",
+      "parent": "london",
+      "key_feature": "Site of Godfrey's death"
+    },
+    "lady_verinder_london": {
+      "description": "Lady Verinder's London residence",
+      "type": "building",
+      "parent": "london"
+    },
+    "india": {
+      "description": "India",
+      "type": "country",
+      "parent": null
+    },
+    "seringapatam": {
+      "description": "Site of the 1799 siege where diamond was stolen",
+      "type": "city",
+      "parent": "india"
+    },
+    "somnauth_shrine": {
+      "description": "Hindu shrine where the Moonstone originated and returned",
+      "type": "building",
+      "parent": "india",
+      "key_feature": "The Moon-God idol"
+    }
+  },
+  "spatial_edges": [
+    [
+      "verinder_house",
+      "entrance_hall",
+      "CONTAINS"
+    ],
+    [
+      "verinder_house",
+      "drawing_room",
+      "CONTAINS"
+    ],
+    [
+      "verinder_house",
+      "dining_room",
+      "CONTAINS"
+    ],
+    [
+      "verinder_house",
+      "rachels_sitting_room",
+      "CONTAINS"
+    ],
+    [
+      "verinder_house",
+      "rachels_bedroom",
+      "CONTAINS"
+    ],
+    [
+      "verinder_house",
+      "franklins_room",
+      "CONTAINS"
+    ],
+    [
+      "verinder_house",
+      "godfreys_room",
+      "CONTAINS"
+    ],
+    [
+      "verinder_house",
+      "servants_hall",
+      "CONTAINS"
+    ],
+    [
+      "verinder_house",
+      "betteredges_room",
+      "CONTAINS"
+    ],
+    [
+      "verinder_house",
+      "rosannas_room",
+      "CONTAINS"
+    ],
+    [
+      "verinder_house",
+      "first_floor_corridor",
+      "CONTAINS"
+    ],
+    [
+      "rachels_sitting_room",
+      "painted_door",
+      "CONTAINS"
+    ],
+    [
+      "verinder_grounds",
+      "terrace",
+      "CONTAINS"
+    ],
+    [
+      "verinder_grounds",
+      "shrubbery",
+      "CONTAINS"
+    ],
+    [
+      "cobbs_hole",
+      "yolland_cottage",
+      "CONTAINS"
+    ],
+    [
+      "frizinghall",
+      "frizinghall_bank",
+      "CONTAINS"
+    ],
+    [
+      "frizinghall",
+      "dr_candys_house",
+      "CONTAINS"
+    ],
+    [
+      "london",
+      "lukers_bank",
+      "CONTAINS"
+    ],
+    [
+      "london",
+      "bruffs_office",
+      "CONTAINS"
+    ],
+    [
+      "london",
+      "wheel_of_fortune",
+      "CONTAINS"
+    ],
+    [
+      "london",
+      "lady_verinder_london",
+      "CONTAINS"
+    ],
+    [
+      "india",
+      "seringapatam",
+      "CONTAINS"
+    ],
+    [
+      "india",
+      "somnauth_shrine",
+      "CONTAINS"
+    ],
+    [
+      "entrance_hall",
+      "drawing_room",
+      "ADJACENT_TO"
+    ],
+    [
+      "drawing_room",
+      "dining_room",
+      "ADJACENT_TO"
+    ],
+    [
+      "rachels_sitting_room",
+      "rachels_bedroom",
+      "ADJACENT_TO"
+    ],
+    [
+      "rachels_sitting_room",
+      "first_floor_corridor",
+      "ADJACENT_TO"
+    ],
+    [
+      "franklins_room",
+      "first_floor_corridor",
+      "ADJACENT_TO"
+    ],
+    [
+      "godfreys_room",
+      "first_floor_corridor",
+      "ADJACENT_TO"
+    ],
+    [
+      "rachels_bedroom",
+      "first_floor_corridor",
+      "ADJACENT_TO"
+    ],
+    [
+      "verinder_house",
+      "terrace",
+      "ADJACENT_TO"
+    ],
+    [
+      "terrace",
+      "shrubbery",
+      "ADJACENT_TO"
+    ],
+    [
+      "verinder_grounds",
+      "shivering_sand",
+      "ADJACENT_TO"
+    ],
+    [
+      "cobbs_hole",
+      "shivering_sand",
+      "ADJACENT_TO"
+    ],
+    [
+      "verinder_house",
+      "verinder_grounds",
+      "ADJACENT_TO"
+    ],
+    [
+      "rachels_sitting_room",
+      "painted_door",
+      "VISIBLE_FROM"
+    ],
+    [
+      "first_floor_corridor",
+      "painted_door",
+      "VISIBLE_FROM"
+    ],
+    [
+      "rachels_bedroom",
+      "rachels_sitting_room",
+      "AUDIBLE_FROM"
+    ],
+    [
+      "terrace",
+      "shrubbery",
+      "VISIBLE_FROM"
+    ],
+    [
+      "drawing_room",
+      "terrace",
+      "VISIBLE_FROM"
+    ]
+  ],
+  "event_locations": {
+    "prologue_theft": "seringapatam",
+    "birthday_dinner": "dining_room",
+    "indians_appear": "shrubbery",
+    "diamond_given": "dining_room",
+    "diamond_placed": "rachels_sitting_room",
+    "candy_doses_franklin": "verinder_house",
+    "franklin_takes_diamond": "rachels_sitting_room",
+    "rachel_witnesses": "rachels_bedroom",
+    "godfrey_steals": "franklins_room",
+    "discovery_morning": "rachels_sitting_room",
+    "cuff_investigates": "verinder_house",
+    "rosanna_hides_nightgown": "shivering_sand",
+    "rosanna_suicide": "shivering_sand",
+    "godfrey_pledges": "lukers_bank",
+    "lady_verinder_death": "lady_verinder_london",
+    "nightgown_discovery": "shivering_sand",
+    "jennings_reconstruction": "dr_candys_house",
+    "opium_experiment": "rachels_sitting_room",
+    "godfrey_murdered": "wheel_of_fortune",
+    "diamond_restored": "somnauth_shrine"
+  }
+}

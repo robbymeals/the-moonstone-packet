@@ -1,0 +1,376 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d6" for="edge" attr.name="relationship" attr.type="string" />
+  <key id="d5" for="node" attr.name="tidal" attr.type="string" />
+  <key id="d4" for="node" attr.name="key_feature" attr.type="string" />
+  <key id="d3" for="node" attr.name="floor" attr.type="long" />
+  <key id="d2" for="node" attr.name="parent" attr.type="string" />
+  <key id="d1" for="node" attr.name="location_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="description" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="verinder_house">
+      <data key="d0">The Verinder family estate in Yorkshire</data>
+      <data key="d1">building</data>
+    </node>
+    <node id="entrance_hall">
+      <data key="d0">Main entrance hall of the Verinder house</data>
+      <data key="d1">room</data>
+      <data key="d2">verinder_house</data>
+    </node>
+    <node id="drawing_room">
+      <data key="d0">Drawing room where the birthday dinner guests gathered</data>
+      <data key="d1">room</data>
+      <data key="d2">verinder_house</data>
+    </node>
+    <node id="dining_room">
+      <data key="d0">Dining room where the birthday dinner was held</data>
+      <data key="d1">room</data>
+      <data key="d2">verinder_house</data>
+    </node>
+    <node id="rachels_sitting_room">
+      <data key="d0">Rachel's private sitting-room with the Indian cabinet (First floor)</data>
+      <data key="d1">room</data>
+      <data key="d2">verinder_house</data>
+      <data key="d3">1</data>
+      <data key="d4">Indian cabinet where diamond was kept</data>
+    </node>
+    <node id="rachels_bedroom">
+      <data key="d0">Rachel's bedroom, adjacent to her sitting-room</data>
+      <data key="d1">room</data>
+      <data key="d2">verinder_house</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="franklins_room">
+      <data key="d0">Franklin Blake's guest bedroom</data>
+      <data key="d1">room</data>
+      <data key="d2">verinder_house</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="godfreys_room">
+      <data key="d0">Godfrey Ablewhite's guest bedroom</data>
+      <data key="d1">room</data>
+      <data key="d2">verinder_house</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="servants_hall">
+      <data key="d0">Servants' common area</data>
+      <data key="d1">room</data>
+      <data key="d2">verinder_house</data>
+      <data key="d3">0</data>
+    </node>
+    <node id="betteredges_room">
+      <data key="d0">Betteredge's quarters</data>
+      <data key="d1">room</data>
+      <data key="d2">verinder_house</data>
+    </node>
+    <node id="rosannas_room">
+      <data key="d0">Rosanna Spearman's room in servants' quarters</data>
+      <data key="d1">room</data>
+      <data key="d2">verinder_house</data>
+    </node>
+    <node id="painted_door">
+      <data key="d0">The freshly painted door to Rachel's sitting-room</data>
+      <data key="d1">feature</data>
+      <data key="d2">rachels_sitting_room</data>
+      <data key="d4">Paint wet on night of June 21</data>
+    </node>
+    <node id="first_floor_corridor">
+      <data key="d0">Corridor connecting bedrooms on first floor</data>
+      <data key="d1">passage</data>
+      <data key="d2">verinder_house</data>
+      <data key="d3">1</data>
+    </node>
+    <node id="verinder_grounds">
+      <data key="d0">Grounds surrounding the Verinder house</data>
+      <data key="d1">outdoor</data>
+    </node>
+    <node id="terrace">
+      <data key="d0">Terrace outside the house</data>
+      <data key="d1">outdoor</data>
+      <data key="d2">verinder_grounds</data>
+    </node>
+    <node id="shrubbery">
+      <data key="d0">The shrubbery walk where Indians appeared</data>
+      <data key="d1">outdoor</data>
+      <data key="d2">verinder_grounds</data>
+    </node>
+    <node id="shivering_sand">
+      <data key="d0">Tidal quicksand area on the coast</data>
+      <data key="d1">outdoor</data>
+      <data key="d4">Where Rosanna hid the nightgown and drowned herself</data>
+      <data key="d5">True</data>
+    </node>
+    <node id="cobbs_hole">
+      <data key="d0">Fishing village, home of Limping Lucy's family</data>
+      <data key="d1">village</data>
+    </node>
+    <node id="yolland_cottage">
+      <data key="d0">The Yolland family cottage</data>
+      <data key="d1">building</data>
+      <data key="d2">cobbs_hole</data>
+    </node>
+    <node id="frizinghall">
+      <data key="d0">Nearby town</data>
+      <data key="d1">town</data>
+    </node>
+    <node id="frizinghall_bank">
+      <data key="d0">Bank where diamond was kept before birthday</data>
+      <data key="d1">building</data>
+      <data key="d2">frizinghall</data>
+    </node>
+    <node id="dr_candys_house">
+      <data key="d0">Dr. Candy's residence and practice</data>
+      <data key="d1">building</data>
+      <data key="d2">frizinghall</data>
+    </node>
+    <node id="london">
+      <data key="d0">London</data>
+      <data key="d1">city</data>
+    </node>
+    <node id="lukers_bank">
+      <data key="d0">Mr. Luker's bank/money-lending establishment</data>
+      <data key="d1">building</data>
+      <data key="d2">london</data>
+    </node>
+    <node id="bruffs_office">
+      <data key="d0">Matthew Bruff's law offices</data>
+      <data key="d1">building</data>
+      <data key="d2">london</data>
+    </node>
+    <node id="wheel_of_fortune">
+      <data key="d0">The inn where Godfrey was murdered</data>
+      <data key="d1">building</data>
+      <data key="d2">london</data>
+      <data key="d4">Site of Godfrey's death</data>
+    </node>
+    <node id="lady_verinder_london">
+      <data key="d0">Lady Verinder's London residence</data>
+      <data key="d1">building</data>
+      <data key="d2">london</data>
+    </node>
+    <node id="india">
+      <data key="d0">India</data>
+      <data key="d1">country</data>
+    </node>
+    <node id="seringapatam">
+      <data key="d0">Site of the 1799 siege where diamond was stolen</data>
+      <data key="d1">city</data>
+      <data key="d2">india</data>
+    </node>
+    <node id="somnauth_shrine">
+      <data key="d0">Hindu shrine where the Moonstone originated and returned</data>
+      <data key="d1">building</data>
+      <data key="d2">india</data>
+      <data key="d4">The Moon-God idol</data>
+    </node>
+    <edge source="verinder_house" target="entrance_hall">
+      <data key="d6">CONTAINS</data>
+      <data key="d7">1.0</data>
+    </edge>
+    <edge source="verinder_house" target="drawing_room">
+      <data key="d6">CONTAINS</data>
+      <data key="d7">1.0</data>
+    </edge>
+    <edge source="verinder_house" target="dining_room">
+      <data key="d6">CONTAINS</data>
+      <data key="d7">1.0</data>
+    </edge>
+    <edge source="verinder_house" target="rachels_sitting_room">
+      <data key="d6">CONTAINS</data>
+      <data key="d7">1.0</data>
+    </edge>
+    <edge source="verinder_house" target="rachels_bedroom">
+      <data key="d6">CONTAINS</data>
+      <data key="d7">1.0</data>
+    </edge>
+    <edge source="verinder_house" target="franklins_room">
+      <data key="d6">CONTAINS</data>
+      <data key="d7">1.0</data>
+    </edge>
+    <edge source="verinder_house" target="godfreys_room">
+      <data key="d6">CONTAINS</data>
+      <data key="d7">1.0</data>
+    </edge>
+    <edge source="verinder_house" target="servants_hall">
+      <data key="d6">CONTAINS</data>
+      <data key="d7">1.0</data>
+    </edge>
+    <edge source="verinder_house" target="betteredges_room">
+      <data key="d6">CONTAINS</data>
+      <data key="d7">1.0</data>
+    </edge>
+    <edge source="verinder_house" target="rosannas_room">
+      <data key="d6">CONTAINS</data>
+      <data key="d7">1.0</data>
+    </edge>
+    <edge source="verinder_house" target="first_floor_corridor">
+      <data key="d6">CONTAINS</data>
+      <data key="d7">1.0</data>
+    </edge>
+    <edge source="verinder_house" target="terrace">
+      <data key="d6">ADJACENT_TO</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="verinder_house" target="verinder_grounds">
+      <data key="d6">ADJACENT_TO</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="entrance_hall" target="drawing_room">
+      <data key="d6">ADJACENT_TO</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="drawing_room" target="entrance_hall">
+      <data key="d6">ADJACENT_TO</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="drawing_room" target="dining_room">
+      <data key="d6">ADJACENT_TO</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="drawing_room" target="terrace">
+      <data key="d6">VISIBLE_FROM</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="dining_room" target="drawing_room">
+      <data key="d6">ADJACENT_TO</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="rachels_sitting_room" target="painted_door">
+      <data key="d6">VISIBLE_FROM</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="rachels_sitting_room" target="rachels_bedroom">
+      <data key="d6">AUDIBLE_FROM</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="rachels_sitting_room" target="first_floor_corridor">
+      <data key="d6">ADJACENT_TO</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="rachels_bedroom" target="rachels_sitting_room">
+      <data key="d6">AUDIBLE_FROM</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="rachels_bedroom" target="first_floor_corridor">
+      <data key="d6">ADJACENT_TO</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="franklins_room" target="first_floor_corridor">
+      <data key="d6">ADJACENT_TO</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="godfreys_room" target="first_floor_corridor">
+      <data key="d6">ADJACENT_TO</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="painted_door" target="rachels_sitting_room">
+      <data key="d6">VISIBLE_FROM</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="painted_door" target="first_floor_corridor">
+      <data key="d6">VISIBLE_FROM</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="first_floor_corridor" target="rachels_sitting_room">
+      <data key="d6">ADJACENT_TO</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="first_floor_corridor" target="franklins_room">
+      <data key="d6">ADJACENT_TO</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="first_floor_corridor" target="godfreys_room">
+      <data key="d6">ADJACENT_TO</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="first_floor_corridor" target="rachels_bedroom">
+      <data key="d6">ADJACENT_TO</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="first_floor_corridor" target="painted_door">
+      <data key="d6">VISIBLE_FROM</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="verinder_grounds" target="terrace">
+      <data key="d6">CONTAINS</data>
+      <data key="d7">1.0</data>
+    </edge>
+    <edge source="verinder_grounds" target="shrubbery">
+      <data key="d6">CONTAINS</data>
+      <data key="d7">1.0</data>
+    </edge>
+    <edge source="verinder_grounds" target="shivering_sand">
+      <data key="d6">ADJACENT_TO</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="verinder_grounds" target="verinder_house">
+      <data key="d6">ADJACENT_TO</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="terrace" target="verinder_house">
+      <data key="d6">ADJACENT_TO</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="terrace" target="shrubbery">
+      <data key="d6">VISIBLE_FROM</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="terrace" target="drawing_room">
+      <data key="d6">VISIBLE_FROM</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="shrubbery" target="terrace">
+      <data key="d6">VISIBLE_FROM</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="shivering_sand" target="verinder_grounds">
+      <data key="d6">ADJACENT_TO</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="shivering_sand" target="cobbs_hole">
+      <data key="d6">ADJACENT_TO</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="cobbs_hole" target="yolland_cottage">
+      <data key="d6">CONTAINS</data>
+      <data key="d7">1.0</data>
+    </edge>
+    <edge source="cobbs_hole" target="shivering_sand">
+      <data key="d6">ADJACENT_TO</data>
+      <data key="d7">0.5</data>
+    </edge>
+    <edge source="frizinghall" target="frizinghall_bank">
+      <data key="d6">CONTAINS</data>
+      <data key="d7">1.0</data>
+    </edge>
+    <edge source="frizinghall" target="dr_candys_house">
+      <data key="d6">CONTAINS</data>
+      <data key="d7">1.0</data>
+    </edge>
+    <edge source="london" target="lukers_bank">
+      <data key="d6">CONTAINS</data>
+      <data key="d7">1.0</data>
+    </edge>
+    <edge source="london" target="bruffs_office">
+      <data key="d6">CONTAINS</data>
+      <data key="d7">1.0</data>
+    </edge>
+    <edge source="london" target="wheel_of_fortune">
+      <data key="d6">CONTAINS</data>
+      <data key="d7">1.0</data>
+    </edge>
+    <edge source="london" target="lady_verinder_london">
+      <data key="d6">CONTAINS</data>
+      <data key="d7">1.0</data>
+    </edge>
+    <edge source="india" target="seringapatam">
+      <data key="d6">CONTAINS</data>
+      <data key="d7">1.0</data>
+    </edge>
+    <edge source="india" target="somnauth_shrine">
+      <data key="d6">CONTAINS</data>
+      <data key="d7">1.0</data>
+    </edge>
+  </graph>
+</graphml>

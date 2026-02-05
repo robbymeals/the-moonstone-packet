@@ -1,0 +1,506 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "description": "The Verinder family estate in Yorkshire",
+      "location_type": "building",
+      "id": "verinder_house"
+    },
+    {
+      "description": "Main entrance hall of the Verinder house",
+      "location_type": "room",
+      "parent": "verinder_house",
+      "id": "entrance_hall"
+    },
+    {
+      "description": "Drawing room where the birthday dinner guests gathered",
+      "location_type": "room",
+      "parent": "verinder_house",
+      "id": "drawing_room"
+    },
+    {
+      "description": "Dining room where the birthday dinner was held",
+      "location_type": "room",
+      "parent": "verinder_house",
+      "id": "dining_room"
+    },
+    {
+      "description": "Rachel's private sitting-room with the Indian cabinet (First floor)",
+      "location_type": "room",
+      "parent": "verinder_house",
+      "floor": 1,
+      "key_feature": "Indian cabinet where diamond was kept",
+      "id": "rachels_sitting_room"
+    },
+    {
+      "description": "Rachel's bedroom, adjacent to her sitting-room",
+      "location_type": "room",
+      "parent": "verinder_house",
+      "floor": 1,
+      "id": "rachels_bedroom"
+    },
+    {
+      "description": "Franklin Blake's guest bedroom",
+      "location_type": "room",
+      "parent": "verinder_house",
+      "floor": 1,
+      "id": "franklins_room"
+    },
+    {
+      "description": "Godfrey Ablewhite's guest bedroom",
+      "location_type": "room",
+      "parent": "verinder_house",
+      "floor": 1,
+      "id": "godfreys_room"
+    },
+    {
+      "description": "Servants' common area",
+      "location_type": "room",
+      "parent": "verinder_house",
+      "floor": 0,
+      "id": "servants_hall"
+    },
+    {
+      "description": "Betteredge's quarters",
+      "location_type": "room",
+      "parent": "verinder_house",
+      "id": "betteredges_room"
+    },
+    {
+      "description": "Rosanna Spearman's room in servants' quarters",
+      "location_type": "room",
+      "parent": "verinder_house",
+      "id": "rosannas_room"
+    },
+    {
+      "description": "The freshly painted door to Rachel's sitting-room",
+      "location_type": "feature",
+      "parent": "rachels_sitting_room",
+      "key_feature": "Paint wet on night of June 21",
+      "id": "painted_door"
+    },
+    {
+      "description": "Corridor connecting bedrooms on first floor",
+      "location_type": "passage",
+      "parent": "verinder_house",
+      "floor": 1,
+      "id": "first_floor_corridor"
+    },
+    {
+      "description": "Grounds surrounding the Verinder house",
+      "location_type": "outdoor",
+      "id": "verinder_grounds"
+    },
+    {
+      "description": "Terrace outside the house",
+      "location_type": "outdoor",
+      "parent": "verinder_grounds",
+      "id": "terrace"
+    },
+    {
+      "description": "The shrubbery walk where Indians appeared",
+      "location_type": "outdoor",
+      "parent": "verinder_grounds",
+      "id": "shrubbery"
+    },
+    {
+      "description": "Tidal quicksand area on the coast",
+      "location_type": "outdoor",
+      "key_feature": "Where Rosanna hid the nightgown and drowned herself",
+      "tidal": "True",
+      "id": "shivering_sand"
+    },
+    {
+      "description": "Fishing village, home of Limping Lucy's family",
+      "location_type": "village",
+      "id": "cobbs_hole"
+    },
+    {
+      "description": "The Yolland family cottage",
+      "location_type": "building",
+      "parent": "cobbs_hole",
+      "id": "yolland_cottage"
+    },
+    {
+      "description": "Nearby town",
+      "location_type": "town",
+      "id": "frizinghall"
+    },
+    {
+      "description": "Bank where diamond was kept before birthday",
+      "location_type": "building",
+      "parent": "frizinghall",
+      "id": "frizinghall_bank"
+    },
+    {
+      "description": "Dr. Candy's residence and practice",
+      "location_type": "building",
+      "parent": "frizinghall",
+      "id": "dr_candys_house"
+    },
+    {
+      "description": "London",
+      "location_type": "city",
+      "id": "london"
+    },
+    {
+      "description": "Mr. Luker's bank/money-lending establishment",
+      "location_type": "building",
+      "parent": "london",
+      "id": "lukers_bank"
+    },
+    {
+      "description": "Matthew Bruff's law offices",
+      "location_type": "building",
+      "parent": "london",
+      "id": "bruffs_office"
+    },
+    {
+      "description": "The inn where Godfrey was murdered",
+      "location_type": "building",
+      "parent": "london",
+      "key_feature": "Site of Godfrey's death",
+      "id": "wheel_of_fortune"
+    },
+    {
+      "description": "Lady Verinder's London residence",
+      "location_type": "building",
+      "parent": "london",
+      "id": "lady_verinder_london"
+    },
+    {
+      "description": "India",
+      "location_type": "country",
+      "id": "india"
+    },
+    {
+      "description": "Site of the 1799 siege where diamond was stolen",
+      "location_type": "city",
+      "parent": "india",
+      "id": "seringapatam"
+    },
+    {
+      "description": "Hindu shrine where the Moonstone originated and returned",
+      "location_type": "building",
+      "parent": "india",
+      "key_feature": "The Moon-God idol",
+      "id": "somnauth_shrine"
+    }
+  ],
+  "edges": [
+    {
+      "relationship": "CONTAINS",
+      "weight": 1.0,
+      "source": "verinder_house",
+      "target": "entrance_hall"
+    },
+    {
+      "relationship": "CONTAINS",
+      "weight": 1.0,
+      "source": "verinder_house",
+      "target": "drawing_room"
+    },
+    {
+      "relationship": "CONTAINS",
+      "weight": 1.0,
+      "source": "verinder_house",
+      "target": "dining_room"
+    },
+    {
+      "relationship": "CONTAINS",
+      "weight": 1.0,
+      "source": "verinder_house",
+      "target": "rachels_sitting_room"
+    },
+    {
+      "relationship": "CONTAINS",
+      "weight": 1.0,
+      "source": "verinder_house",
+      "target": "rachels_bedroom"
+    },
+    {
+      "relationship": "CONTAINS",
+      "weight": 1.0,
+      "source": "verinder_house",
+      "target": "franklins_room"
+    },
+    {
+      "relationship": "CONTAINS",
+      "weight": 1.0,
+      "source": "verinder_house",
+      "target": "godfreys_room"
+    },
+    {
+      "relationship": "CONTAINS",
+      "weight": 1.0,
+      "source": "verinder_house",
+      "target": "servants_hall"
+    },
+    {
+      "relationship": "CONTAINS",
+      "weight": 1.0,
+      "source": "verinder_house",
+      "target": "betteredges_room"
+    },
+    {
+      "relationship": "CONTAINS",
+      "weight": 1.0,
+      "source": "verinder_house",
+      "target": "rosannas_room"
+    },
+    {
+      "relationship": "CONTAINS",
+      "weight": 1.0,
+      "source": "verinder_house",
+      "target": "first_floor_corridor"
+    },
+    {
+      "relationship": "ADJACENT_TO",
+      "weight": 0.5,
+      "source": "verinder_house",
+      "target": "terrace"
+    },
+    {
+      "relationship": "ADJACENT_TO",
+      "weight": 0.5,
+      "source": "verinder_house",
+      "target": "verinder_grounds"
+    },
+    {
+      "relationship": "ADJACENT_TO",
+      "weight": 0.5,
+      "source": "entrance_hall",
+      "target": "drawing_room"
+    },
+    {
+      "relationship": "ADJACENT_TO",
+      "weight": 0.5,
+      "source": "drawing_room",
+      "target": "entrance_hall"
+    },
+    {
+      "relationship": "ADJACENT_TO",
+      "weight": 0.5,
+      "source": "drawing_room",
+      "target": "dining_room"
+    },
+    {
+      "relationship": "VISIBLE_FROM",
+      "weight": 0.5,
+      "source": "drawing_room",
+      "target": "terrace"
+    },
+    {
+      "relationship": "ADJACENT_TO",
+      "weight": 0.5,
+      "source": "dining_room",
+      "target": "drawing_room"
+    },
+    {
+      "relationship": "VISIBLE_FROM",
+      "weight": 0.5,
+      "source": "rachels_sitting_room",
+      "target": "painted_door"
+    },
+    {
+      "relationship": "AUDIBLE_FROM",
+      "weight": 0.5,
+      "source": "rachels_sitting_room",
+      "target": "rachels_bedroom"
+    },
+    {
+      "relationship": "ADJACENT_TO",
+      "weight": 0.5,
+      "source": "rachels_sitting_room",
+      "target": "first_floor_corridor"
+    },
+    {
+      "relationship": "AUDIBLE_FROM",
+      "weight": 0.5,
+      "source": "rachels_bedroom",
+      "target": "rachels_sitting_room"
+    },
+    {
+      "relationship": "ADJACENT_TO",
+      "weight": 0.5,
+      "source": "rachels_bedroom",
+      "target": "first_floor_corridor"
+    },
+    {
+      "relationship": "ADJACENT_TO",
+      "weight": 0.5,
+      "source": "franklins_room",
+      "target": "first_floor_corridor"
+    },
+    {
+      "relationship": "ADJACENT_TO",
+      "weight": 0.5,
+      "source": "godfreys_room",
+      "target": "first_floor_corridor"
+    },
+    {
+      "relationship": "VISIBLE_FROM",
+      "weight": 0.5,
+      "source": "painted_door",
+      "target": "rachels_sitting_room"
+    },
+    {
+      "relationship": "VISIBLE_FROM",
+      "weight": 0.5,
+      "source": "painted_door",
+      "target": "first_floor_corridor"
+    },
+    {
+      "relationship": "ADJACENT_TO",
+      "weight": 0.5,
+      "source": "first_floor_corridor",
+      "target": "rachels_sitting_room"
+    },
+    {
+      "relationship": "ADJACENT_TO",
+      "weight": 0.5,
+      "source": "first_floor_corridor",
+      "target": "franklins_room"
+    },
+    {
+      "relationship": "ADJACENT_TO",
+      "weight": 0.5,
+      "source": "first_floor_corridor",
+      "target": "godfreys_room"
+    },
+    {
+      "relationship": "ADJACENT_TO",
+      "weight": 0.5,
+      "source": "first_floor_corridor",
+      "target": "rachels_bedroom"
+    },
+    {
+      "relationship": "VISIBLE_FROM",
+      "weight": 0.5,
+      "source": "first_floor_corridor",
+      "target": "painted_door"
+    },
+    {
+      "relationship": "CONTAINS",
+      "weight": 1.0,
+      "source": "verinder_grounds",
+      "target": "terrace"
+    },
+    {
+      "relationship": "CONTAINS",
+      "weight": 1.0,
+      "source": "verinder_grounds",
+      "target": "shrubbery"
+    },
+    {
+      "relationship": "ADJACENT_TO",
+      "weight": 0.5,
+      "source": "verinder_grounds",
+      "target": "shivering_sand"
+    },
+    {
+      "relationship": "ADJACENT_TO",
+      "weight": 0.5,
+      "source": "verinder_grounds",
+      "target": "verinder_house"
+    },
+    {
+      "relationship": "ADJACENT_TO",
+      "weight": 0.5,
+      "source": "terrace",
+      "target": "verinder_house"
+    },
+    {
+      "relationship": "VISIBLE_FROM",
+      "weight": 0.5,
+      "source": "terrace",
+      "target": "shrubbery"
+    },
+    {
+      "relationship": "VISIBLE_FROM",
+      "weight": 0.5,
+      "source": "terrace",
+      "target": "drawing_room"
+    },
+    {
+      "relationship": "VISIBLE_FROM",
+      "weight": 0.5,
+      "source": "shrubbery",
+      "target": "terrace"
+    },
+    {
+      "relationship": "ADJACENT_TO",
+      "weight": 0.5,
+      "source": "shivering_sand",
+      "target": "verinder_grounds"
+    },
+    {
+      "relationship": "ADJACENT_TO",
+      "weight": 0.5,
+      "source": "shivering_sand",
+      "target": "cobbs_hole"
+    },
+    {
+      "relationship": "CONTAINS",
+      "weight": 1.0,
+      "source": "cobbs_hole",
+      "target": "yolland_cottage"
+    },
+    {
+      "relationship": "ADJACENT_TO",
+      "weight": 0.5,
+      "source": "cobbs_hole",
+      "target": "shivering_sand"
+    },
+    {
+      "relationship": "CONTAINS",
+      "weight": 1.0,
+      "source": "frizinghall",
+      "target": "frizinghall_bank"
+    },
+    {
+      "relationship": "CONTAINS",
+      "weight": 1.0,
+      "source": "frizinghall",
+      "target": "dr_candys_house"
+    },
+    {
+      "relationship": "CONTAINS",
+      "weight": 1.0,
+      "source": "london",
+      "target": "lukers_bank"
+    },
+    {
+      "relationship": "CONTAINS",
+      "weight": 1.0,
+      "source": "london",
+      "target": "bruffs_office"
+    },
+    {
+      "relationship": "CONTAINS",
+      "weight": 1.0,
+      "source": "london",
+      "target": "wheel_of_fortune"
+    },
+    {
+      "relationship": "CONTAINS",
+      "weight": 1.0,
+      "source": "london",
+      "target": "lady_verinder_london"
+    },
+    {
+      "relationship": "CONTAINS",
+      "weight": 1.0,
+      "source": "india",
+      "target": "seringapatam"
+    },
+    {
+      "relationship": "CONTAINS",
+      "weight": 1.0,
+      "source": "india",
+      "target": "somnauth_shrine"
+    }
+  ]
+}

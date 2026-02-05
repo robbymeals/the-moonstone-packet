@@ -1,0 +1,68 @@
+{
+  "total_events": 22,
+  "total_causal_links": 22,
+  "root_events": [
+    "E01_herncastle_steals"
+  ],
+  "terminal_events": [
+    "E13_cuff_investigates",
+    "E15_rosanna_suicide",
+    "E16_franklin_departs",
+    "E19_reconciliation",
+    "E22_diamond_returns"
+  ],
+  "critical_path_length": 9.5,
+  "critical_path": [
+    "E01_herncastle_steals",
+    "E03_herncastle_bequeaths",
+    "E04_franklin_brings_diamond",
+    "E05_birthday_dinner",
+    "E06_candy_drugs_franklin",
+    "E07_franklin_takes_diamond",
+    "E09_godfrey_steals",
+    "E12_godfrey_pledges_diamond",
+    "E20_godfrey_reclaims",
+    "E21_brahmins_kill_godfrey",
+    "E22_diamond_returns"
+  ],
+  "bottleneck_events": [
+    {
+      "event": "E06_candy_drugs_franklin",
+      "centrality": 0.14761904761904762
+    },
+    {
+      "event": "E07_franklin_takes_diamond",
+      "centrality": 0.1380952380952381
+    },
+    {
+      "event": "E05_birthday_dinner",
+      "centrality": 0.11666666666666668
+    }
+  ],
+  "contingent_events": [
+    "E10_rosanna_finds_nightgown",
+    "E11_rosanna_hides_evidence",
+    "E13_cuff_investigates",
+    "E15_rosanna_suicide",
+    "E16_franklin_departs"
+  ],
+  "required_events": [
+    "E01_herncastle_steals",
+    "E02_brahmins_pursue",
+    "E03_herncastle_bequeaths",
+    "E04_franklin_brings_diamond",
+    "E05_birthday_dinner",
+    "E06_candy_drugs_franklin",
+    "E07_franklin_takes_diamond",
+    "E08_rachel_witnesses",
+    "E09_godfrey_steals",
+    "E12_godfrey_pledges_diamond",
+    "E14_rachel_silence",
+    "E17_jennings_reconstructs",
+    "E18_opium_experiment",
+    "E19_reconciliation",
+    "E20_godfrey_reclaims",
+    "E21_brahmins_kill_godfrey",
+    "E22_diamond_returns"
+  ]
+}

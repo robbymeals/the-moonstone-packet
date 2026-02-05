@@ -1,0 +1,623 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "node_type": "fact",
+      "label": "diamond_curse",
+      "description": "The Moonstone carries a curse and is pursued by Brahmin guardians",
+      "id": "fact:diamond_curse"
+    },
+    {
+      "node_type": "fact",
+      "label": "indians_are_brahmins",
+      "description": "The three Indians are high-caste Brahmins, not common jugglers",
+      "id": "fact:indians_are_brahmins"
+    },
+    {
+      "node_type": "fact",
+      "label": "paint_wet",
+      "description": "The sitting-room door paint was wet on the night of June 21",
+      "id": "fact:paint_wet"
+    },
+    {
+      "node_type": "fact",
+      "label": "franklin_entered_room",
+      "description": "Franklin Blake entered Rachel's sitting-room and took the diamond",
+      "id": "fact:franklin_entered_room"
+    },
+    {
+      "node_type": "fact",
+      "label": "franklin_drugged",
+      "description": "Dr. Candy secretly administered laudanum to Franklin",
+      "id": "fact:franklin_drugged"
+    },
+    {
+      "node_type": "fact",
+      "label": "franklin_unconscious",
+      "description": "Franklin was in a laudanum trance and has no memory",
+      "id": "fact:franklin_unconscious"
+    },
+    {
+      "node_type": "fact",
+      "label": "nightgown_stained",
+      "description": "Franklin's nightgown has a paint smear proving he touched the door",
+      "id": "fact:nightgown_stained"
+    },
+    {
+      "node_type": "fact",
+      "label": "rosanna_hid_nightgown",
+      "description": "Rosanna hid the stained nightgown in the Shivering Sand",
+      "id": "fact:rosanna_hid_nightgown"
+    },
+    {
+      "node_type": "fact",
+      "label": "rosanna_loves_franklin",
+      "description": "Rosanna is in love with Franklin Blake",
+      "id": "fact:rosanna_loves_franklin"
+    },
+    {
+      "node_type": "fact",
+      "label": "godfrey_took_diamond",
+      "description": "Godfrey Ablewhite took the diamond from Franklin's room",
+      "id": "fact:godfrey_took_diamond"
+    },
+    {
+      "node_type": "fact",
+      "label": "godfrey_embezzled",
+      "description": "Godfrey embezzled from a trust fund he managed",
+      "id": "fact:godfrey_embezzled"
+    },
+    {
+      "node_type": "fact",
+      "label": "diamond_at_luker",
+      "description": "The diamond was pledged to Mr. Luker's bank",
+      "id": "fact:diamond_at_luker"
+    },
+    {
+      "node_type": "fact",
+      "label": "rachel_witnessed",
+      "description": "Rachel saw Franklin take the diamond from her room",
+      "id": "fact:rachel_witnessed"
+    },
+    {
+      "node_type": "character",
+      "label": "Gabriel Betteredge",
+      "id": "char:gabriel_betteredge"
+    },
+    {
+      "node_type": "character",
+      "label": "Franklin Blake",
+      "id": "char:franklin_blake"
+    },
+    {
+      "node_type": "character",
+      "label": "Rachel Verinder",
+      "id": "char:rachel_verinder"
+    },
+    {
+      "node_type": "character",
+      "label": "Rosanna Spearman",
+      "id": "char:rosanna_spearman"
+    },
+    {
+      "node_type": "character",
+      "label": "Sergeant Cuff",
+      "id": "char:sergeant_cuff"
+    },
+    {
+      "node_type": "character",
+      "label": "Godfrey Ablewhite",
+      "id": "char:godfrey_ablewhite"
+    },
+    {
+      "node_type": "character",
+      "label": "Ezra Jennings",
+      "id": "char:ezra_jennings"
+    },
+    {
+      "node_type": "character",
+      "label": "Dr. Candy",
+      "id": "char:dr._candy"
+    }
+  ],
+  "edges": [
+    {
+      "relationship": "KNOWS",
+      "since": "before_birthday",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:gabriel_betteredge",
+      "target": "fact:diamond_curse"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "birthday_dinner",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:gabriel_betteredge",
+      "target": "fact:indians_are_brahmins"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "june_22_morning",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:gabriel_betteredge",
+      "target": "fact:paint_wet"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "opium_experiment",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:gabriel_betteredge",
+      "target": "fact:franklin_unconscious"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "june_1849",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:gabriel_betteredge",
+      "target": "fact:nightgown_stained"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "june_1849",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:gabriel_betteredge",
+      "target": "fact:rosanna_hid_nightgown"
+    },
+    {
+      "relationship": "SUSPECTS",
+      "since": "june_1848",
+      "belief": "true",
+      "weight": 0.5,
+      "source": "char:gabriel_betteredge",
+      "target": "fact:rosanna_loves_franklin"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "resolution",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:gabriel_betteredge",
+      "target": "fact:godfrey_took_diamond"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "resolution",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:gabriel_betteredge",
+      "target": "fact:godfrey_embezzled"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "resolution",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:gabriel_betteredge",
+      "target": "fact:diamond_at_luker"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "opium_experiment",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:gabriel_betteredge",
+      "target": "fact:rachel_witnessed"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "before_birthday",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:franklin_blake",
+      "target": "fact:diamond_curse"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "birthday_dinner",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:franklin_blake",
+      "target": "fact:indians_are_brahmins"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "june_22_morning",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:franklin_blake",
+      "target": "fact:paint_wet"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "june_1849_jennings",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:franklin_blake",
+      "target": "fact:franklin_drugged"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "june_1849_jennings",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:franklin_blake",
+      "target": "fact:franklin_unconscious"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "june_1849_shivering_sand",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:franklin_blake",
+      "target": "fact:nightgown_stained"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "june_1849_letter",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:franklin_blake",
+      "target": "fact:rosanna_hid_nightgown"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "june_1849_letter",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:franklin_blake",
+      "target": "fact:rosanna_loves_franklin"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "resolution",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:franklin_blake",
+      "target": "fact:godfrey_took_diamond"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "resolution",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:franklin_blake",
+      "target": "fact:godfrey_embezzled"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "investigation_1849",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:franklin_blake",
+      "target": "fact:diamond_at_luker"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "confrontation_1849",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:franklin_blake",
+      "target": "fact:rachel_witnessed"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "birthday_dinner",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:rachel_verinder",
+      "target": "fact:diamond_curse"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "birthday_dinner",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:rachel_verinder",
+      "target": "fact:indians_are_brahmins"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "june_21_night",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:rachel_verinder",
+      "target": "fact:franklin_entered_room"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "opium_experiment",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:rachel_verinder",
+      "target": "fact:franklin_unconscious"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "resolution",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:rachel_verinder",
+      "target": "fact:godfrey_took_diamond"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "resolution",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:rachel_verinder",
+      "target": "fact:godfrey_embezzled"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "june_21_night",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:rachel_verinder",
+      "target": "fact:rachel_witnessed"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "june_22_morning",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:rosanna_spearman",
+      "target": "fact:paint_wet"
+    },
+    {
+      "relationship": "SUSPECTS",
+      "since": "june_22",
+      "belief": "true",
+      "weight": 0.5,
+      "source": "char:rosanna_spearman",
+      "target": "fact:franklin_entered_room"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "june_22",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:rosanna_spearman",
+      "target": "fact:nightgown_stained"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "june_22",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:rosanna_spearman",
+      "target": "fact:rosanna_hid_nightgown"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "always",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:rosanna_spearman",
+      "target": "fact:rosanna_loves_franklin"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "investigation_start",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:sergeant_cuff",
+      "target": "fact:diamond_curse"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "investigation",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:sergeant_cuff",
+      "target": "fact:indians_are_brahmins"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "june_23",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:sergeant_cuff",
+      "target": "fact:paint_wet"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "final_report",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:sergeant_cuff",
+      "target": "fact:franklin_unconscious"
+    },
+    {
+      "relationship": "SUSPECTS",
+      "since": "june_1848",
+      "belief": "true",
+      "weight": 0.5,
+      "source": "char:sergeant_cuff",
+      "target": "fact:nightgown_stained"
+    },
+    {
+      "relationship": "SUSPECTS",
+      "since": "june_1848",
+      "belief": "true",
+      "weight": 0.5,
+      "source": "char:sergeant_cuff",
+      "target": "fact:rosanna_hid_nightgown"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "june_1848",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:sergeant_cuff",
+      "target": "fact:rosanna_loves_franklin"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "investigation_1849",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:sergeant_cuff",
+      "target": "fact:godfrey_took_diamond"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "investigation_1849",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:sergeant_cuff",
+      "target": "fact:godfrey_embezzled"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "investigation_1849",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:sergeant_cuff",
+      "target": "fact:diamond_at_luker"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "final_report",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:sergeant_cuff",
+      "target": "fact:rachel_witnessed"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "birthday_dinner",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:godfrey_ablewhite",
+      "target": "fact:diamond_curse"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "birthday_dinner",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:godfrey_ablewhite",
+      "target": "fact:indians_are_brahmins"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "june_21_night",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:godfrey_ablewhite",
+      "target": "fact:franklin_entered_room"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "june_21_night",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:godfrey_ablewhite",
+      "target": "fact:franklin_unconscious"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "june_21_night",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:godfrey_ablewhite",
+      "target": "fact:godfrey_took_diamond"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "always",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:godfrey_ablewhite",
+      "target": "fact:godfrey_embezzled"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "june_23",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:godfrey_ablewhite",
+      "target": "fact:diamond_at_luker"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "1849",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:ezra_jennings",
+      "target": "fact:diamond_curse"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "1849",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:ezra_jennings",
+      "target": "fact:paint_wet"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "reconstruction",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:ezra_jennings",
+      "target": "fact:franklin_entered_room"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "reconstruction",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:ezra_jennings",
+      "target": "fact:franklin_drugged"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "reconstruction",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:ezra_jennings",
+      "target": "fact:franklin_unconscious"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "1849",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:ezra_jennings",
+      "target": "fact:nightgown_stained"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "1849",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:ezra_jennings",
+      "target": "fact:rosanna_hid_nightgown"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "experiment",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:ezra_jennings",
+      "target": "fact:rachel_witnessed"
+    },
+    {
+      "relationship": "KNOWS",
+      "since": "june_21_night",
+      "belief": "true",
+      "weight": 1.0,
+      "source": "char:dr._candy",
+      "target": "fact:franklin_drugged"
+    }
+  ]
+}

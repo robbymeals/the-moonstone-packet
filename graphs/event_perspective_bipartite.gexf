@@ -1,0 +1,898 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-02-04">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="coverage_type" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="node_type" type="string" />
+    </attributes>
+    <nodes>
+      <node id="narrator:prologue_cousin" label="prologue_cousin">
+        <attvalues>
+          <attvalue for="0" value="narrator" />
+        </attvalues>
+      </node>
+      <node id="narrator:betteredge" label="betteredge">
+        <attvalues>
+          <attvalue for="0" value="narrator" />
+        </attvalues>
+      </node>
+      <node id="narrator:miss_clack" label="miss_clack">
+        <attvalues>
+          <attvalue for="0" value="narrator" />
+        </attvalues>
+      </node>
+      <node id="narrator:bruff" label="bruff">
+        <attvalues>
+          <attvalue for="0" value="narrator" />
+        </attvalues>
+      </node>
+      <node id="narrator:franklin_blake" label="franklin_blake">
+        <attvalues>
+          <attvalue for="0" value="narrator" />
+        </attvalues>
+      </node>
+      <node id="narrator:ezra_jennings" label="ezra_jennings">
+        <attvalues>
+          <attvalue for="0" value="narrator" />
+        </attvalues>
+      </node>
+      <node id="narrator:sergeant_cuff" label="sergeant_cuff">
+        <attvalues>
+          <attvalue for="0" value="narrator" />
+        </attvalues>
+      </node>
+      <node id="narrator:murthwaite" label="murthwaite">
+        <attvalues>
+          <attvalue for="0" value="narrator" />
+        </attvalues>
+      </node>
+      <node id="event:prologue_theft" label="prologue_theft">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:indians_appear" label="indians_appear">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:birthday_dinner" label="birthday_dinner">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:murthwaite_warning" label="murthwaite_warning">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:diamond_to_rachel" label="diamond_to_rachel">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:paint_door_discussion" label="paint_door_discussion">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:franklin_restless_night" label="franklin_restless_night">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:candy_doses_franklin" label="candy_doses_franklin">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:franklin_takes_diamond" label="franklin_takes_diamond">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:rachel_witnesses_theft" label="rachel_witnesses_theft">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:godfrey_takes_from_franklin" label="godfrey_takes_from_franklin">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:discovery_morning" label="discovery_morning">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:seegrave_investigation" label="seegrave_investigation">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:cuff_arrives" label="cuff_arrives">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:rosanna_suspicious_behavior" label="rosanna_suspicious_behavior">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:cuff_paint_analysis" label="cuff_paint_analysis">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:rosanna_shivering_sand_trips" label="rosanna_shivering_sand_trips">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:godfrey_to_london" label="godfrey_to_london">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:rachel_refuses_search" label="rachel_refuses_search">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:cuff_theory_rachel" label="cuff_theory_rachel">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:rosanna_suicide" label="rosanna_suicide">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:cuff_withdraws" label="cuff_withdraws">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:franklin_departs" label="franklin_departs">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:indians_attack_godfrey" label="indians_attack_godfrey">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:indians_attack_luker" label="indians_attack_luker">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:lady_verinder_death" label="lady_verinder_death">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:godfrey_proposes_rachel" label="godfrey_proposes_rachel">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:rachel_breaks_engagement" label="rachel_breaks_engagement">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:franklin_returns" label="franklin_returns">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:nightgown_discovery" label="nightgown_discovery">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:limping_lucy_letter" label="limping_lucy_letter">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:franklin_reads_letter" label="franklin_reads_letter">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:jennings_reconstruction" label="jennings_reconstruction">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:opium_experiment" label="opium_experiment">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:rachel_watches_experiment" label="rachel_watches_experiment">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:franklin_reenacts" label="franklin_reenacts">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:reconciliation" label="reconciliation">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:godfrey_reclaims_diamond" label="godfrey_reclaims_diamond">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:godfrey_murdered" label="godfrey_murdered">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:godfrey_exposed" label="godfrey_exposed">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+      <node id="event:diamond_returns_india" label="diamond_returns_india">
+        <attvalues>
+          <attvalue for="0" value="event" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="narrator:prologue_cousin" target="event:prologue_theft" id="0" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:betteredge" target="event:prologue_theft" id="1" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:betteredge" target="event:indians_appear" id="2" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:betteredge" target="event:birthday_dinner" id="3" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:betteredge" target="event:murthwaite_warning" id="4" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:betteredge" target="event:diamond_to_rachel" id="5" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:betteredge" target="event:paint_door_discussion" id="6" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:betteredge" target="event:franklin_restless_night" id="7" weight="0.3">
+        <attvalues>
+          <attvalue for="1" value="inferred" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:betteredge" target="event:discovery_morning" id="8" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:betteredge" target="event:seegrave_investigation" id="9" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:betteredge" target="event:cuff_arrives" id="10" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:betteredge" target="event:rosanna_suspicious_behavior" id="11" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:betteredge" target="event:cuff_paint_analysis" id="12" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:betteredge" target="event:rosanna_shivering_sand_trips" id="13" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:betteredge" target="event:godfrey_to_london" id="14" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:betteredge" target="event:rachel_refuses_search" id="15" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:betteredge" target="event:cuff_theory_rachel" id="16" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:betteredge" target="event:rosanna_suicide" id="17" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:betteredge" target="event:cuff_withdraws" id="18" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:betteredge" target="event:franklin_departs" id="19" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:miss_clack" target="event:indians_attack_godfrey" id="20" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:miss_clack" target="event:indians_attack_luker" id="21" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:miss_clack" target="event:lady_verinder_death" id="22" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:miss_clack" target="event:godfrey_proposes_rachel" id="23" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:miss_clack" target="event:rachel_breaks_engagement" id="24" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:bruff" target="event:godfrey_to_london" id="25" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:bruff" target="event:indians_attack_godfrey" id="26" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:bruff" target="event:indians_attack_luker" id="27" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:bruff" target="event:lady_verinder_death" id="28" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:bruff" target="event:godfrey_proposes_rachel" id="29" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:bruff" target="event:rachel_breaks_engagement" id="30" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:bruff" target="event:franklin_returns" id="31" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:bruff" target="event:godfrey_exposed" id="32" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:prologue_theft" id="33" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:indians_appear" id="34" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:birthday_dinner" id="35" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:murthwaite_warning" id="36" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:diamond_to_rachel" id="37" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:paint_door_discussion" id="38" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:franklin_restless_night" id="39" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:candy_doses_franklin" id="40" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:franklin_takes_diamond" id="41" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:rachel_witnesses_theft" id="42" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:godfrey_takes_from_franklin" id="43" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:discovery_morning" id="44" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:seegrave_investigation" id="45" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:cuff_arrives" id="46" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:rosanna_suspicious_behavior" id="47" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:cuff_paint_analysis" id="48" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:rosanna_shivering_sand_trips" id="49" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:rachel_refuses_search" id="50" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:cuff_theory_rachel" id="51" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:rosanna_suicide" id="52" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:cuff_withdraws" id="53" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:franklin_departs" id="54" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:indians_attack_godfrey" id="55" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:indians_attack_luker" id="56" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:lady_verinder_death" id="57" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:godfrey_proposes_rachel" id="58" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:rachel_breaks_engagement" id="59" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:franklin_returns" id="60" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:nightgown_discovery" id="61" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:limping_lucy_letter" id="62" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:franklin_reads_letter" id="63" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:jennings_reconstruction" id="64" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:opium_experiment" id="65" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:rachel_watches_experiment" id="66" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:franklin_reenacts" id="67" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:reconciliation" id="68" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:godfrey_reclaims_diamond" id="69" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:godfrey_murdered" id="70" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:franklin_blake" target="event:godfrey_exposed" id="71" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:ezra_jennings" target="event:birthday_dinner" id="72" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:ezra_jennings" target="event:franklin_restless_night" id="73" weight="0.3">
+        <attvalues>
+          <attvalue for="1" value="inferred" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:ezra_jennings" target="event:candy_doses_franklin" id="74" weight="0.3">
+        <attvalues>
+          <attvalue for="1" value="inferred" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:ezra_jennings" target="event:franklin_takes_diamond" id="75" weight="0.3">
+        <attvalues>
+          <attvalue for="1" value="inferred" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:ezra_jennings" target="event:franklin_returns" id="76" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:ezra_jennings" target="event:nightgown_discovery" id="77" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:ezra_jennings" target="event:jennings_reconstruction" id="78" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:ezra_jennings" target="event:opium_experiment" id="79" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:ezra_jennings" target="event:rachel_watches_experiment" id="80" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:ezra_jennings" target="event:franklin_reenacts" id="81" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:ezra_jennings" target="event:reconciliation" id="82" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:prologue_theft" id="83" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:indians_appear" id="84" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:birthday_dinner" id="85" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:murthwaite_warning" id="86" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:diamond_to_rachel" id="87" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:paint_door_discussion" id="88" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:candy_doses_franklin" id="89" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:franklin_takes_diamond" id="90" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:rachel_witnesses_theft" id="91" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:godfrey_takes_from_franklin" id="92" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:discovery_morning" id="93" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:seegrave_investigation" id="94" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:cuff_arrives" id="95" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:rosanna_suspicious_behavior" id="96" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:cuff_paint_analysis" id="97" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:rosanna_shivering_sand_trips" id="98" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:godfrey_to_london" id="99" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:rachel_refuses_search" id="100" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:cuff_theory_rachel" id="101" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:rosanna_suicide" id="102" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:cuff_withdraws" id="103" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:franklin_departs" id="104" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:indians_attack_godfrey" id="105" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:indians_attack_luker" id="106" weight="0.5">
+        <attvalues>
+          <attvalue for="1" value="retrospective" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:lady_verinder_death" id="107" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:godfrey_proposes_rachel" id="108" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:rachel_breaks_engagement" id="109" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:franklin_returns" id="110" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:nightgown_discovery" id="111" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:jennings_reconstruction" id="112" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:opium_experiment" id="113" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:franklin_reenacts" id="114" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:reconciliation" id="115" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:godfrey_reclaims_diamond" id="116" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:godfrey_murdered" id="117" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:sergeant_cuff" target="event:godfrey_exposed" id="118" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:murthwaite" target="event:prologue_theft" id="119" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:murthwaite" target="event:indians_appear" id="120" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:murthwaite" target="event:birthday_dinner" id="121" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:murthwaite" target="event:murthwaite_warning" id="122" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:murthwaite" target="event:diamond_to_rachel" id="123" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:murthwaite" target="event:godfrey_murdered" id="124" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:murthwaite" target="event:godfrey_exposed" id="125" weight="0.7">
+        <attvalues>
+          <attvalue for="1" value="hearsay" />
+        </attvalues>
+      </edge>
+      <edge source="narrator:murthwaite" target="event:diamond_returns_india" id="126" weight="1.0">
+        <attvalues>
+          <attvalue for="1" value="direct" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

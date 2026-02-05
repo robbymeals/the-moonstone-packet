@@ -1,0 +1,580 @@
+{
+  "facts": {
+    "diamond_curse": "The Moonstone carries a curse and is pursued by Brahmin guardians",
+    "indians_are_brahmins": "The three Indians are high-caste Brahmins, not common jugglers",
+    "paint_wet": "The sitting-room door paint was wet on the night of June 21",
+    "franklin_entered_room": "Franklin Blake entered Rachel's sitting-room and took the diamond",
+    "franklin_drugged": "Dr. Candy secretly administered laudanum to Franklin",
+    "franklin_unconscious": "Franklin was in a laudanum trance and has no memory",
+    "nightgown_stained": "Franklin's nightgown has a paint smear proving he touched the door",
+    "rosanna_hid_nightgown": "Rosanna hid the stained nightgown in the Shivering Sand",
+    "rosanna_loves_franklin": "Rosanna is in love with Franklin Blake",
+    "godfrey_took_diamond": "Godfrey Ablewhite took the diamond from Franklin's room",
+    "godfrey_embezzled": "Godfrey embezzled from a trust fund he managed",
+    "diamond_at_luker": "The diamond was pledged to Mr. Luker's bank",
+    "rachel_witnessed": "Rachel saw Franklin take the diamond from her room"
+  },
+  "knowledge_states": {
+    "Gabriel Betteredge": {
+      "diamond_curse": [
+        "knows",
+        "before_birthday",
+        "true"
+      ],
+      "indians_are_brahmins": [
+        "knows",
+        "birthday_dinner",
+        "true"
+      ],
+      "paint_wet": [
+        "knows",
+        "june_22_morning",
+        "true"
+      ],
+      "franklin_entered_room": [
+        "unknown",
+        null,
+        null
+      ],
+      "franklin_drugged": [
+        "unknown",
+        null,
+        null
+      ],
+      "franklin_unconscious": [
+        "knows",
+        "opium_experiment",
+        "true"
+      ],
+      "nightgown_stained": [
+        "knows",
+        "june_1849",
+        "true"
+      ],
+      "rosanna_hid_nightgown": [
+        "knows",
+        "june_1849",
+        "true"
+      ],
+      "rosanna_loves_franklin": [
+        "suspects",
+        "june_1848",
+        "true"
+      ],
+      "godfrey_took_diamond": [
+        "knows",
+        "resolution",
+        "true"
+      ],
+      "godfrey_embezzled": [
+        "knows",
+        "resolution",
+        "true"
+      ],
+      "diamond_at_luker": [
+        "knows",
+        "resolution",
+        "true"
+      ],
+      "rachel_witnessed": [
+        "knows",
+        "opium_experiment",
+        "true"
+      ]
+    },
+    "Franklin Blake": {
+      "diamond_curse": [
+        "knows",
+        "before_birthday",
+        "true"
+      ],
+      "indians_are_brahmins": [
+        "knows",
+        "birthday_dinner",
+        "true"
+      ],
+      "paint_wet": [
+        "knows",
+        "june_22_morning",
+        "true"
+      ],
+      "franklin_entered_room": [
+        "unknown",
+        null,
+        null
+      ],
+      "franklin_drugged": [
+        "knows",
+        "june_1849_jennings",
+        "true"
+      ],
+      "franklin_unconscious": [
+        "knows",
+        "june_1849_jennings",
+        "true"
+      ],
+      "nightgown_stained": [
+        "knows",
+        "june_1849_shivering_sand",
+        "true"
+      ],
+      "rosanna_hid_nightgown": [
+        "knows",
+        "june_1849_letter",
+        "true"
+      ],
+      "rosanna_loves_franklin": [
+        "knows",
+        "june_1849_letter",
+        "true"
+      ],
+      "godfrey_took_diamond": [
+        "knows",
+        "resolution",
+        "true"
+      ],
+      "godfrey_embezzled": [
+        "knows",
+        "resolution",
+        "true"
+      ],
+      "diamond_at_luker": [
+        "knows",
+        "investigation_1849",
+        "true"
+      ],
+      "rachel_witnessed": [
+        "knows",
+        "confrontation_1849",
+        "true"
+      ]
+    },
+    "Rachel Verinder": {
+      "diamond_curse": [
+        "knows",
+        "birthday_dinner",
+        "true"
+      ],
+      "indians_are_brahmins": [
+        "knows",
+        "birthday_dinner",
+        "true"
+      ],
+      "paint_wet": [
+        "unknown",
+        null,
+        null
+      ],
+      "franklin_entered_room": [
+        "knows",
+        "june_21_night",
+        "true"
+      ],
+      "franklin_drugged": [
+        "unknown",
+        null,
+        null
+      ],
+      "franklin_unconscious": [
+        "knows",
+        "opium_experiment",
+        "true"
+      ],
+      "nightgown_stained": [
+        "unknown",
+        null,
+        null
+      ],
+      "rosanna_hid_nightgown": [
+        "unknown",
+        null,
+        null
+      ],
+      "rosanna_loves_franklin": [
+        "unknown",
+        null,
+        null
+      ],
+      "godfrey_took_diamond": [
+        "knows",
+        "resolution",
+        "true"
+      ],
+      "godfrey_embezzled": [
+        "knows",
+        "resolution",
+        "true"
+      ],
+      "diamond_at_luker": [
+        "unknown",
+        null,
+        null
+      ],
+      "rachel_witnessed": [
+        "knows",
+        "june_21_night",
+        "true"
+      ]
+    },
+    "Rosanna Spearman": {
+      "diamond_curse": [
+        "unknown",
+        null,
+        null
+      ],
+      "indians_are_brahmins": [
+        "unknown",
+        null,
+        null
+      ],
+      "paint_wet": [
+        "knows",
+        "june_22_morning",
+        "true"
+      ],
+      "franklin_entered_room": [
+        "suspects",
+        "june_22",
+        "true"
+      ],
+      "franklin_drugged": [
+        "unknown",
+        null,
+        null
+      ],
+      "franklin_unconscious": [
+        "unknown",
+        null,
+        null
+      ],
+      "nightgown_stained": [
+        "knows",
+        "june_22",
+        "true"
+      ],
+      "rosanna_hid_nightgown": [
+        "knows",
+        "june_22",
+        "true"
+      ],
+      "rosanna_loves_franklin": [
+        "knows",
+        "always",
+        "true"
+      ],
+      "godfrey_took_diamond": [
+        "unknown",
+        null,
+        null
+      ],
+      "godfrey_embezzled": [
+        "unknown",
+        null,
+        null
+      ],
+      "diamond_at_luker": [
+        "unknown",
+        null,
+        null
+      ],
+      "rachel_witnessed": [
+        "unknown",
+        null,
+        null
+      ]
+    },
+    "Sergeant Cuff": {
+      "diamond_curse": [
+        "knows",
+        "investigation_start",
+        "true"
+      ],
+      "indians_are_brahmins": [
+        "knows",
+        "investigation",
+        "true"
+      ],
+      "paint_wet": [
+        "knows",
+        "june_23",
+        "true"
+      ],
+      "franklin_entered_room": [
+        "unknown",
+        null,
+        null
+      ],
+      "franklin_drugged": [
+        "unknown",
+        null,
+        null
+      ],
+      "franklin_unconscious": [
+        "knows",
+        "final_report",
+        "true"
+      ],
+      "nightgown_stained": [
+        "suspects",
+        "june_1848",
+        "true"
+      ],
+      "rosanna_hid_nightgown": [
+        "suspects",
+        "june_1848",
+        "true"
+      ],
+      "rosanna_loves_franklin": [
+        "knows",
+        "june_1848",
+        "true"
+      ],
+      "godfrey_took_diamond": [
+        "knows",
+        "investigation_1849",
+        "true"
+      ],
+      "godfrey_embezzled": [
+        "knows",
+        "investigation_1849",
+        "true"
+      ],
+      "diamond_at_luker": [
+        "knows",
+        "investigation_1849",
+        "true"
+      ],
+      "rachel_witnessed": [
+        "knows",
+        "final_report",
+        "true"
+      ]
+    },
+    "Godfrey Ablewhite": {
+      "diamond_curse": [
+        "knows",
+        "birthday_dinner",
+        "true"
+      ],
+      "indians_are_brahmins": [
+        "knows",
+        "birthday_dinner",
+        "true"
+      ],
+      "paint_wet": [
+        "unknown",
+        null,
+        null
+      ],
+      "franklin_entered_room": [
+        "knows",
+        "june_21_night",
+        "true"
+      ],
+      "franklin_drugged": [
+        "unknown",
+        null,
+        null
+      ],
+      "franklin_unconscious": [
+        "knows",
+        "june_21_night",
+        "true"
+      ],
+      "nightgown_stained": [
+        "unknown",
+        null,
+        null
+      ],
+      "rosanna_hid_nightgown": [
+        "unknown",
+        null,
+        null
+      ],
+      "rosanna_loves_franklin": [
+        "unknown",
+        null,
+        null
+      ],
+      "godfrey_took_diamond": [
+        "knows",
+        "june_21_night",
+        "true"
+      ],
+      "godfrey_embezzled": [
+        "knows",
+        "always",
+        "true"
+      ],
+      "diamond_at_luker": [
+        "knows",
+        "june_23",
+        "true"
+      ],
+      "rachel_witnessed": [
+        "unknown",
+        null,
+        null
+      ]
+    },
+    "Ezra Jennings": {
+      "diamond_curse": [
+        "knows",
+        "1849",
+        "true"
+      ],
+      "indians_are_brahmins": [
+        "unknown",
+        null,
+        null
+      ],
+      "paint_wet": [
+        "knows",
+        "1849",
+        "true"
+      ],
+      "franklin_entered_room": [
+        "knows",
+        "reconstruction",
+        "true"
+      ],
+      "franklin_drugged": [
+        "knows",
+        "reconstruction",
+        "true"
+      ],
+      "franklin_unconscious": [
+        "knows",
+        "reconstruction",
+        "true"
+      ],
+      "nightgown_stained": [
+        "knows",
+        "1849",
+        "true"
+      ],
+      "rosanna_hid_nightgown": [
+        "knows",
+        "1849",
+        "true"
+      ],
+      "rosanna_loves_franklin": [
+        "unknown",
+        null,
+        null
+      ],
+      "godfrey_took_diamond": [
+        "unknown",
+        null,
+        null
+      ],
+      "godfrey_embezzled": [
+        "unknown",
+        null,
+        null
+      ],
+      "diamond_at_luker": [
+        "unknown",
+        null,
+        null
+      ],
+      "rachel_witnessed": [
+        "knows",
+        "experiment",
+        "true"
+      ]
+    },
+    "Dr. Candy": {
+      "diamond_curse": [
+        "unknown",
+        null,
+        null
+      ],
+      "indians_are_brahmins": [
+        "unknown",
+        null,
+        null
+      ],
+      "paint_wet": [
+        "unknown",
+        null,
+        null
+      ],
+      "franklin_entered_room": [
+        "unknown",
+        null,
+        null
+      ],
+      "franklin_drugged": [
+        "knows",
+        "june_21_night",
+        "true"
+      ],
+      "franklin_unconscious": [
+        "unknown",
+        null,
+        null
+      ],
+      "nightgown_stained": [
+        "unknown",
+        null,
+        null
+      ],
+      "rosanna_hid_nightgown": [
+        "unknown",
+        null,
+        null
+      ],
+      "rosanna_loves_franklin": [
+        "unknown",
+        null,
+        null
+      ],
+      "godfrey_took_diamond": [
+        "unknown",
+        null,
+        null
+      ],
+      "godfrey_embezzled": [
+        "unknown",
+        null,
+        null
+      ],
+      "diamond_at_luker": [
+        "unknown",
+        null,
+        null
+      ],
+      "rachel_witnessed": [
+        "unknown",
+        null,
+        null
+      ]
+    }
+  },
+  "timeline": [
+    "before_birthday",
+    "birthday_dinner",
+    "june_21_night",
+    "june_22_morning",
+    "june_22",
+    "june_23",
+    "june_1848",
+    "investigation_start",
+    "investigation",
+    "resolution_1848",
+    "1849",
+    "investigation_1849",
+    "june_1849",
+    "june_1849_shivering_sand",
+    "june_1849_letter",
+    "june_1849_jennings",
+    "reconstruction",
+    "confrontation_1849",
+    "experiment",
+    "opium_experiment",
+    "final_report",
+    "resolution",
+    "always"
+  ]
+}

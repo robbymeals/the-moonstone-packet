@@ -1,0 +1,604 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "description": "Herncastle is morally corrupt",
+      "node_type": "condition",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "herncastle_corrupt"
+    },
+    {
+      "description": "The Moonstone exists at Seringapatam",
+      "node_type": "condition",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "diamond_exists"
+    },
+    {
+      "description": "Siege of Seringapatam occurs",
+      "node_type": "condition",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "siege_happens"
+    },
+    {
+      "description": "Herncastle steals the diamond",
+      "node_type": "event",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "herncastle_steals"
+    },
+    {
+      "description": "Brahmins begin pursuing the diamond",
+      "node_type": "event",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "brahmins_pursue"
+    },
+    {
+      "description": "Herncastle is bitter/vindictive toward family",
+      "node_type": "condition",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "herncastle_vindictive"
+    },
+    {
+      "description": "Herncastle leaves diamond to Rachel",
+      "node_type": "event",
+      "actual": "True",
+      "hinge": "True",
+      "p_actual": 0.5,
+      "id": "bequeaths_to_rachel"
+    },
+    {
+      "description": "Franklin brings diamond to Verinder house",
+      "node_type": "event",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "franklin_brings"
+    },
+    {
+      "description": "Birthday dinner occurs",
+      "node_type": "event",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "birthday_dinner"
+    },
+    {
+      "description": "Dr. Candy is offended by Franklin's remarks",
+      "node_type": "condition",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "candy_offended"
+    },
+    {
+      "description": "Dr. Candy has access to laudanum",
+      "node_type": "condition",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "candy_has_laudanum"
+    },
+    {
+      "description": "Dr. Candy secretly doses Franklin with laudanum",
+      "node_type": "event",
+      "actual": "True",
+      "hinge": "True",
+      "p_actual": 0.15,
+      "id": "candy_doses_franklin"
+    },
+    {
+      "description": "Dr. Candy lets the insult go",
+      "node_type": "counterfactual",
+      "actual": "False",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "candy_does_nothing"
+    },
+    {
+      "description": "Franklin is under laudanum influence",
+      "node_type": "state",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "franklin_drugged"
+    },
+    {
+      "description": "Franklin is anxious about diamond security",
+      "node_type": "condition",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "franklin_anxious"
+    },
+    {
+      "description": "Franklin takes diamond in trance",
+      "node_type": "event",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "franklin_takes_diamond"
+    },
+    {
+      "description": "Franklin sleeps through the night normally",
+      "node_type": "counterfactual",
+      "actual": "False",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "franklin_sleeps_normally"
+    },
+    {
+      "description": "Rachel is awake and watching",
+      "node_type": "condition",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "rachel_awake"
+    },
+    {
+      "description": "Rachel sees Franklin take the diamond",
+      "node_type": "event",
+      "actual": "True",
+      "hinge": "True",
+      "p_actual": 0.3,
+      "id": "rachel_witnesses"
+    },
+    {
+      "description": "Rachel is asleep, doesn't witness",
+      "node_type": "counterfactual",
+      "actual": "False",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "rachel_asleep"
+    },
+    {
+      "description": "Godfrey is awake in the night",
+      "node_type": "condition",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "godfrey_awake"
+    },
+    {
+      "description": "Godfrey is financially desperate (embezzlement)",
+      "node_type": "condition",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "godfrey_desperate"
+    },
+    {
+      "description": "Godfrey observes Franklin with diamond",
+      "node_type": "event",
+      "actual": "True",
+      "hinge": "True",
+      "p_actual": 0.5,
+      "id": "godfrey_sees_opportunity"
+    },
+    {
+      "description": "Godfrey takes diamond from unconscious Franklin",
+      "node_type": "event",
+      "actual": "True",
+      "hinge": "True",
+      "p_actual": 0.6,
+      "id": "godfrey_steals"
+    },
+    {
+      "description": "Godfrey doesn't take the opportunity",
+      "node_type": "counterfactual",
+      "actual": "False",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "godfrey_doesnt_steal"
+    },
+    {
+      "description": "Rachel loves Franklin",
+      "node_type": "condition",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "rachel_loves_franklin"
+    },
+    {
+      "description": "Rachel maintains silence to protect Franklin",
+      "node_type": "event",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.85,
+      "id": "rachel_silent"
+    },
+    {
+      "description": "Rachel tells someone what she saw",
+      "node_type": "counterfactual",
+      "actual": "False",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "rachel_tells"
+    },
+    {
+      "description": "Rosanna discovers the stained nightgown",
+      "node_type": "event",
+      "actual": "True",
+      "hinge": "True",
+      "p_actual": 0.5,
+      "id": "rosanna_finds_nightgown"
+    },
+    {
+      "description": "Rosanna is in love with Franklin",
+      "node_type": "condition",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "rosanna_loves_franklin"
+    },
+    {
+      "description": "Rosanna hides the nightgown",
+      "node_type": "event",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "rosanna_hides_evidence"
+    },
+    {
+      "description": "Rosanna reports what she found",
+      "node_type": "counterfactual",
+      "actual": "False",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "rosanna_reports"
+    },
+    {
+      "description": "Rosanna commits suicide",
+      "node_type": "event",
+      "actual": "True",
+      "hinge": "True",
+      "p_actual": 0.4,
+      "id": "rosanna_suicide"
+    },
+    {
+      "description": "Sergeant Cuff investigates",
+      "node_type": "event",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "cuff_investigates"
+    },
+    {
+      "description": "Investigation stalls due to Rachel's silence",
+      "node_type": "event",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "investigation_stalls"
+    },
+    {
+      "description": "Dr. Candy falls ill with brain fever",
+      "node_type": "event",
+      "actual": "True",
+      "hinge": "True",
+      "p_actual": 0.5,
+      "id": "candy_ill"
+    },
+    {
+      "description": "Jennings records Candy's fever-ravings",
+      "node_type": "event",
+      "actual": "True",
+      "hinge": "True",
+      "p_actual": 0.5,
+      "id": "jennings_records_ravings"
+    },
+    {
+      "description": "Jennings reconstructs the truth about laudanum",
+      "node_type": "event",
+      "actual": "True",
+      "hinge": "True",
+      "p_actual": 0.25,
+      "id": "jennings_reconstructs"
+    },
+    {
+      "description": "The truth is never discovered",
+      "node_type": "counterfactual",
+      "actual": "False",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "truth_never_discovered"
+    },
+    {
+      "description": "The opium experiment proves Franklin's innocence",
+      "node_type": "event",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "opium_experiment"
+    },
+    {
+      "description": "Rachel and Franklin reconcile",
+      "node_type": "event",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "reconciliation"
+    },
+    {
+      "description": "Godfrey reclaims diamond from Luker",
+      "node_type": "event",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "godfrey_reclaims"
+    },
+    {
+      "description": "Brahmins track the diamond to Godfrey",
+      "node_type": "event",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "brahmins_track"
+    },
+    {
+      "description": "Brahmins kill Godfrey, recover diamond",
+      "node_type": "event",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "godfrey_murdered"
+    },
+    {
+      "description": "Diamond returned to India",
+      "node_type": "event",
+      "actual": "True",
+      "hinge": "False",
+      "p_actual": 0.5,
+      "id": "diamond_returns"
+    }
+  ],
+  "edges": [
+    {
+      "relationship": "enables",
+      "source": "herncastle_corrupt",
+      "target": "herncastle_steals"
+    },
+    {
+      "relationship": "enables",
+      "source": "diamond_exists",
+      "target": "herncastle_steals"
+    },
+    {
+      "relationship": "enables",
+      "source": "siege_happens",
+      "target": "herncastle_steals"
+    },
+    {
+      "relationship": "causes",
+      "source": "herncastle_steals",
+      "target": "brahmins_pursue"
+    },
+    {
+      "relationship": "enables",
+      "source": "herncastle_steals",
+      "target": "bequeaths_to_rachel"
+    },
+    {
+      "relationship": "enables",
+      "source": "brahmins_pursue",
+      "target": "brahmins_track"
+    },
+    {
+      "relationship": "enables",
+      "source": "herncastle_vindictive",
+      "target": "bequeaths_to_rachel"
+    },
+    {
+      "relationship": "causes",
+      "source": "bequeaths_to_rachel",
+      "target": "franklin_brings"
+    },
+    {
+      "relationship": "enables",
+      "source": "franklin_brings",
+      "target": "birthday_dinner"
+    },
+    {
+      "relationship": "causes",
+      "source": "birthday_dinner",
+      "target": "candy_offended"
+    },
+    {
+      "relationship": "enables",
+      "source": "candy_offended",
+      "target": "candy_doses_franklin"
+    },
+    {
+      "relationship": "enables",
+      "source": "candy_offended",
+      "target": "candy_does_nothing"
+    },
+    {
+      "relationship": "enables",
+      "source": "candy_has_laudanum",
+      "target": "candy_doses_franklin"
+    },
+    {
+      "relationship": "causes",
+      "source": "candy_doses_franklin",
+      "target": "franklin_drugged"
+    },
+    {
+      "relationship": "enables",
+      "source": "candy_doses_franklin",
+      "target": "candy_ill"
+    },
+    {
+      "relationship": "causes",
+      "source": "candy_does_nothing",
+      "target": "franklin_sleeps_normally"
+    },
+    {
+      "relationship": "enables",
+      "source": "franklin_drugged",
+      "target": "franklin_takes_diamond"
+    },
+    {
+      "relationship": "enables",
+      "source": "franklin_anxious",
+      "target": "franklin_takes_diamond"
+    },
+    {
+      "relationship": "enables",
+      "source": "franklin_takes_diamond",
+      "target": "rachel_witnesses"
+    },
+    {
+      "relationship": "enables",
+      "source": "franklin_takes_diamond",
+      "target": "rachel_asleep"
+    },
+    {
+      "relationship": "enables",
+      "source": "franklin_takes_diamond",
+      "target": "godfrey_sees_opportunity"
+    },
+    {
+      "relationship": "enables",
+      "source": "franklin_takes_diamond",
+      "target": "rosanna_finds_nightgown"
+    },
+    {
+      "relationship": "enables",
+      "source": "rachel_awake",
+      "target": "rachel_witnesses"
+    },
+    {
+      "relationship": "enables",
+      "source": "rachel_witnesses",
+      "target": "rachel_silent"
+    },
+    {
+      "relationship": "enables",
+      "source": "rachel_witnesses",
+      "target": "rachel_tells"
+    },
+    {
+      "relationship": "enables",
+      "source": "godfrey_awake",
+      "target": "godfrey_sees_opportunity"
+    },
+    {
+      "relationship": "enables",
+      "source": "godfrey_desperate",
+      "target": "godfrey_steals"
+    },
+    {
+      "relationship": "enables",
+      "source": "godfrey_sees_opportunity",
+      "target": "godfrey_steals"
+    },
+    {
+      "relationship": "enables",
+      "source": "godfrey_sees_opportunity",
+      "target": "godfrey_doesnt_steal"
+    },
+    {
+      "relationship": "enables",
+      "source": "godfrey_steals",
+      "target": "cuff_investigates"
+    },
+    {
+      "relationship": "enables",
+      "source": "godfrey_steals",
+      "target": "godfrey_reclaims"
+    },
+    {
+      "relationship": "enables",
+      "source": "rachel_loves_franklin",
+      "target": "rachel_silent"
+    },
+    {
+      "relationship": "causes",
+      "source": "rachel_silent",
+      "target": "investigation_stalls"
+    },
+    {
+      "relationship": "enables",
+      "source": "rosanna_finds_nightgown",
+      "target": "rosanna_hides_evidence"
+    },
+    {
+      "relationship": "enables",
+      "source": "rosanna_finds_nightgown",
+      "target": "rosanna_reports"
+    },
+    {
+      "relationship": "enables",
+      "source": "rosanna_loves_franklin",
+      "target": "rosanna_hides_evidence"
+    },
+    {
+      "relationship": "enables",
+      "source": "rosanna_hides_evidence",
+      "target": "rosanna_suicide"
+    },
+    {
+      "relationship": "enables",
+      "source": "rosanna_hides_evidence",
+      "target": "investigation_stalls"
+    },
+    {
+      "relationship": "enables",
+      "source": "investigation_stalls",
+      "target": "jennings_reconstructs"
+    },
+    {
+      "relationship": "enables",
+      "source": "investigation_stalls",
+      "target": "truth_never_discovered"
+    },
+    {
+      "relationship": "enables",
+      "source": "candy_ill",
+      "target": "jennings_records_ravings"
+    },
+    {
+      "relationship": "enables",
+      "source": "jennings_records_ravings",
+      "target": "jennings_reconstructs"
+    },
+    {
+      "relationship": "causes",
+      "source": "jennings_reconstructs",
+      "target": "opium_experiment"
+    },
+    {
+      "relationship": "causes",
+      "source": "opium_experiment",
+      "target": "reconciliation"
+    },
+    {
+      "relationship": "enables",
+      "source": "godfrey_reclaims",
+      "target": "brahmins_track"
+    },
+    {
+      "relationship": "causes",
+      "source": "brahmins_track",
+      "target": "godfrey_murdered"
+    },
+    {
+      "relationship": "causes",
+      "source": "godfrey_murdered",
+      "target": "diamond_returns"
+    }
+  ]
+}

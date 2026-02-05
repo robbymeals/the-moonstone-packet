@@ -1,0 +1,481 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d5" for="edge" attr.name="belief" attr.type="string" />
+  <key id="d4" for="edge" attr.name="since" attr.type="string" />
+  <key id="d3" for="edge" attr.name="relationship" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="label" attr.type="string" />
+  <key id="d0" for="node" attr.name="node_type" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="fact:diamond_curse">
+      <data key="d0">fact</data>
+      <data key="d1">diamond_curse</data>
+      <data key="d2">The Moonstone carries a curse and is pursued by Brahmin guardians</data>
+    </node>
+    <node id="fact:indians_are_brahmins">
+      <data key="d0">fact</data>
+      <data key="d1">indians_are_brahmins</data>
+      <data key="d2">The three Indians are high-caste Brahmins, not common jugglers</data>
+    </node>
+    <node id="fact:paint_wet">
+      <data key="d0">fact</data>
+      <data key="d1">paint_wet</data>
+      <data key="d2">The sitting-room door paint was wet on the night of June 21</data>
+    </node>
+    <node id="fact:franklin_entered_room">
+      <data key="d0">fact</data>
+      <data key="d1">franklin_entered_room</data>
+      <data key="d2">Franklin Blake entered Rachel's sitting-room and took the diamond</data>
+    </node>
+    <node id="fact:franklin_drugged">
+      <data key="d0">fact</data>
+      <data key="d1">franklin_drugged</data>
+      <data key="d2">Dr. Candy secretly administered laudanum to Franklin</data>
+    </node>
+    <node id="fact:franklin_unconscious">
+      <data key="d0">fact</data>
+      <data key="d1">franklin_unconscious</data>
+      <data key="d2">Franklin was in a laudanum trance and has no memory</data>
+    </node>
+    <node id="fact:nightgown_stained">
+      <data key="d0">fact</data>
+      <data key="d1">nightgown_stained</data>
+      <data key="d2">Franklin's nightgown has a paint smear proving he touched the door</data>
+    </node>
+    <node id="fact:rosanna_hid_nightgown">
+      <data key="d0">fact</data>
+      <data key="d1">rosanna_hid_nightgown</data>
+      <data key="d2">Rosanna hid the stained nightgown in the Shivering Sand</data>
+    </node>
+    <node id="fact:rosanna_loves_franklin">
+      <data key="d0">fact</data>
+      <data key="d1">rosanna_loves_franklin</data>
+      <data key="d2">Rosanna is in love with Franklin Blake</data>
+    </node>
+    <node id="fact:godfrey_took_diamond">
+      <data key="d0">fact</data>
+      <data key="d1">godfrey_took_diamond</data>
+      <data key="d2">Godfrey Ablewhite took the diamond from Franklin's room</data>
+    </node>
+    <node id="fact:godfrey_embezzled">
+      <data key="d0">fact</data>
+      <data key="d1">godfrey_embezzled</data>
+      <data key="d2">Godfrey embezzled from a trust fund he managed</data>
+    </node>
+    <node id="fact:diamond_at_luker">
+      <data key="d0">fact</data>
+      <data key="d1">diamond_at_luker</data>
+      <data key="d2">The diamond was pledged to Mr. Luker's bank</data>
+    </node>
+    <node id="fact:rachel_witnessed">
+      <data key="d0">fact</data>
+      <data key="d1">rachel_witnessed</data>
+      <data key="d2">Rachel saw Franklin take the diamond from her room</data>
+    </node>
+    <node id="char:gabriel_betteredge">
+      <data key="d0">character</data>
+      <data key="d1">Gabriel Betteredge</data>
+    </node>
+    <node id="char:franklin_blake">
+      <data key="d0">character</data>
+      <data key="d1">Franklin Blake</data>
+    </node>
+    <node id="char:rachel_verinder">
+      <data key="d0">character</data>
+      <data key="d1">Rachel Verinder</data>
+    </node>
+    <node id="char:rosanna_spearman">
+      <data key="d0">character</data>
+      <data key="d1">Rosanna Spearman</data>
+    </node>
+    <node id="char:sergeant_cuff">
+      <data key="d0">character</data>
+      <data key="d1">Sergeant Cuff</data>
+    </node>
+    <node id="char:godfrey_ablewhite">
+      <data key="d0">character</data>
+      <data key="d1">Godfrey Ablewhite</data>
+    </node>
+    <node id="char:ezra_jennings">
+      <data key="d0">character</data>
+      <data key="d1">Ezra Jennings</data>
+    </node>
+    <node id="char:dr._candy">
+      <data key="d0">character</data>
+      <data key="d1">Dr. Candy</data>
+    </node>
+    <edge source="char:gabriel_betteredge" target="fact:diamond_curse">
+      <data key="d3">KNOWS</data>
+      <data key="d4">before_birthday</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:gabriel_betteredge" target="fact:indians_are_brahmins">
+      <data key="d3">KNOWS</data>
+      <data key="d4">birthday_dinner</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:gabriel_betteredge" target="fact:paint_wet">
+      <data key="d3">KNOWS</data>
+      <data key="d4">june_22_morning</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:gabriel_betteredge" target="fact:franklin_unconscious">
+      <data key="d3">KNOWS</data>
+      <data key="d4">opium_experiment</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:gabriel_betteredge" target="fact:nightgown_stained">
+      <data key="d3">KNOWS</data>
+      <data key="d4">june_1849</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:gabriel_betteredge" target="fact:rosanna_hid_nightgown">
+      <data key="d3">KNOWS</data>
+      <data key="d4">june_1849</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:gabriel_betteredge" target="fact:rosanna_loves_franklin">
+      <data key="d3">SUSPECTS</data>
+      <data key="d4">june_1848</data>
+      <data key="d5">true</data>
+      <data key="d6">0.5</data>
+    </edge>
+    <edge source="char:gabriel_betteredge" target="fact:godfrey_took_diamond">
+      <data key="d3">KNOWS</data>
+      <data key="d4">resolution</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:gabriel_betteredge" target="fact:godfrey_embezzled">
+      <data key="d3">KNOWS</data>
+      <data key="d4">resolution</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:gabriel_betteredge" target="fact:diamond_at_luker">
+      <data key="d3">KNOWS</data>
+      <data key="d4">resolution</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:gabriel_betteredge" target="fact:rachel_witnessed">
+      <data key="d3">KNOWS</data>
+      <data key="d4">opium_experiment</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:franklin_blake" target="fact:diamond_curse">
+      <data key="d3">KNOWS</data>
+      <data key="d4">before_birthday</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:franklin_blake" target="fact:indians_are_brahmins">
+      <data key="d3">KNOWS</data>
+      <data key="d4">birthday_dinner</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:franklin_blake" target="fact:paint_wet">
+      <data key="d3">KNOWS</data>
+      <data key="d4">june_22_morning</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:franklin_blake" target="fact:franklin_drugged">
+      <data key="d3">KNOWS</data>
+      <data key="d4">june_1849_jennings</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:franklin_blake" target="fact:franklin_unconscious">
+      <data key="d3">KNOWS</data>
+      <data key="d4">june_1849_jennings</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:franklin_blake" target="fact:nightgown_stained">
+      <data key="d3">KNOWS</data>
+      <data key="d4">june_1849_shivering_sand</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:franklin_blake" target="fact:rosanna_hid_nightgown">
+      <data key="d3">KNOWS</data>
+      <data key="d4">june_1849_letter</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:franklin_blake" target="fact:rosanna_loves_franklin">
+      <data key="d3">KNOWS</data>
+      <data key="d4">june_1849_letter</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:franklin_blake" target="fact:godfrey_took_diamond">
+      <data key="d3">KNOWS</data>
+      <data key="d4">resolution</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:franklin_blake" target="fact:godfrey_embezzled">
+      <data key="d3">KNOWS</data>
+      <data key="d4">resolution</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:franklin_blake" target="fact:diamond_at_luker">
+      <data key="d3">KNOWS</data>
+      <data key="d4">investigation_1849</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:franklin_blake" target="fact:rachel_witnessed">
+      <data key="d3">KNOWS</data>
+      <data key="d4">confrontation_1849</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:rachel_verinder" target="fact:diamond_curse">
+      <data key="d3">KNOWS</data>
+      <data key="d4">birthday_dinner</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:rachel_verinder" target="fact:indians_are_brahmins">
+      <data key="d3">KNOWS</data>
+      <data key="d4">birthday_dinner</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:rachel_verinder" target="fact:franklin_entered_room">
+      <data key="d3">KNOWS</data>
+      <data key="d4">june_21_night</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:rachel_verinder" target="fact:franklin_unconscious">
+      <data key="d3">KNOWS</data>
+      <data key="d4">opium_experiment</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:rachel_verinder" target="fact:godfrey_took_diamond">
+      <data key="d3">KNOWS</data>
+      <data key="d4">resolution</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:rachel_verinder" target="fact:godfrey_embezzled">
+      <data key="d3">KNOWS</data>
+      <data key="d4">resolution</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:rachel_verinder" target="fact:rachel_witnessed">
+      <data key="d3">KNOWS</data>
+      <data key="d4">june_21_night</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:rosanna_spearman" target="fact:paint_wet">
+      <data key="d3">KNOWS</data>
+      <data key="d4">june_22_morning</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:rosanna_spearman" target="fact:franklin_entered_room">
+      <data key="d3">SUSPECTS</data>
+      <data key="d4">june_22</data>
+      <data key="d5">true</data>
+      <data key="d6">0.5</data>
+    </edge>
+    <edge source="char:rosanna_spearman" target="fact:nightgown_stained">
+      <data key="d3">KNOWS</data>
+      <data key="d4">june_22</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:rosanna_spearman" target="fact:rosanna_hid_nightgown">
+      <data key="d3">KNOWS</data>
+      <data key="d4">june_22</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:rosanna_spearman" target="fact:rosanna_loves_franklin">
+      <data key="d3">KNOWS</data>
+      <data key="d4">always</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:sergeant_cuff" target="fact:diamond_curse">
+      <data key="d3">KNOWS</data>
+      <data key="d4">investigation_start</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:sergeant_cuff" target="fact:indians_are_brahmins">
+      <data key="d3">KNOWS</data>
+      <data key="d4">investigation</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:sergeant_cuff" target="fact:paint_wet">
+      <data key="d3">KNOWS</data>
+      <data key="d4">june_23</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:sergeant_cuff" target="fact:franklin_unconscious">
+      <data key="d3">KNOWS</data>
+      <data key="d4">final_report</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:sergeant_cuff" target="fact:nightgown_stained">
+      <data key="d3">SUSPECTS</data>
+      <data key="d4">june_1848</data>
+      <data key="d5">true</data>
+      <data key="d6">0.5</data>
+    </edge>
+    <edge source="char:sergeant_cuff" target="fact:rosanna_hid_nightgown">
+      <data key="d3">SUSPECTS</data>
+      <data key="d4">june_1848</data>
+      <data key="d5">true</data>
+      <data key="d6">0.5</data>
+    </edge>
+    <edge source="char:sergeant_cuff" target="fact:rosanna_loves_franklin">
+      <data key="d3">KNOWS</data>
+      <data key="d4">june_1848</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:sergeant_cuff" target="fact:godfrey_took_diamond">
+      <data key="d3">KNOWS</data>
+      <data key="d4">investigation_1849</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:sergeant_cuff" target="fact:godfrey_embezzled">
+      <data key="d3">KNOWS</data>
+      <data key="d4">investigation_1849</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:sergeant_cuff" target="fact:diamond_at_luker">
+      <data key="d3">KNOWS</data>
+      <data key="d4">investigation_1849</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:sergeant_cuff" target="fact:rachel_witnessed">
+      <data key="d3">KNOWS</data>
+      <data key="d4">final_report</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:godfrey_ablewhite" target="fact:diamond_curse">
+      <data key="d3">KNOWS</data>
+      <data key="d4">birthday_dinner</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:godfrey_ablewhite" target="fact:indians_are_brahmins">
+      <data key="d3">KNOWS</data>
+      <data key="d4">birthday_dinner</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:godfrey_ablewhite" target="fact:franklin_entered_room">
+      <data key="d3">KNOWS</data>
+      <data key="d4">june_21_night</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:godfrey_ablewhite" target="fact:franklin_unconscious">
+      <data key="d3">KNOWS</data>
+      <data key="d4">june_21_night</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:godfrey_ablewhite" target="fact:godfrey_took_diamond">
+      <data key="d3">KNOWS</data>
+      <data key="d4">june_21_night</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:godfrey_ablewhite" target="fact:godfrey_embezzled">
+      <data key="d3">KNOWS</data>
+      <data key="d4">always</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:godfrey_ablewhite" target="fact:diamond_at_luker">
+      <data key="d3">KNOWS</data>
+      <data key="d4">june_23</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:ezra_jennings" target="fact:diamond_curse">
+      <data key="d3">KNOWS</data>
+      <data key="d4">1849</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:ezra_jennings" target="fact:paint_wet">
+      <data key="d3">KNOWS</data>
+      <data key="d4">1849</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:ezra_jennings" target="fact:franklin_entered_room">
+      <data key="d3">KNOWS</data>
+      <data key="d4">reconstruction</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:ezra_jennings" target="fact:franklin_drugged">
+      <data key="d3">KNOWS</data>
+      <data key="d4">reconstruction</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:ezra_jennings" target="fact:franklin_unconscious">
+      <data key="d3">KNOWS</data>
+      <data key="d4">reconstruction</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:ezra_jennings" target="fact:nightgown_stained">
+      <data key="d3">KNOWS</data>
+      <data key="d4">1849</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:ezra_jennings" target="fact:rosanna_hid_nightgown">
+      <data key="d3">KNOWS</data>
+      <data key="d4">1849</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:ezra_jennings" target="fact:rachel_witnessed">
+      <data key="d3">KNOWS</data>
+      <data key="d4">experiment</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+    <edge source="char:dr._candy" target="fact:franklin_drugged">
+      <data key="d3">KNOWS</data>
+      <data key="d4">june_21_night</data>
+      <data key="d5">true</data>
+      <data key="d6">1.0</data>
+    </edge>
+  </graph>
+</graphml>

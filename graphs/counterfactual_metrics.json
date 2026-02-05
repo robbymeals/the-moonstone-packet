@@ -1,0 +1,20 @@
+{
+  "total_nodes": 45,
+  "actual_path_nodes": 38,
+  "counterfactual_nodes": 7,
+  "hinge_points": 10,
+  "total_edges": 47,
+  "chain_probability": 5.343463271856307e-13,
+  "hinge_point_list": [
+    "bequeaths_to_rachel",
+    "candy_doses_franklin",
+    "rachel_witnesses",
+    "godfrey_sees_opportunity",
+    "godfrey_steals",
+    "rosanna_finds_nightgown",
+    "rosanna_suicide",
+    "candy_ill",
+    "jennings_records_ravings",
+    "jennings_reconstructs"
+  ]
+}

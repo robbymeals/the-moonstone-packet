@@ -1,0 +1,80 @@
+[
+  {
+    "node": "candy_doses_franklin",
+    "description": "Dr. Candy secretly doses Franklin with laudanum",
+    "p_actual": 0.15,
+    "alternatives": [
+      "candy_does_nothing",
+      "candy_confronts_directly"
+    ],
+    "counterfactual_branch": []
+  },
+  {
+    "node": "jennings_reconstructs",
+    "description": "Jennings reconstructs the truth about laudanum",
+    "p_actual": 0.25,
+    "alternatives": [],
+    "counterfactual_branch": []
+  },
+  {
+    "node": "rachel_witnesses",
+    "description": "Rachel sees Franklin take the diamond",
+    "p_actual": 0.3,
+    "alternatives": [],
+    "counterfactual_branch": []
+  },
+  {
+    "node": "rosanna_suicide",
+    "description": "Rosanna commits suicide",
+    "p_actual": 0.4,
+    "alternatives": [],
+    "counterfactual_branch": []
+  },
+  {
+    "node": "bequeaths_to_rachel",
+    "description": "Herncastle leaves diamond to Rachel",
+    "p_actual": 0.5,
+    "alternatives": [
+      "destroyed",
+      "sold",
+      "museum",
+      "buried"
+    ],
+    "counterfactual_branch": []
+  },
+  {
+    "node": "godfrey_sees_opportunity",
+    "description": "Godfrey observes Franklin with diamond",
+    "p_actual": 0.5,
+    "alternatives": [],
+    "counterfactual_branch": []
+  },
+  {
+    "node": "rosanna_finds_nightgown",
+    "description": "Rosanna discovers the stained nightgown",
+    "p_actual": 0.5,
+    "alternatives": [],
+    "counterfactual_branch": []
+  },
+  {
+    "node": "candy_ill",
+    "description": "Dr. Candy falls ill with brain fever",
+    "p_actual": 0.5,
+    "alternatives": [],
+    "counterfactual_branch": []
+  },
+  {
+    "node": "jennings_records_ravings",
+    "description": "Jennings records Candy's fever-ravings",
+    "p_actual": 0.5,
+    "alternatives": [],
+    "counterfactual_branch": []
+  },
+  {
+    "node": "godfrey_steals",
+    "description": "Godfrey takes diamond from unconscious Franklin",
+    "p_actual": 0.6,
+    "alternatives": [],
+    "counterfactual_branch": []
+  }
+]

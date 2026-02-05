@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-02-04">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="4" title="relationship" type="string" />
+      <attribute id="5" title="necessity" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="description" type="string" />
+      <attribute id="1" title="date" type="string" />
+      <attribute id="2" title="agent" type="string" />
+      <attribute id="3" title="necessity" type="string" />
+    </attributes>
+    <nodes>
+      <node id="E01_herncastle_steals" label="E01_herncastle_steals">
+        <attvalues>
+          <attvalue for="0" value="Colonel Herncastle steals the Moonstone at Seringapatam (1799)" />
+          <attvalue for="1" value="1799-05-04" />
+          <attvalue for="2" value="Herncastle" />
+          <attvalue for="3" value="required" />
+        </attvalues>
+      </node>
+      <node id="E02_brahmins_pursue" label="E02_brahmins_pursue">
+        <attvalues>
+          <attvalue for="0" value="Brahmins begin generational pursuit of the diamond" />
+          <attvalue for="1" value="1799" />
+          <attvalue for="2" value="Brahmins" />
+          <attvalue for="3" value="required" />
+        </attvalues>
+      </node>
+      <node id="E03_herncastle_bequeaths" label="E03_herncastle_bequeaths">
+        <attvalues>
+          <attvalue for="0" value="Herncastle bequeaths diamond to Rachel in his will" />
+          <attvalue for="1" value="1848-early" />
+          <attvalue for="2" value="Herncastle" />
+          <attvalue for="3" value="required" />
+        </attvalues>
+      </node>
+      <node id="E04_franklin_brings_diamond" label="E04_franklin_brings_diamond">
+        <attvalues>
+          <attvalue for="0" value="Franklin Blake brings the diamond to the Verinder house" />
+          <attvalue for="1" value="1848-05-25" />
+          <attvalue for="2" value="Franklin Blake" />
+          <attvalue for="3" value="required" />
+        </attvalues>
+      </node>
+      <node id="E05_birthday_dinner" label="E05_birthday_dinner">
+        <attvalues>
+          <attvalue for="0" value="Rachel receives the Moonstone at her birthday dinner" />
+          <attvalue for="1" value="1848-06-21" />
+          <attvalue for="2" value="Rachel Verinder" />
+          <attvalue for="3" value="required" />
+        </attvalues>
+      </node>
+      <node id="E06_candy_drugs_franklin" label="E06_candy_drugs_franklin">
+        <attvalues>
+          <attvalue for="0" value="Dr. Candy secretly doses Franklin with laudanum" />
+          <attvalue for="1" value="1848-06-21" />
+          <attvalue for="2" value="Dr. Candy" />
+          <attvalue for="3" value="required" />
+        </attvalues>
+      </node>
+      <node id="E07_franklin_takes_diamond" label="E07_franklin_takes_diamond">
+        <attvalues>
+          <attvalue for="0" value="Franklin takes the diamond while in laudanum trance" />
+          <attvalue for="1" value="1848-06-21" />
+          <attvalue for="2" value="Franklin Blake" />
+          <attvalue for="3" value="required" />
+        </attvalues>
+      </node>
+      <node id="E08_rachel_witnesses" label="E08_rachel_witnesses">
+        <attvalues>
+          <attvalue for="0" value="Rachel witnesses Franklin take the diamond" />
+          <attvalue for="1" value="1848-06-21" />
+          <attvalue for="2" value="Rachel Verinder" />
+          <attvalue for="3" value="required" />
+        </attvalues>
+      </node>
+      <node id="E09_godfrey_steals" label="E09_godfrey_steals">
+        <attvalues>
+          <attvalue for="0" value="Godfrey takes the diamond from Franklin's room" />
+          <attvalue for="1" value="1848-06-22" />
+          <attvalue for="2" value="Godfrey Ablewhite" />
+          <attvalue for="3" value="required" />
+        </attvalues>
+      </node>
+      <node id="E10_rosanna_finds_nightgown" label="E10_rosanna_finds_nightgown">
+        <attvalues>
+          <attvalue for="0" value="Rosanna discovers Franklin's paint-stained nightgown" />
+          <attvalue for="1" value="1848-06-22" />
+          <attvalue for="2" value="Rosanna Spearman" />
+          <attvalue for="3" value="contingent" />
+        </attvalues>
+      </node>
+      <node id="E11_rosanna_hides_evidence" label="E11_rosanna_hides_evidence">
+        <attvalues>
+          <attvalue for="0" value="Rosanna hides the nightgown in the Shivering Sand" />
+          <attvalue for="1" value="1848-06-22" />
+          <attvalue for="2" value="Rosanna Spearman" />
+          <attvalue for="3" value="contingent" />
+        </attvalues>
+      </node>
+      <node id="E12_godfrey_pledges_diamond" label="E12_godfrey_pledges_diamond">
+        <attvalues>
+          <attvalue for="0" value="Godfrey pledges the diamond to Mr. Luker" />
+          <attvalue for="1" value="1848-06-23" />
+          <attvalue for="2" value="Godfrey Ablewhite" />
+          <attvalue for="3" value="required" />
+        </attvalues>
+      </node>
+      <node id="E13_cuff_investigates" label="E13_cuff_investigates">
+        <attvalues>
+          <attvalue for="0" value="Sergeant Cuff investigates but fails to solve" />
+          <attvalue for="1" value="1848-06-23" />
+          <attvalue for="2" value="Sergeant Cuff" />
+          <attvalue for="3" value="contingent" />
+        </attvalues>
+      </node>
+      <node id="E14_rachel_silence" label="E14_rachel_silence">
+        <attvalues>
+          <attvalue for="0" value="Rachel maintains silence to protect Franklin" />
+          <attvalue for="1" value="1848-06" />
+          <attvalue for="2" value="Rachel Verinder" />
+          <attvalue for="3" value="required" />
+        </attvalues>
+      </node>
+      <node id="E15_rosanna_suicide" label="E15_rosanna_suicide">
+        <attvalues>
+          <attvalue for="0" value="Rosanna commits suicide at the Shivering Sand" />
+          <attvalue for="1" value="1848-06-26" />
+          <attvalue for="2" value="Rosanna Spearman" />
+          <attvalue for="3" value="contingent" />
+        </attvalues>
+      </node>
+      <node id="E16_franklin_departs" label="E16_franklin_departs">
+        <attvalues>
+          <attvalue for="0" value="Franklin leaves for Europe, confused by Rachel's coldness" />
+          <attvalue for="1" value="1848-06" />
+          <attvalue for="2" value="Franklin Blake" />
+          <attvalue for="3" value="contingent" />
+        </attvalues>
+      </node>
+      <node id="E17_jennings_reconstructs" label="E17_jennings_reconstructs">
+        <attvalues>
+          <attvalue for="0" value="Ezra Jennings reconstructs Dr. Candy's confession" />
+          <attvalue for="1" value="1849-06" />
+          <attvalue for="2" value="Ezra Jennings" />
+          <attvalue for="3" value="required" />
+        </attvalues>
+      </node>
+      <node id="E18_opium_experiment" label="E18_opium_experiment">
+        <attvalues>
+          <attvalue for="0" value="The opium experiment proves Franklin's unconscious action" />
+          <attvalue for="1" value="1849-06-25" />
+          <attvalue for="2" value="Ezra Jennings" />
+          <attvalue for="3" value="required" />
+        </attvalues>
+      </node>
+      <node id="E19_reconciliation" label="E19_reconciliation">
+        <attvalues>
+          <attvalue for="0" value="Rachel and Franklin reconcile" />
+          <attvalue for="1" value="1849-06" />
+          <attvalue for="2" value="Rachel Verinder" />
+          <attvalue for="3" value="required" />
+        </attvalues>
+      </node>
+      <node id="E20_godfrey_reclaims" label="E20_godfrey_reclaims">
+        <attvalues>
+          <attvalue for="0" value="Godfrey reclaims the diamond from Luker" />
+          <attvalue for="1" value="1849-06-26" />
+          <attvalue for="2" value="Godfrey Ablewhite" />
+          <attvalue for="3" value="required" />
+        </attvalues>
+      </node>
+      <node id="E21_brahmins_kill_godfrey" label="E21_brahmins_kill_godfrey">
+        <attvalues>
+          <attvalue for="0" value="The Brahmins murder Godfrey and recover the diamond" />
+          <attvalue for="1" value="1849-06-27" />
+          <attvalue for="2" value="Brahmins" />
+          <attvalue for="3" value="required" />
+        </attvalues>
+      </node>
+      <node id="E22_diamond_returns" label="E22_diamond_returns">
+        <attvalues>
+          <attvalue for="0" value="The Moonstone is restored to the idol in India" />
+          <attvalue for="1" value="1850" />
+          <attvalue for="2" value="Brahmins" />
+          <attvalue for="3" value="required" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="E01_herncastle_steals" target="E02_brahmins_pursue" id="0" weight="1.0">
+        <attvalues>
+          <attvalue for="4" value="CAUSES" />
+          <attvalue for="5" value="required" />
+        </attvalues>
+      </edge>
+      <edge source="E01_herncastle_steals" target="E03_herncastle_bequeaths" id="1" weight="1.0">
+        <attvalues>
+          <attvalue for="4" value="ENABLES" />
+          <attvalue for="5" value="required" />
+        </attvalues>
+      </edge>
+      <edge source="E02_brahmins_pursue" target="E21_brahmins_kill_godfrey" id="2" weight="1.0">
+        <attvalues>
+          <attvalue for="4" value="ENABLES" />
+          <attvalue for="5" value="required" />
+        </attvalues>
+      </edge>
+      <edge source="E03_herncastle_bequeaths" target="E04_franklin_brings_diamond" id="3" weight="1.0">
+        <attvalues>
+          <attvalue for="4" value="CAUSES" />
+          <attvalue for="5" value="required" />
+        </attvalues>
+      </edge>
+      <edge source="E04_franklin_brings_diamond" target="E05_birthday_dinner" id="4" weight="1.0">
+        <attvalues>
+          <attvalue for="4" value="ENABLES" />
+          <attvalue for="5" value="required" />
+        </attvalues>
+      </edge>
+      <edge source="E05_birthday_dinner" target="E06_candy_drugs_franklin" id="5" weight="0.5">
+        <attvalues>
+          <attvalue for="4" value="ENABLES" />
+          <attvalue for="5" value="contingent" />
+        </attvalues>
+      </edge>
+      <edge source="E06_candy_drugs_franklin" target="E07_franklin_takes_diamond" id="6" weight="1.0">
+        <attvalues>
+          <attvalue for="4" value="CAUSES" />
+          <attvalue for="5" value="required" />
+        </attvalues>
+      </edge>
+      <edge source="E06_candy_drugs_franklin" target="E17_jennings_reconstructs" id="7" weight="1.0">
+        <attvalues>
+          <attvalue for="4" value="ENABLES" />
+          <attvalue for="5" value="required" />
+        </attvalues>
+      </edge>
+      <edge source="E07_franklin_takes_diamond" target="E08_rachel_witnesses" id="8" weight="0.5">
+        <attvalues>
+          <attvalue for="4" value="ENABLES" />
+          <attvalue for="5" value="contingent" />
+        </attvalues>
+      </edge>
+      <edge source="E07_franklin_takes_diamond" target="E09_godfrey_steals" id="9" weight="1.0">
+        <attvalues>
+          <attvalue for="4" value="ENABLES" />
+          <attvalue for="5" value="required" />
+        </attvalues>
+      </edge>
+      <edge source="E07_franklin_takes_diamond" target="E10_rosanna_finds_nightgown" id="10" weight="0.5">
+        <attvalues>
+          <attvalue for="4" value="ENABLES" />
+          <attvalue for="5" value="contingent" />
+        </attvalues>
+      </edge>
+      <edge source="E08_rachel_witnesses" target="E14_rachel_silence" id="11" weight="1.0">
+        <attvalues>
+          <attvalue for="4" value="CAUSES" />
+          <attvalue for="5" value="required" />
+        </attvalues>
+      </edge>
+      <edge source="E09_godfrey_steals" target="E12_godfrey_pledges_diamond" id="12" weight="1.0">
+        <attvalues>
+          <attvalue for="4" value="CAUSES" />
+          <attvalue for="5" value="required" />
+        </attvalues>
+      </edge>
+      <edge source="E10_rosanna_finds_nightgown" target="E11_rosanna_hides_evidence" id="13" weight="0.5">
+        <attvalues>
+          <attvalue for="4" value="CAUSES" />
+          <attvalue for="5" value="contingent" />
+        </attvalues>
+      </edge>
+      <edge source="E11_rosanna_hides_evidence" target="E15_rosanna_suicide" id="14" weight="0.5">
+        <attvalues>
+          <attvalue for="4" value="ENABLES" />
+          <attvalue for="5" value="contingent" />
+        </attvalues>
+      </edge>
+      <edge source="E12_godfrey_pledges_diamond" target="E20_godfrey_reclaims" id="15" weight="1.0">
+        <attvalues>
+          <attvalue for="4" value="ENABLES" />
+          <attvalue for="5" value="required" />
+        </attvalues>
+      </edge>
+      <edge source="E14_rachel_silence" target="E13_cuff_investigates" id="16" weight="0.5">
+        <attvalues>
+          <attvalue for="4" value="ENABLES" />
+          <attvalue for="5" value="contingent" />
+        </attvalues>
+      </edge>
+      <edge source="E14_rachel_silence" target="E16_franklin_departs" id="17" weight="0.5">
+        <attvalues>
+          <attvalue for="4" value="CAUSES" />
+          <attvalue for="5" value="contingent" />
+        </attvalues>
+      </edge>
+      <edge source="E17_jennings_reconstructs" target="E18_opium_experiment" id="18" weight="1.0">
+        <attvalues>
+          <attvalue for="4" value="CAUSES" />
+          <attvalue for="5" value="required" />
+        </attvalues>
+      </edge>
+      <edge source="E18_opium_experiment" target="E19_reconciliation" id="19" weight="1.0">
+        <attvalues>
+          <attvalue for="4" value="CAUSES" />
+          <attvalue for="5" value="required" />
+        </attvalues>
+      </edge>
+      <edge source="E20_godfrey_reclaims" target="E21_brahmins_kill_godfrey" id="20" weight="1.0">
+        <attvalues>
+          <attvalue for="4" value="CAUSES" />
+          <attvalue for="5" value="required" />
+        </attvalues>
+      </edge>
+      <edge source="E21_brahmins_kill_godfrey" target="E22_diamond_returns" id="21" weight="1.0">
+        <attvalues>
+          <attvalue for="4" value="CAUSES" />
+          <attvalue for="5" value="required" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

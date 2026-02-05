@@ -1,0 +1,317 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "description": "Colonel Herncastle steals the Moonstone at Seringapatam (1799)",
+      "date": "1799-05-04",
+      "agent": "Herncastle",
+      "necessity": "required",
+      "id": "E01_herncastle_steals"
+    },
+    {
+      "description": "Brahmins begin generational pursuit of the diamond",
+      "date": "1799",
+      "agent": "Brahmins",
+      "necessity": "required",
+      "id": "E02_brahmins_pursue"
+    },
+    {
+      "description": "Herncastle bequeaths diamond to Rachel in his will",
+      "date": "1848-early",
+      "agent": "Herncastle",
+      "necessity": "required",
+      "id": "E03_herncastle_bequeaths"
+    },
+    {
+      "description": "Franklin Blake brings the diamond to the Verinder house",
+      "date": "1848-05-25",
+      "agent": "Franklin Blake",
+      "necessity": "required",
+      "id": "E04_franklin_brings_diamond"
+    },
+    {
+      "description": "Rachel receives the Moonstone at her birthday dinner",
+      "date": "1848-06-21",
+      "agent": "Rachel Verinder",
+      "necessity": "required",
+      "id": "E05_birthday_dinner"
+    },
+    {
+      "description": "Dr. Candy secretly doses Franklin with laudanum",
+      "date": "1848-06-21",
+      "agent": "Dr. Candy",
+      "necessity": "required",
+      "id": "E06_candy_drugs_franklin"
+    },
+    {
+      "description": "Franklin takes the diamond while in laudanum trance",
+      "date": "1848-06-21",
+      "agent": "Franklin Blake",
+      "necessity": "required",
+      "id": "E07_franklin_takes_diamond"
+    },
+    {
+      "description": "Rachel witnesses Franklin take the diamond",
+      "date": "1848-06-21",
+      "agent": "Rachel Verinder",
+      "necessity": "required",
+      "id": "E08_rachel_witnesses"
+    },
+    {
+      "description": "Godfrey takes the diamond from Franklin's room",
+      "date": "1848-06-22",
+      "agent": "Godfrey Ablewhite",
+      "necessity": "required",
+      "id": "E09_godfrey_steals"
+    },
+    {
+      "description": "Rosanna discovers Franklin's paint-stained nightgown",
+      "date": "1848-06-22",
+      "agent": "Rosanna Spearman",
+      "necessity": "contingent",
+      "id": "E10_rosanna_finds_nightgown"
+    },
+    {
+      "description": "Rosanna hides the nightgown in the Shivering Sand",
+      "date": "1848-06-22",
+      "agent": "Rosanna Spearman",
+      "necessity": "contingent",
+      "id": "E11_rosanna_hides_evidence"
+    },
+    {
+      "description": "Godfrey pledges the diamond to Mr. Luker",
+      "date": "1848-06-23",
+      "agent": "Godfrey Ablewhite",
+      "necessity": "required",
+      "id": "E12_godfrey_pledges_diamond"
+    },
+    {
+      "description": "Sergeant Cuff investigates but fails to solve",
+      "date": "1848-06-23",
+      "agent": "Sergeant Cuff",
+      "necessity": "contingent",
+      "id": "E13_cuff_investigates"
+    },
+    {
+      "description": "Rachel maintains silence to protect Franklin",
+      "date": "1848-06",
+      "agent": "Rachel Verinder",
+      "necessity": "required",
+      "id": "E14_rachel_silence"
+    },
+    {
+      "description": "Rosanna commits suicide at the Shivering Sand",
+      "date": "1848-06-26",
+      "agent": "Rosanna Spearman",
+      "necessity": "contingent",
+      "id": "E15_rosanna_suicide"
+    },
+    {
+      "description": "Franklin leaves for Europe, confused by Rachel's coldness",
+      "date": "1848-06",
+      "agent": "Franklin Blake",
+      "necessity": "contingent",
+      "id": "E16_franklin_departs"
+    },
+    {
+      "description": "Ezra Jennings reconstructs Dr. Candy's confession",
+      "date": "1849-06",
+      "agent": "Ezra Jennings",
+      "necessity": "required",
+      "id": "E17_jennings_reconstructs"
+    },
+    {
+      "description": "The opium experiment proves Franklin's unconscious action",
+      "date": "1849-06-25",
+      "agent": "Ezra Jennings",
+      "necessity": "required",
+      "id": "E18_opium_experiment"
+    },
+    {
+      "description": "Rachel and Franklin reconcile",
+      "date": "1849-06",
+      "agent": "Rachel Verinder",
+      "necessity": "required",
+      "id": "E19_reconciliation"
+    },
+    {
+      "description": "Godfrey reclaims the diamond from Luker",
+      "date": "1849-06-26",
+      "agent": "Godfrey Ablewhite",
+      "necessity": "required",
+      "id": "E20_godfrey_reclaims"
+    },
+    {
+      "description": "The Brahmins murder Godfrey and recover the diamond",
+      "date": "1849-06-27",
+      "agent": "Brahmins",
+      "necessity": "required",
+      "id": "E21_brahmins_kill_godfrey"
+    },
+    {
+      "description": "The Moonstone is restored to the idol in India",
+      "date": "1850",
+      "agent": "Brahmins",
+      "necessity": "required",
+      "id": "E22_diamond_returns"
+    }
+  ],
+  "edges": [
+    {
+      "relationship": "CAUSES",
+      "necessity": "required",
+      "weight": 1.0,
+      "source": "E01_herncastle_steals",
+      "target": "E02_brahmins_pursue"
+    },
+    {
+      "relationship": "ENABLES",
+      "necessity": "required",
+      "weight": 1.0,
+      "source": "E01_herncastle_steals",
+      "target": "E03_herncastle_bequeaths"
+    },
+    {
+      "relationship": "ENABLES",
+      "necessity": "required",
+      "weight": 1.0,
+      "source": "E02_brahmins_pursue",
+      "target": "E21_brahmins_kill_godfrey"
+    },
+    {
+      "relationship": "CAUSES",
+      "necessity": "required",
+      "weight": 1.0,
+      "source": "E03_herncastle_bequeaths",
+      "target": "E04_franklin_brings_diamond"
+    },
+    {
+      "relationship": "ENABLES",
+      "necessity": "required",
+      "weight": 1.0,
+      "source": "E04_franklin_brings_diamond",
+      "target": "E05_birthday_dinner"
+    },
+    {
+      "relationship": "ENABLES",
+      "necessity": "contingent",
+      "weight": 0.5,
+      "source": "E05_birthday_dinner",
+      "target": "E06_candy_drugs_franklin"
+    },
+    {
+      "relationship": "CAUSES",
+      "necessity": "required",
+      "weight": 1.0,
+      "source": "E06_candy_drugs_franklin",
+      "target": "E07_franklin_takes_diamond"
+    },
+    {
+      "relationship": "ENABLES",
+      "necessity": "required",
+      "weight": 1.0,
+      "source": "E06_candy_drugs_franklin",
+      "target": "E17_jennings_reconstructs"
+    },
+    {
+      "relationship": "ENABLES",
+      "necessity": "contingent",
+      "weight": 0.5,
+      "source": "E07_franklin_takes_diamond",
+      "target": "E08_rachel_witnesses"
+    },
+    {
+      "relationship": "ENABLES",
+      "necessity": "required",
+      "weight": 1.0,
+      "source": "E07_franklin_takes_diamond",
+      "target": "E09_godfrey_steals"
+    },
+    {
+      "relationship": "ENABLES",
+      "necessity": "contingent",
+      "weight": 0.5,
+      "source": "E07_franklin_takes_diamond",
+      "target": "E10_rosanna_finds_nightgown"
+    },
+    {
+      "relationship": "CAUSES",
+      "necessity": "required",
+      "weight": 1.0,
+      "source": "E08_rachel_witnesses",
+      "target": "E14_rachel_silence"
+    },
+    {
+      "relationship": "CAUSES",
+      "necessity": "required",
+      "weight": 1.0,
+      "source": "E09_godfrey_steals",
+      "target": "E12_godfrey_pledges_diamond"
+    },
+    {
+      "relationship": "CAUSES",
+      "necessity": "contingent",
+      "weight": 0.5,
+      "source": "E10_rosanna_finds_nightgown",
+      "target": "E11_rosanna_hides_evidence"
+    },
+    {
+      "relationship": "ENABLES",
+      "necessity": "contingent",
+      "weight": 0.5,
+      "source": "E11_rosanna_hides_evidence",
+      "target": "E15_rosanna_suicide"
+    },
+    {
+      "relationship": "ENABLES",
+      "necessity": "required",
+      "weight": 1.0,
+      "source": "E12_godfrey_pledges_diamond",
+      "target": "E20_godfrey_reclaims"
+    },
+    {
+      "relationship": "ENABLES",
+      "necessity": "contingent",
+      "weight": 0.5,
+      "source": "E14_rachel_silence",
+      "target": "E13_cuff_investigates"
+    },
+    {
+      "relationship": "CAUSES",
+      "necessity": "contingent",
+      "weight": 0.5,
+      "source": "E14_rachel_silence",
+      "target": "E16_franklin_departs"
+    },
+    {
+      "relationship": "CAUSES",
+      "necessity": "required",
+      "weight": 1.0,
+      "source": "E17_jennings_reconstructs",
+      "target": "E18_opium_experiment"
+    },
+    {
+      "relationship": "CAUSES",
+      "necessity": "required",
+      "weight": 1.0,
+      "source": "E18_opium_experiment",
+      "target": "E19_reconciliation"
+    },
+    {
+      "relationship": "CAUSES",
+      "necessity": "required",
+      "weight": 1.0,
+      "source": "E20_godfrey_reclaims",
+      "target": "E21_brahmins_kill_godfrey"
+    },
+    {
+      "relationship": "CAUSES",
+      "necessity": "required",
+      "weight": 1.0,
+      "source": "E21_brahmins_kill_godfrey",
+      "target": "E22_diamond_returns"
+    }
+  ]
+}

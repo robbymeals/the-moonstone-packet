@@ -1,0 +1,258 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "description": "Herncastle at Seringapatam, diamond guarded by priests",
+      "node_type": "state",
+      "id": "S00"
+    },
+    {
+      "description": "Herncastle steals the diamond",
+      "actual_outcome": "steals_diamond",
+      "p_actual": 0.6,
+      "p_other": 0.4,
+      "inevitability": "moderate",
+      "node_type": "transition",
+      "id": "T01"
+    },
+    {
+      "description": "Herncastle has diamond, family ostracizes him, he's dying",
+      "node_type": "state",
+      "id": "S01"
+    },
+    {
+      "description": "Herncastle bequeaths diamond to Rachel",
+      "actual_outcome": "bequeaths_to_rachel",
+      "p_actual": 0.5,
+      "p_other": 0.5,
+      "inevitability": "contingent",
+      "node_type": "transition",
+      "id": "T02"
+    },
+    {
+      "description": "Diamond at Verinder house, birthday dinner, Franklin protective",
+      "node_type": "state",
+      "id": "S02"
+    },
+    {
+      "description": "Dr. Candy doses Franklin with laudanum",
+      "actual_outcome": "candy_doses_franklin",
+      "p_actual": 0.15,
+      "p_other": 0.85,
+      "inevitability": "surprising",
+      "node_type": "transition",
+      "id": "T03"
+    },
+    {
+      "description": "Franklin drugged, anxious about diamond, paint wet on door",
+      "node_type": "state",
+      "id": "S03"
+    },
+    {
+      "description": "Franklin takes diamond while unconscious",
+      "actual_outcome": "franklin_takes_diamond",
+      "p_actual": 0.7,
+      "p_other": 0.3,
+      "inevitability": "likely_given_prior",
+      "node_type": "transition",
+      "id": "T04"
+    },
+    {
+      "description": "Franklin has taken diamond to his room unconsciously",
+      "node_type": "state",
+      "id": "S04"
+    },
+    {
+      "description": "Godfrey steals diamond from Franklin",
+      "actual_outcome": "godfrey_steals",
+      "p_actual": 0.4,
+      "p_other": 0.6,
+      "inevitability": "moderate",
+      "node_type": "transition",
+      "id": "T05"
+    },
+    {
+      "description": "Rachel saw Franklin take diamond, believes he stole it",
+      "node_type": "state",
+      "id": "S05"
+    },
+    {
+      "description": "Rachel maintains silence to protect Franklin",
+      "actual_outcome": "rachel_silent",
+      "p_actual": 0.8,
+      "p_other": 0.2,
+      "inevitability": "highly_likely",
+      "node_type": "transition",
+      "id": "T06"
+    },
+    {
+      "description": "Rosanna finds stained nightgown, loves Franklin",
+      "node_type": "state",
+      "id": "S06"
+    },
+    {
+      "description": "Rosanna hides the evidence",
+      "actual_outcome": "rosanna_hides_evidence",
+      "p_actual": 0.75,
+      "p_other": 0.25,
+      "inevitability": "highly_likely",
+      "node_type": "transition",
+      "id": "T07"
+    },
+    {
+      "description": "Rosanna has hidden evidence, Franklin oblivious, she despairs",
+      "node_type": "state",
+      "id": "S07"
+    },
+    {
+      "description": "Rosanna commits suicide",
+      "actual_outcome": "rosanna_suicide",
+      "p_actual": 0.4,
+      "p_other": 0.6,
+      "inevitability": "moderate",
+      "node_type": "transition",
+      "id": "T08"
+    },
+    {
+      "description": "Diamond at Luker's for a year, Godfrey desperate, pledge expires",
+      "node_type": "state",
+      "id": "S08"
+    },
+    {
+      "description": "Godfrey reclaims diamond to flee",
+      "actual_outcome": "godfrey_reclaims",
+      "p_actual": 0.9,
+      "p_other": 0.1,
+      "inevitability": "nearly_inevitable",
+      "node_type": "transition",
+      "id": "T09"
+    },
+    {
+      "description": "Godfrey has diamond, Indians have tracked it for 50 years",
+      "node_type": "state",
+      "id": "S09"
+    },
+    {
+      "description": "Indians kill Godfrey, recover diamond",
+      "actual_outcome": "indians_kill_godfrey",
+      "p_actual": 0.85,
+      "p_other": 0.15,
+      "inevitability": "highly_likely",
+      "node_type": "transition",
+      "id": "T10"
+    },
+    {
+      "description": "Franklin confused, Rachel hostile, evidence hidden",
+      "node_type": "state",
+      "id": "S10"
+    },
+    {
+      "description": "Ezra Jennings discovers the truth",
+      "actual_outcome": "jennings_discovers",
+      "p_actual": 0.3,
+      "p_other": 0.7,
+      "inevitability": "surprising",
+      "node_type": "transition",
+      "id": "T11"
+    }
+  ],
+  "edges": [
+    {
+      "factors": "Herncastle is morally corrupt; Siege provides cover; Diamond is unprotected moment; Herncastle has motive (greed/obsession)",
+      "source": "S00",
+      "target": "T01"
+    },
+    {
+      "source": "T01",
+      "target": "S01"
+    },
+    {
+      "factors": "Herncastle is vindictive/bitter; Rachel is innocent/vulnerable; Herncastle wants to spread the curse/trouble; Or: genuine affection for niece",
+      "source": "S01",
+      "target": "T02"
+    },
+    {
+      "source": "T02",
+      "target": "S02"
+    },
+    {
+      "factors": "Candy offended by Franklin's dinner remarks; Candy has professional pride wounded; Candy has access to laudanum; Victorian culture of casual drugging",
+      "source": "S02",
+      "target": "T03"
+    },
+    {
+      "source": "T03",
+      "target": "S03"
+    },
+    {
+      "factors": "Laudanum effects on memory and volition; Franklin's anxiety about diamond security; Somnambulism is documented effect; No obstacles between rooms",
+      "source": "S03",
+      "target": "T04"
+    },
+    {
+      "source": "T04",
+      "target": "S04"
+    },
+    {
+      "factors": "Godfrey is awake (why?); Godfrey has financial desperation; Godfrey sees opportunity; Franklin is unconscious/vulnerable",
+      "source": "S04",
+      "target": "T05"
+    },
+    {
+      "source": "T05",
+      "target": "S05"
+    },
+    {
+      "factors": "Rachel loves Franklin; Rachel has fierce pride/principles; Rachel would rather suffer than betray; Victorian women expected to be passive",
+      "source": "S05",
+      "target": "T06"
+    },
+    {
+      "source": "T06",
+      "target": "S06"
+    },
+    {
+      "factors": "Rosanna's love for Franklin; Rosanna's outsider status (former thief); Rosanna's desperation; Rosanna can access Shivering Sand",
+      "source": "S06",
+      "target": "T07"
+    },
+    {
+      "source": "T07",
+      "target": "S07"
+    },
+    {
+      "factors": "Rosanna's hopeless love; Rosanna's isolation; Victorian limited options for women of her class; The Shivering Sand nearby",
+      "source": "S07",
+      "target": "T08"
+    },
+    {
+      "source": "T08",
+      "target": "S08"
+    },
+    {
+      "factors": "Pledge term expiring; Godfrey's embezzlement about to be discovered; Diamond is his only escape",
+      "source": "S08",
+      "target": "T09"
+    },
+    {
+      "source": "T09",
+      "target": "S09"
+    },
+    {
+      "factors": "Indians' 50-year sacred mission; They've been patient and determined; Godfrey is alone and vulnerable; No witnesses at the inn",
+      "source": "S09",
+      "target": "T10"
+    },
+    {
+      "source": "T10",
+      "target": "S10"
+    },
+    {
+      "factors": "Jennings has Candy's fever-notes; Jennings is brilliant and desperate for meaning; Jennings understands opium; Franklin seeks help",
+      "source": "S10",
+      "target": "T11"
+    }
+  ]
+}

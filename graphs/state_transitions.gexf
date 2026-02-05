@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-02-04">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="6" title="factors" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="description" type="string" />
+      <attribute id="1" title="node_type" type="string" />
+      <attribute id="2" title="actual_outcome" type="string" />
+      <attribute id="3" title="p_actual" type="double" />
+      <attribute id="4" title="p_other" type="double" />
+      <attribute id="5" title="inevitability" type="string" />
+    </attributes>
+    <nodes>
+      <node id="S00" label="S00">
+        <attvalues>
+          <attvalue for="0" value="Herncastle at Seringapatam, diamond guarded by priests" />
+          <attvalue for="1" value="state" />
+        </attvalues>
+      </node>
+      <node id="T01" label="T01">
+        <attvalues>
+          <attvalue for="0" value="Herncastle steals the diamond" />
+          <attvalue for="2" value="steals_diamond" />
+          <attvalue for="3" value="0.6" />
+          <attvalue for="4" value="0.4" />
+          <attvalue for="5" value="moderate" />
+          <attvalue for="1" value="transition" />
+        </attvalues>
+      </node>
+      <node id="S01" label="S01">
+        <attvalues>
+          <attvalue for="0" value="Herncastle has diamond, family ostracizes him, he's dying" />
+          <attvalue for="1" value="state" />
+        </attvalues>
+      </node>
+      <node id="T02" label="T02">
+        <attvalues>
+          <attvalue for="0" value="Herncastle bequeaths diamond to Rachel" />
+          <attvalue for="2" value="bequeaths_to_rachel" />
+          <attvalue for="3" value="0.5" />
+          <attvalue for="4" value="0.5" />
+          <attvalue for="5" value="contingent" />
+          <attvalue for="1" value="transition" />
+        </attvalues>
+      </node>
+      <node id="S02" label="S02">
+        <attvalues>
+          <attvalue for="0" value="Diamond at Verinder house, birthday dinner, Franklin protective" />
+          <attvalue for="1" value="state" />
+        </attvalues>
+      </node>
+      <node id="T03" label="T03">
+        <attvalues>
+          <attvalue for="0" value="Dr. Candy doses Franklin with laudanum" />
+          <attvalue for="2" value="candy_doses_franklin" />
+          <attvalue for="3" value="0.15" />
+          <attvalue for="4" value="0.85" />
+          <attvalue for="5" value="surprising" />
+          <attvalue for="1" value="transition" />
+        </attvalues>
+      </node>
+      <node id="S03" label="S03">
+        <attvalues>
+          <attvalue for="0" value="Franklin drugged, anxious about diamond, paint wet on door" />
+          <attvalue for="1" value="state" />
+        </attvalues>
+      </node>
+      <node id="T04" label="T04">
+        <attvalues>
+          <attvalue for="0" value="Franklin takes diamond while unconscious" />
+          <attvalue for="2" value="franklin_takes_diamond" />
+          <attvalue for="3" value="0.7" />
+          <attvalue for="4" value="0.3" />
+          <attvalue for="5" value="likely_given_prior" />
+          <attvalue for="1" value="transition" />
+        </attvalues>
+      </node>
+      <node id="S04" label="S04">
+        <attvalues>
+          <attvalue for="0" value="Franklin has taken diamond to his room unconsciously" />
+          <attvalue for="1" value="state" />
+        </attvalues>
+      </node>
+      <node id="T05" label="T05">
+        <attvalues>
+          <attvalue for="0" value="Godfrey steals diamond from Franklin" />
+          <attvalue for="2" value="godfrey_steals" />
+          <attvalue for="3" value="0.4" />
+          <attvalue for="4" value="0.6" />
+          <attvalue for="5" value="moderate" />
+          <attvalue for="1" value="transition" />
+        </attvalues>
+      </node>
+      <node id="S05" label="S05">
+        <attvalues>
+          <attvalue for="0" value="Rachel saw Franklin take diamond, believes he stole it" />
+          <attvalue for="1" value="state" />
+        </attvalues>
+      </node>
+      <node id="T06" label="T06">
+        <attvalues>
+          <attvalue for="0" value="Rachel maintains silence to protect Franklin" />
+          <attvalue for="2" value="rachel_silent" />
+          <attvalue for="3" value="0.8" />
+          <attvalue for="4" value="0.2" />
+          <attvalue for="5" value="highly_likely" />
+          <attvalue for="1" value="transition" />
+        </attvalues>
+      </node>
+      <node id="S06" label="S06">
+        <attvalues>
+          <attvalue for="0" value="Rosanna finds stained nightgown, loves Franklin" />
+          <attvalue for="1" value="state" />
+        </attvalues>
+      </node>
+      <node id="T07" label="T07">
+        <attvalues>
+          <attvalue for="0" value="Rosanna hides the evidence" />
+          <attvalue for="2" value="rosanna_hides_evidence" />
+          <attvalue for="3" value="0.75" />
+          <attvalue for="4" value="0.25" />
+          <attvalue for="5" value="highly_likely" />
+          <attvalue for="1" value="transition" />
+        </attvalues>
+      </node>
+      <node id="S07" label="S07">
+        <attvalues>
+          <attvalue for="0" value="Rosanna has hidden evidence, Franklin oblivious, she despairs" />
+          <attvalue for="1" value="state" />
+        </attvalues>
+      </node>
+      <node id="T08" label="T08">
+        <attvalues>
+          <attvalue for="0" value="Rosanna commits suicide" />
+          <attvalue for="2" value="rosanna_suicide" />
+          <attvalue for="3" value="0.4" />
+          <attvalue for="4" value="0.6" />
+          <attvalue for="5" value="moderate" />
+          <attvalue for="1" value="transition" />
+        </attvalues>
+      </node>
+      <node id="S08" label="S08">
+        <attvalues>
+          <attvalue for="0" value="Diamond at Luker's for a year, Godfrey desperate, pledge expires" />
+          <attvalue for="1" value="state" />
+        </attvalues>
+      </node>
+      <node id="T09" label="T09">
+        <attvalues>
+          <attvalue for="0" value="Godfrey reclaims diamond to flee" />
+          <attvalue for="2" value="godfrey_reclaims" />
+          <attvalue for="3" value="0.9" />
+          <attvalue for="4" value="0.1" />
+          <attvalue for="5" value="nearly_inevitable" />
+          <attvalue for="1" value="transition" />
+        </attvalues>
+      </node>
+      <node id="S09" label="S09">
+        <attvalues>
+          <attvalue for="0" value="Godfrey has diamond, Indians have tracked it for 50 years" />
+          <attvalue for="1" value="state" />
+        </attvalues>
+      </node>
+      <node id="T10" label="T10">
+        <attvalues>
+          <attvalue for="0" value="Indians kill Godfrey, recover diamond" />
+          <attvalue for="2" value="indians_kill_godfrey" />
+          <attvalue for="3" value="0.85" />
+          <attvalue for="4" value="0.15" />
+          <attvalue for="5" value="highly_likely" />
+          <attvalue for="1" value="transition" />
+        </attvalues>
+      </node>
+      <node id="S10" label="S10">
+        <attvalues>
+          <attvalue for="0" value="Franklin confused, Rachel hostile, evidence hidden" />
+          <attvalue for="1" value="state" />
+        </attvalues>
+      </node>
+      <node id="T11" label="T11">
+        <attvalues>
+          <attvalue for="0" value="Ezra Jennings discovers the truth" />
+          <attvalue for="2" value="jennings_discovers" />
+          <attvalue for="3" value="0.3" />
+          <attvalue for="4" value="0.7" />
+          <attvalue for="5" value="surprising" />
+          <attvalue for="1" value="transition" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="S00" target="T01" id="0">
+        <attvalues>
+          <attvalue for="6" value="Herncastle is morally corrupt; Siege provides cover; Diamond is unprotected moment; Herncastle has motive (greed/obsession)" />
+        </attvalues>
+      </edge>
+      <edge source="T01" target="S01" id="1" />
+      <edge source="S01" target="T02" id="2">
+        <attvalues>
+          <attvalue for="6" value="Herncastle is vindictive/bitter; Rachel is innocent/vulnerable; Herncastle wants to spread the curse/trouble; Or: genuine affection for niece" />
+        </attvalues>
+      </edge>
+      <edge source="T02" target="S02" id="3" />
+      <edge source="S02" target="T03" id="4">
+        <attvalues>
+          <attvalue for="6" value="Candy offended by Franklin's dinner remarks; Candy has professional pride wounded; Candy has access to laudanum; Victorian culture of casual drugging" />
+        </attvalues>
+      </edge>
+      <edge source="T03" target="S03" id="5" />
+      <edge source="S03" target="T04" id="6">
+        <attvalues>
+          <attvalue for="6" value="Laudanum effects on memory and volition; Franklin's anxiety about diamond security; Somnambulism is documented effect; No obstacles between rooms" />
+        </attvalues>
+      </edge>
+      <edge source="T04" target="S04" id="7" />
+      <edge source="S04" target="T05" id="8">
+        <attvalues>
+          <attvalue for="6" value="Godfrey is awake (why?); Godfrey has financial desperation; Godfrey sees opportunity; Franklin is unconscious/vulnerable" />
+        </attvalues>
+      </edge>
+      <edge source="T05" target="S05" id="9" />
+      <edge source="S05" target="T06" id="10">
+        <attvalues>
+          <attvalue for="6" value="Rachel loves Franklin; Rachel has fierce pride/principles; Rachel would rather suffer than betray; Victorian women expected to be passive" />
+        </attvalues>
+      </edge>
+      <edge source="T06" target="S06" id="11" />
+      <edge source="S06" target="T07" id="12">
+        <attvalues>
+          <attvalue for="6" value="Rosanna's love for Franklin; Rosanna's outsider status (former thief); Rosanna's desperation; Rosanna can access Shivering Sand" />
+        </attvalues>
+      </edge>
+      <edge source="T07" target="S07" id="13" />
+      <edge source="S07" target="T08" id="14">
+        <attvalues>
+          <attvalue for="6" value="Rosanna's hopeless love; Rosanna's isolation; Victorian limited options for women of her class; The Shivering Sand nearby" />
+        </attvalues>
+      </edge>
+      <edge source="T08" target="S08" id="15" />
+      <edge source="S08" target="T09" id="16">
+        <attvalues>
+          <attvalue for="6" value="Pledge term expiring; Godfrey's embezzlement about to be discovered; Diamond is his only escape" />
+        </attvalues>
+      </edge>
+      <edge source="T09" target="S09" id="17" />
+      <edge source="S09" target="T10" id="18">
+        <attvalues>
+          <attvalue for="6" value="Indians' 50-year sacred mission; They've been patient and determined; Godfrey is alone and vulnerable; No witnesses at the inn" />
+        </attvalues>
+      </edge>
+      <edge source="T10" target="S10" id="19" />
+      <edge source="S10" target="T11" id="20">
+        <attvalues>
+          <attvalue for="6" value="Jennings has Candy's fever-notes; Jennings is brilliant and desperate for meaning; Jennings understands opium; Franklin seeks help" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

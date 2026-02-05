@@ -1,0 +1,662 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-02-04">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="5" title="relationship" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="description" type="string" />
+      <attribute id="1" title="node_type" type="string" />
+      <attribute id="2" title="actual" type="string" />
+      <attribute id="3" title="hinge" type="string" />
+      <attribute id="4" title="p_actual" type="double" />
+    </attributes>
+    <nodes>
+      <node id="herncastle_corrupt" label="herncastle_corrupt">
+        <attvalues>
+          <attvalue for="0" value="Herncastle is morally corrupt" />
+          <attvalue for="1" value="condition" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="diamond_exists" label="diamond_exists">
+        <attvalues>
+          <attvalue for="0" value="The Moonstone exists at Seringapatam" />
+          <attvalue for="1" value="condition" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="siege_happens" label="siege_happens">
+        <attvalues>
+          <attvalue for="0" value="Siege of Seringapatam occurs" />
+          <attvalue for="1" value="condition" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="herncastle_steals" label="herncastle_steals">
+        <attvalues>
+          <attvalue for="0" value="Herncastle steals the diamond" />
+          <attvalue for="1" value="event" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="brahmins_pursue" label="brahmins_pursue">
+        <attvalues>
+          <attvalue for="0" value="Brahmins begin pursuing the diamond" />
+          <attvalue for="1" value="event" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="herncastle_vindictive" label="herncastle_vindictive">
+        <attvalues>
+          <attvalue for="0" value="Herncastle is bitter/vindictive toward family" />
+          <attvalue for="1" value="condition" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="bequeaths_to_rachel" label="bequeaths_to_rachel">
+        <attvalues>
+          <attvalue for="0" value="Herncastle leaves diamond to Rachel" />
+          <attvalue for="1" value="event" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="True" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="franklin_brings" label="franklin_brings">
+        <attvalues>
+          <attvalue for="0" value="Franklin brings diamond to Verinder house" />
+          <attvalue for="1" value="event" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="birthday_dinner" label="birthday_dinner">
+        <attvalues>
+          <attvalue for="0" value="Birthday dinner occurs" />
+          <attvalue for="1" value="event" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="candy_offended" label="candy_offended">
+        <attvalues>
+          <attvalue for="0" value="Dr. Candy is offended by Franklin's remarks" />
+          <attvalue for="1" value="condition" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="candy_has_laudanum" label="candy_has_laudanum">
+        <attvalues>
+          <attvalue for="0" value="Dr. Candy has access to laudanum" />
+          <attvalue for="1" value="condition" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="candy_doses_franklin" label="candy_doses_franklin">
+        <attvalues>
+          <attvalue for="0" value="Dr. Candy secretly doses Franklin with laudanum" />
+          <attvalue for="1" value="event" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="True" />
+          <attvalue for="4" value="0.15" />
+        </attvalues>
+      </node>
+      <node id="candy_does_nothing" label="candy_does_nothing">
+        <attvalues>
+          <attvalue for="0" value="Dr. Candy lets the insult go" />
+          <attvalue for="1" value="counterfactual" />
+          <attvalue for="2" value="False" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="franklin_drugged" label="franklin_drugged">
+        <attvalues>
+          <attvalue for="0" value="Franklin is under laudanum influence" />
+          <attvalue for="1" value="state" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="franklin_anxious" label="franklin_anxious">
+        <attvalues>
+          <attvalue for="0" value="Franklin is anxious about diamond security" />
+          <attvalue for="1" value="condition" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="franklin_takes_diamond" label="franklin_takes_diamond">
+        <attvalues>
+          <attvalue for="0" value="Franklin takes diamond in trance" />
+          <attvalue for="1" value="event" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="franklin_sleeps_normally" label="franklin_sleeps_normally">
+        <attvalues>
+          <attvalue for="0" value="Franklin sleeps through the night normally" />
+          <attvalue for="1" value="counterfactual" />
+          <attvalue for="2" value="False" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="rachel_awake" label="rachel_awake">
+        <attvalues>
+          <attvalue for="0" value="Rachel is awake and watching" />
+          <attvalue for="1" value="condition" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="rachel_witnesses" label="rachel_witnesses">
+        <attvalues>
+          <attvalue for="0" value="Rachel sees Franklin take the diamond" />
+          <attvalue for="1" value="event" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="True" />
+          <attvalue for="4" value="0.3" />
+        </attvalues>
+      </node>
+      <node id="rachel_asleep" label="rachel_asleep">
+        <attvalues>
+          <attvalue for="0" value="Rachel is asleep, doesn't witness" />
+          <attvalue for="1" value="counterfactual" />
+          <attvalue for="2" value="False" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="godfrey_awake" label="godfrey_awake">
+        <attvalues>
+          <attvalue for="0" value="Godfrey is awake in the night" />
+          <attvalue for="1" value="condition" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="godfrey_desperate" label="godfrey_desperate">
+        <attvalues>
+          <attvalue for="0" value="Godfrey is financially desperate (embezzlement)" />
+          <attvalue for="1" value="condition" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="godfrey_sees_opportunity" label="godfrey_sees_opportunity">
+        <attvalues>
+          <attvalue for="0" value="Godfrey observes Franklin with diamond" />
+          <attvalue for="1" value="event" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="True" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="godfrey_steals" label="godfrey_steals">
+        <attvalues>
+          <attvalue for="0" value="Godfrey takes diamond from unconscious Franklin" />
+          <attvalue for="1" value="event" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="True" />
+          <attvalue for="4" value="0.6" />
+        </attvalues>
+      </node>
+      <node id="godfrey_doesnt_steal" label="godfrey_doesnt_steal">
+        <attvalues>
+          <attvalue for="0" value="Godfrey doesn't take the opportunity" />
+          <attvalue for="1" value="counterfactual" />
+          <attvalue for="2" value="False" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="rachel_loves_franklin" label="rachel_loves_franklin">
+        <attvalues>
+          <attvalue for="0" value="Rachel loves Franklin" />
+          <attvalue for="1" value="condition" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="rachel_silent" label="rachel_silent">
+        <attvalues>
+          <attvalue for="0" value="Rachel maintains silence to protect Franklin" />
+          <attvalue for="1" value="event" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.85" />
+        </attvalues>
+      </node>
+      <node id="rachel_tells" label="rachel_tells">
+        <attvalues>
+          <attvalue for="0" value="Rachel tells someone what she saw" />
+          <attvalue for="1" value="counterfactual" />
+          <attvalue for="2" value="False" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="rosanna_finds_nightgown" label="rosanna_finds_nightgown">
+        <attvalues>
+          <attvalue for="0" value="Rosanna discovers the stained nightgown" />
+          <attvalue for="1" value="event" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="True" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="rosanna_loves_franklin" label="rosanna_loves_franklin">
+        <attvalues>
+          <attvalue for="0" value="Rosanna is in love with Franklin" />
+          <attvalue for="1" value="condition" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="rosanna_hides_evidence" label="rosanna_hides_evidence">
+        <attvalues>
+          <attvalue for="0" value="Rosanna hides the nightgown" />
+          <attvalue for="1" value="event" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="rosanna_reports" label="rosanna_reports">
+        <attvalues>
+          <attvalue for="0" value="Rosanna reports what she found" />
+          <attvalue for="1" value="counterfactual" />
+          <attvalue for="2" value="False" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="rosanna_suicide" label="rosanna_suicide">
+        <attvalues>
+          <attvalue for="0" value="Rosanna commits suicide" />
+          <attvalue for="1" value="event" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="True" />
+          <attvalue for="4" value="0.4" />
+        </attvalues>
+      </node>
+      <node id="cuff_investigates" label="cuff_investigates">
+        <attvalues>
+          <attvalue for="0" value="Sergeant Cuff investigates" />
+          <attvalue for="1" value="event" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="investigation_stalls" label="investigation_stalls">
+        <attvalues>
+          <attvalue for="0" value="Investigation stalls due to Rachel's silence" />
+          <attvalue for="1" value="event" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="candy_ill" label="candy_ill">
+        <attvalues>
+          <attvalue for="0" value="Dr. Candy falls ill with brain fever" />
+          <attvalue for="1" value="event" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="True" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="jennings_records_ravings" label="jennings_records_ravings">
+        <attvalues>
+          <attvalue for="0" value="Jennings records Candy's fever-ravings" />
+          <attvalue for="1" value="event" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="True" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="jennings_reconstructs" label="jennings_reconstructs">
+        <attvalues>
+          <attvalue for="0" value="Jennings reconstructs the truth about laudanum" />
+          <attvalue for="1" value="event" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="True" />
+          <attvalue for="4" value="0.25" />
+        </attvalues>
+      </node>
+      <node id="truth_never_discovered" label="truth_never_discovered">
+        <attvalues>
+          <attvalue for="0" value="The truth is never discovered" />
+          <attvalue for="1" value="counterfactual" />
+          <attvalue for="2" value="False" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="opium_experiment" label="opium_experiment">
+        <attvalues>
+          <attvalue for="0" value="The opium experiment proves Franklin's innocence" />
+          <attvalue for="1" value="event" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="reconciliation" label="reconciliation">
+        <attvalues>
+          <attvalue for="0" value="Rachel and Franklin reconcile" />
+          <attvalue for="1" value="event" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="godfrey_reclaims" label="godfrey_reclaims">
+        <attvalues>
+          <attvalue for="0" value="Godfrey reclaims diamond from Luker" />
+          <attvalue for="1" value="event" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="brahmins_track" label="brahmins_track">
+        <attvalues>
+          <attvalue for="0" value="Brahmins track the diamond to Godfrey" />
+          <attvalue for="1" value="event" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="godfrey_murdered" label="godfrey_murdered">
+        <attvalues>
+          <attvalue for="0" value="Brahmins kill Godfrey, recover diamond" />
+          <attvalue for="1" value="event" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+      <node id="diamond_returns" label="diamond_returns">
+        <attvalues>
+          <attvalue for="0" value="Diamond returned to India" />
+          <attvalue for="1" value="event" />
+          <attvalue for="2" value="True" />
+          <attvalue for="3" value="False" />
+          <attvalue for="4" value="0.5" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="herncastle_corrupt" target="herncastle_steals" id="0">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="diamond_exists" target="herncastle_steals" id="1">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="siege_happens" target="herncastle_steals" id="2">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="herncastle_steals" target="brahmins_pursue" id="3">
+        <attvalues>
+          <attvalue for="5" value="causes" />
+        </attvalues>
+      </edge>
+      <edge source="herncastle_steals" target="bequeaths_to_rachel" id="4">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="brahmins_pursue" target="brahmins_track" id="5">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="herncastle_vindictive" target="bequeaths_to_rachel" id="6">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="bequeaths_to_rachel" target="franklin_brings" id="7">
+        <attvalues>
+          <attvalue for="5" value="causes" />
+        </attvalues>
+      </edge>
+      <edge source="franklin_brings" target="birthday_dinner" id="8">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="birthday_dinner" target="candy_offended" id="9">
+        <attvalues>
+          <attvalue for="5" value="causes" />
+        </attvalues>
+      </edge>
+      <edge source="candy_offended" target="candy_doses_franklin" id="10">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="candy_offended" target="candy_does_nothing" id="11">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="candy_has_laudanum" target="candy_doses_franklin" id="12">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="candy_doses_franklin" target="franklin_drugged" id="13">
+        <attvalues>
+          <attvalue for="5" value="causes" />
+        </attvalues>
+      </edge>
+      <edge source="candy_doses_franklin" target="candy_ill" id="14">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="candy_does_nothing" target="franklin_sleeps_normally" id="15">
+        <attvalues>
+          <attvalue for="5" value="causes" />
+        </attvalues>
+      </edge>
+      <edge source="franklin_drugged" target="franklin_takes_diamond" id="16">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="franklin_anxious" target="franklin_takes_diamond" id="17">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="franklin_takes_diamond" target="rachel_witnesses" id="18">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="franklin_takes_diamond" target="rachel_asleep" id="19">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="franklin_takes_diamond" target="godfrey_sees_opportunity" id="20">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="franklin_takes_diamond" target="rosanna_finds_nightgown" id="21">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="rachel_awake" target="rachel_witnesses" id="22">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="rachel_witnesses" target="rachel_silent" id="23">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="rachel_witnesses" target="rachel_tells" id="24">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="godfrey_awake" target="godfrey_sees_opportunity" id="25">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="godfrey_desperate" target="godfrey_steals" id="26">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="godfrey_sees_opportunity" target="godfrey_steals" id="27">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="godfrey_sees_opportunity" target="godfrey_doesnt_steal" id="28">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="godfrey_steals" target="cuff_investigates" id="29">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="godfrey_steals" target="godfrey_reclaims" id="30">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="rachel_loves_franklin" target="rachel_silent" id="31">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="rachel_silent" target="investigation_stalls" id="32">
+        <attvalues>
+          <attvalue for="5" value="causes" />
+        </attvalues>
+      </edge>
+      <edge source="rosanna_finds_nightgown" target="rosanna_hides_evidence" id="33">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="rosanna_finds_nightgown" target="rosanna_reports" id="34">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="rosanna_loves_franklin" target="rosanna_hides_evidence" id="35">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="rosanna_hides_evidence" target="rosanna_suicide" id="36">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="rosanna_hides_evidence" target="investigation_stalls" id="37">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="investigation_stalls" target="jennings_reconstructs" id="38">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="investigation_stalls" target="truth_never_discovered" id="39">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="candy_ill" target="jennings_records_ravings" id="40">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="jennings_records_ravings" target="jennings_reconstructs" id="41">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="jennings_reconstructs" target="opium_experiment" id="42">
+        <attvalues>
+          <attvalue for="5" value="causes" />
+        </attvalues>
+      </edge>
+      <edge source="opium_experiment" target="reconciliation" id="43">
+        <attvalues>
+          <attvalue for="5" value="causes" />
+        </attvalues>
+      </edge>
+      <edge source="godfrey_reclaims" target="brahmins_track" id="44">
+        <attvalues>
+          <attvalue for="5" value="enables" />
+        </attvalues>
+      </edge>
+      <edge source="brahmins_track" target="godfrey_murdered" id="45">
+        <attvalues>
+          <attvalue for="5" value="causes" />
+        </attvalues>
+      </edge>
+      <edge source="godfrey_murdered" target="diamond_returns" id="46">
+        <attvalues>
+          <attvalue for="5" value="causes" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

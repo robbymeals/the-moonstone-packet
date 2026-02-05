@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d3" for="edge" attr.name="count" attr.type="long" />
+  <key id="d2" for="edge" attr.name="exclusive_facts" attr.type="string" />
+  <key id="d1" for="edge" attr.name="relationship" attr.type="string" />
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="gabriel_betteredge">
+      <data key="d0">Gabriel Betteredge</data>
+    </node>
+    <node id="franklin_blake">
+      <data key="d0">Franklin Blake</data>
+    </node>
+    <node id="rachel_verinder">
+      <data key="d0">Rachel Verinder</data>
+    </node>
+    <node id="rosanna_spearman">
+      <data key="d0">Rosanna Spearman</data>
+    </node>
+    <node id="sergeant_cuff">
+      <data key="d0">Sergeant Cuff</data>
+    </node>
+    <node id="godfrey_ablewhite">
+      <data key="d0">Godfrey Ablewhite</data>
+    </node>
+    <node id="ezra_jennings">
+      <data key="d0">Ezra Jennings</data>
+    </node>
+    <node id="dr._candy">
+      <data key="d0">Dr. Candy</data>
+    </node>
+    <edge source="gabriel_betteredge" target="rachel_verinder">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">paint_wet,nightgown_stained,rosanna_hid_nightgown,diamond_at_luker</data>
+      <data key="d3">4</data>
+    </edge>
+    <edge source="gabriel_betteredge" target="rosanna_spearman">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">diamond_curse,indians_are_brahmins,franklin_unconscious,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker,rachel_witnessed</data>
+      <data key="d3">7</data>
+    </edge>
+    <edge source="gabriel_betteredge" target="sergeant_cuff">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">nightgown_stained,rosanna_hid_nightgown</data>
+      <data key="d3">2</data>
+    </edge>
+    <edge source="gabriel_betteredge" target="godfrey_ablewhite">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">paint_wet,nightgown_stained,rosanna_hid_nightgown,rachel_witnessed</data>
+      <data key="d3">4</data>
+    </edge>
+    <edge source="gabriel_betteredge" target="ezra_jennings">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">indians_are_brahmins,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker</data>
+      <data key="d3">4</data>
+    </edge>
+    <edge source="gabriel_betteredge" target="dr._candy">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">diamond_curse,indians_are_brahmins,paint_wet,franklin_unconscious,nightgown_stained,rosanna_hid_nightgown,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker,rachel_witnessed</data>
+      <data key="d3">10</data>
+    </edge>
+    <edge source="franklin_blake" target="gabriel_betteredge">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">franklin_drugged,rosanna_loves_franklin</data>
+      <data key="d3">2</data>
+    </edge>
+    <edge source="franklin_blake" target="rachel_verinder">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">paint_wet,franklin_drugged,nightgown_stained,rosanna_hid_nightgown,rosanna_loves_franklin,diamond_at_luker</data>
+      <data key="d3">6</data>
+    </edge>
+    <edge source="franklin_blake" target="rosanna_spearman">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">diamond_curse,indians_are_brahmins,franklin_drugged,franklin_unconscious,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker,rachel_witnessed</data>
+      <data key="d3">8</data>
+    </edge>
+    <edge source="franklin_blake" target="sergeant_cuff">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">franklin_drugged,nightgown_stained,rosanna_hid_nightgown</data>
+      <data key="d3">3</data>
+    </edge>
+    <edge source="franklin_blake" target="godfrey_ablewhite">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">paint_wet,franklin_drugged,nightgown_stained,rosanna_hid_nightgown,rosanna_loves_franklin,rachel_witnessed</data>
+      <data key="d3">6</data>
+    </edge>
+    <edge source="franklin_blake" target="ezra_jennings">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">indians_are_brahmins,rosanna_loves_franklin,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker</data>
+      <data key="d3">5</data>
+    </edge>
+    <edge source="franklin_blake" target="dr._candy">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">diamond_curse,indians_are_brahmins,paint_wet,franklin_unconscious,nightgown_stained,rosanna_hid_nightgown,rosanna_loves_franklin,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker,rachel_witnessed</data>
+      <data key="d3">11</data>
+    </edge>
+    <edge source="rachel_verinder" target="gabriel_betteredge">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">franklin_entered_room</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="rachel_verinder" target="franklin_blake">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">franklin_entered_room</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="rachel_verinder" target="rosanna_spearman">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">diamond_curse,indians_are_brahmins,franklin_entered_room,franklin_unconscious,godfrey_took_diamond,godfrey_embezzled,rachel_witnessed</data>
+      <data key="d3">7</data>
+    </edge>
+    <edge source="rachel_verinder" target="sergeant_cuff">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">franklin_entered_room</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="rachel_verinder" target="godfrey_ablewhite">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">rachel_witnessed</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="rachel_verinder" target="ezra_jennings">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">indians_are_brahmins,godfrey_took_diamond,godfrey_embezzled</data>
+      <data key="d3">3</data>
+    </edge>
+    <edge source="rachel_verinder" target="dr._candy">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">diamond_curse,indians_are_brahmins,franklin_entered_room,franklin_unconscious,godfrey_took_diamond,godfrey_embezzled,rachel_witnessed</data>
+      <data key="d3">7</data>
+    </edge>
+    <edge source="rosanna_spearman" target="gabriel_betteredge">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">rosanna_loves_franklin</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="rosanna_spearman" target="rachel_verinder">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">paint_wet,nightgown_stained,rosanna_hid_nightgown,rosanna_loves_franklin</data>
+      <data key="d3">4</data>
+    </edge>
+    <edge source="rosanna_spearman" target="sergeant_cuff">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">nightgown_stained,rosanna_hid_nightgown</data>
+      <data key="d3">2</data>
+    </edge>
+    <edge source="rosanna_spearman" target="godfrey_ablewhite">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">paint_wet,nightgown_stained,rosanna_hid_nightgown,rosanna_loves_franklin</data>
+      <data key="d3">4</data>
+    </edge>
+    <edge source="rosanna_spearman" target="ezra_jennings">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">rosanna_loves_franklin</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="rosanna_spearman" target="dr._candy">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">paint_wet,nightgown_stained,rosanna_hid_nightgown,rosanna_loves_franklin</data>
+      <data key="d3">4</data>
+    </edge>
+    <edge source="sergeant_cuff" target="gabriel_betteredge">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">rosanna_loves_franklin</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="sergeant_cuff" target="rachel_verinder">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">paint_wet,rosanna_loves_franklin,diamond_at_luker</data>
+      <data key="d3">3</data>
+    </edge>
+    <edge source="sergeant_cuff" target="rosanna_spearman">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">diamond_curse,indians_are_brahmins,franklin_unconscious,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker,rachel_witnessed</data>
+      <data key="d3">7</data>
+    </edge>
+    <edge source="sergeant_cuff" target="godfrey_ablewhite">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">paint_wet,rosanna_loves_franklin,rachel_witnessed</data>
+      <data key="d3">3</data>
+    </edge>
+    <edge source="sergeant_cuff" target="ezra_jennings">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">indians_are_brahmins,rosanna_loves_franklin,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker</data>
+      <data key="d3">5</data>
+    </edge>
+    <edge source="sergeant_cuff" target="dr._candy">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">diamond_curse,indians_are_brahmins,paint_wet,franklin_unconscious,rosanna_loves_franklin,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker,rachel_witnessed</data>
+      <data key="d3">9</data>
+    </edge>
+    <edge source="godfrey_ablewhite" target="gabriel_betteredge">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">franklin_entered_room</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="godfrey_ablewhite" target="franklin_blake">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">franklin_entered_room</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="godfrey_ablewhite" target="rachel_verinder">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">diamond_at_luker</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="godfrey_ablewhite" target="rosanna_spearman">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">diamond_curse,indians_are_brahmins,franklin_entered_room,franklin_unconscious,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker</data>
+      <data key="d3">7</data>
+    </edge>
+    <edge source="godfrey_ablewhite" target="sergeant_cuff">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">franklin_entered_room</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="godfrey_ablewhite" target="ezra_jennings">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">indians_are_brahmins,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker</data>
+      <data key="d3">4</data>
+    </edge>
+    <edge source="godfrey_ablewhite" target="dr._candy">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">diamond_curse,indians_are_brahmins,franklin_entered_room,franklin_unconscious,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker</data>
+      <data key="d3">7</data>
+    </edge>
+    <edge source="ezra_jennings" target="gabriel_betteredge">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">franklin_entered_room,franklin_drugged</data>
+      <data key="d3">2</data>
+    </edge>
+    <edge source="ezra_jennings" target="franklin_blake">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">franklin_entered_room</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="ezra_jennings" target="rachel_verinder">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">paint_wet,franklin_drugged,nightgown_stained,rosanna_hid_nightgown</data>
+      <data key="d3">4</data>
+    </edge>
+    <edge source="ezra_jennings" target="rosanna_spearman">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">diamond_curse,franklin_entered_room,franklin_drugged,franklin_unconscious,rachel_witnessed</data>
+      <data key="d3">5</data>
+    </edge>
+    <edge source="ezra_jennings" target="sergeant_cuff">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">franklin_entered_room,franklin_drugged,nightgown_stained,rosanna_hid_nightgown</data>
+      <data key="d3">4</data>
+    </edge>
+    <edge source="ezra_jennings" target="godfrey_ablewhite">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">paint_wet,franklin_drugged,nightgown_stained,rosanna_hid_nightgown,rachel_witnessed</data>
+      <data key="d3">5</data>
+    </edge>
+    <edge source="ezra_jennings" target="dr._candy">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">diamond_curse,paint_wet,franklin_entered_room,franklin_unconscious,nightgown_stained,rosanna_hid_nightgown,rachel_witnessed</data>
+      <data key="d3">7</data>
+    </edge>
+    <edge source="dr._candy" target="gabriel_betteredge">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">franklin_drugged</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="dr._candy" target="rachel_verinder">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">franklin_drugged</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="dr._candy" target="rosanna_spearman">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">franklin_drugged</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="dr._candy" target="sergeant_cuff">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">franklin_drugged</data>
+      <data key="d3">1</data>
+    </edge>
+    <edge source="dr._candy" target="godfrey_ablewhite">
+      <data key="d1">KNOWS_MORE</data>
+      <data key="d2">franklin_drugged</data>
+      <data key="d3">1</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d6" for="edge" attr.name="factors" attr.type="string" />
+  <key id="d5" for="node" attr.name="inevitability" attr.type="string" />
+  <key id="d4" for="node" attr.name="p_other" attr.type="double" />
+  <key id="d3" for="node" attr.name="p_actual" attr.type="double" />
+  <key id="d2" for="node" attr.name="actual_outcome" attr.type="string" />
+  <key id="d1" for="node" attr.name="node_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="description" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="S00">
+      <data key="d0">Herncastle at Seringapatam, diamond guarded by priests</data>
+      <data key="d1">state</data>
+    </node>
+    <node id="T01">
+      <data key="d0">Herncastle steals the diamond</data>
+      <data key="d2">steals_diamond</data>
+      <data key="d3">0.6</data>
+      <data key="d4">0.4</data>
+      <data key="d5">moderate</data>
+      <data key="d1">transition</data>
+    </node>
+    <node id="S01">
+      <data key="d0">Herncastle has diamond, family ostracizes him, he's dying</data>
+      <data key="d1">state</data>
+    </node>
+    <node id="T02">
+      <data key="d0">Herncastle bequeaths diamond to Rachel</data>
+      <data key="d2">bequeaths_to_rachel</data>
+      <data key="d3">0.5</data>
+      <data key="d4">0.5</data>
+      <data key="d5">contingent</data>
+      <data key="d1">transition</data>
+    </node>
+    <node id="S02">
+      <data key="d0">Diamond at Verinder house, birthday dinner, Franklin protective</data>
+      <data key="d1">state</data>
+    </node>
+    <node id="T03">
+      <data key="d0">Dr. Candy doses Franklin with laudanum</data>
+      <data key="d2">candy_doses_franklin</data>
+      <data key="d3">0.15</data>
+      <data key="d4">0.85</data>
+      <data key="d5">surprising</data>
+      <data key="d1">transition</data>
+    </node>
+    <node id="S03">
+      <data key="d0">Franklin drugged, anxious about diamond, paint wet on door</data>
+      <data key="d1">state</data>
+    </node>
+    <node id="T04">
+      <data key="d0">Franklin takes diamond while unconscious</data>
+      <data key="d2">franklin_takes_diamond</data>
+      <data key="d3">0.7</data>
+      <data key="d4">0.3</data>
+      <data key="d5">likely_given_prior</data>
+      <data key="d1">transition</data>
+    </node>
+    <node id="S04">
+      <data key="d0">Franklin has taken diamond to his room unconsciously</data>
+      <data key="d1">state</data>
+    </node>
+    <node id="T05">
+      <data key="d0">Godfrey steals diamond from Franklin</data>
+      <data key="d2">godfrey_steals</data>
+      <data key="d3">0.4</data>
+      <data key="d4">0.6</data>
+      <data key="d5">moderate</data>
+      <data key="d1">transition</data>
+    </node>
+    <node id="S05">
+      <data key="d0">Rachel saw Franklin take diamond, believes he stole it</data>
+      <data key="d1">state</data>
+    </node>
+    <node id="T06">
+      <data key="d0">Rachel maintains silence to protect Franklin</data>
+      <data key="d2">rachel_silent</data>
+      <data key="d3">0.8</data>
+      <data key="d4">0.2</data>
+      <data key="d5">highly_likely</data>
+      <data key="d1">transition</data>
+    </node>
+    <node id="S06">
+      <data key="d0">Rosanna finds stained nightgown, loves Franklin</data>
+      <data key="d1">state</data>
+    </node>
+    <node id="T07">
+      <data key="d0">Rosanna hides the evidence</data>
+      <data key="d2">rosanna_hides_evidence</data>
+      <data key="d3">0.75</data>
+      <data key="d4">0.25</data>
+      <data key="d5">highly_likely</data>
+      <data key="d1">transition</data>
+    </node>
+    <node id="S07">
+      <data key="d0">Rosanna has hidden evidence, Franklin oblivious, she despairs</data>
+      <data key="d1">state</data>
+    </node>
+    <node id="T08">
+      <data key="d0">Rosanna commits suicide</data>
+      <data key="d2">rosanna_suicide</data>
+      <data key="d3">0.4</data>
+      <data key="d4">0.6</data>
+      <data key="d5">moderate</data>
+      <data key="d1">transition</data>
+    </node>
+    <node id="S08">
+      <data key="d0">Diamond at Luker's for a year, Godfrey desperate, pledge expires</data>
+      <data key="d1">state</data>
+    </node>
+    <node id="T09">
+      <data key="d0">Godfrey reclaims diamond to flee</data>
+      <data key="d2">godfrey_reclaims</data>
+      <data key="d3">0.9</data>
+      <data key="d4">0.1</data>
+      <data key="d5">nearly_inevitable</data>
+      <data key="d1">transition</data>
+    </node>
+    <node id="S09">
+      <data key="d0">Godfrey has diamond, Indians have tracked it for 50 years</data>
+      <data key="d1">state</data>
+    </node>
+    <node id="T10">
+      <data key="d0">Indians kill Godfrey, recover diamond</data>
+      <data key="d2">indians_kill_godfrey</data>
+      <data key="d3">0.85</data>
+      <data key="d4">0.15</data>
+      <data key="d5">highly_likely</data>
+      <data key="d1">transition</data>
+    </node>
+    <node id="S10">
+      <data key="d0">Franklin confused, Rachel hostile, evidence hidden</data>
+      <data key="d1">state</data>
+    </node>
+    <node id="T11">
+      <data key="d0">Ezra Jennings discovers the truth</data>
+      <data key="d2">jennings_discovers</data>
+      <data key="d3">0.3</data>
+      <data key="d4">0.7</data>
+      <data key="d5">surprising</data>
+      <data key="d1">transition</data>
+    </node>
+    <edge source="S00" target="T01">
+      <data key="d6">Herncastle is morally corrupt; Siege provides cover; Diamond is unprotected moment; Herncastle has motive (greed/obsession)</data>
+    </edge>
+    <edge source="T01" target="S01" />
+    <edge source="S01" target="T02">
+      <data key="d6">Herncastle is vindictive/bitter; Rachel is innocent/vulnerable; Herncastle wants to spread the curse/trouble; Or: genuine affection for niece</data>
+    </edge>
+    <edge source="T02" target="S02" />
+    <edge source="S02" target="T03">
+      <data key="d6">Candy offended by Franklin's dinner remarks; Candy has professional pride wounded; Candy has access to laudanum; Victorian culture of casual drugging</data>
+    </edge>
+    <edge source="T03" target="S03" />
+    <edge source="S03" target="T04">
+      <data key="d6">Laudanum effects on memory and volition; Franklin's anxiety about diamond security; Somnambulism is documented effect; No obstacles between rooms</data>
+    </edge>
+    <edge source="T04" target="S04" />
+    <edge source="S04" target="T05">
+      <data key="d6">Godfrey is awake (why?); Godfrey has financial desperation; Godfrey sees opportunity; Franklin is unconscious/vulnerable</data>
+    </edge>
+    <edge source="T05" target="S05" />
+    <edge source="S05" target="T06">
+      <data key="d6">Rachel loves Franklin; Rachel has fierce pride/principles; Rachel would rather suffer than betray; Victorian women expected to be passive</data>
+    </edge>
+    <edge source="T06" target="S06" />
+    <edge source="S06" target="T07">
+      <data key="d6">Rosanna's love for Franklin; Rosanna's outsider status (former thief); Rosanna's desperation; Rosanna can access Shivering Sand</data>
+    </edge>
+    <edge source="T07" target="S07" />
+    <edge source="S07" target="T08">
+      <data key="d6">Rosanna's hopeless love; Rosanna's isolation; Victorian limited options for women of her class; The Shivering Sand nearby</data>
+    </edge>
+    <edge source="T08" target="S08" />
+    <edge source="S08" target="T09">
+      <data key="d6">Pledge term expiring; Godfrey's embezzlement about to be discovered; Diamond is his only escape</data>
+    </edge>
+    <edge source="T09" target="S09" />
+    <edge source="S09" target="T10">
+      <data key="d6">Indians' 50-year sacred mission; They've been patient and determined; Godfrey is alone and vulnerable; No witnesses at the inn</data>
+    </edge>
+    <edge source="T10" target="S10" />
+    <edge source="S10" target="T11">
+      <data key="d6">Jennings has Candy's fever-notes; Jennings is brilliant and desperate for meaning; Jennings understands opium; Franklin seeks help</data>
+    </edge>
+  </graph>
+</graphml>

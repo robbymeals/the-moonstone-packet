@@ -1,0 +1,398 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "Gabriel Betteredge",
+      "id": "gabriel_betteredge"
+    },
+    {
+      "label": "Franklin Blake",
+      "id": "franklin_blake"
+    },
+    {
+      "label": "Rachel Verinder",
+      "id": "rachel_verinder"
+    },
+    {
+      "label": "Rosanna Spearman",
+      "id": "rosanna_spearman"
+    },
+    {
+      "label": "Sergeant Cuff",
+      "id": "sergeant_cuff"
+    },
+    {
+      "label": "Godfrey Ablewhite",
+      "id": "godfrey_ablewhite"
+    },
+    {
+      "label": "Ezra Jennings",
+      "id": "ezra_jennings"
+    },
+    {
+      "label": "Dr. Candy",
+      "id": "dr._candy"
+    }
+  ],
+  "edges": [
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "paint_wet,nightgown_stained,rosanna_hid_nightgown,diamond_at_luker",
+      "count": 4,
+      "source": "gabriel_betteredge",
+      "target": "rachel_verinder"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "diamond_curse,indians_are_brahmins,franklin_unconscious,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker,rachel_witnessed",
+      "count": 7,
+      "source": "gabriel_betteredge",
+      "target": "rosanna_spearman"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "nightgown_stained,rosanna_hid_nightgown",
+      "count": 2,
+      "source": "gabriel_betteredge",
+      "target": "sergeant_cuff"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "paint_wet,nightgown_stained,rosanna_hid_nightgown,rachel_witnessed",
+      "count": 4,
+      "source": "gabriel_betteredge",
+      "target": "godfrey_ablewhite"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "indians_are_brahmins,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker",
+      "count": 4,
+      "source": "gabriel_betteredge",
+      "target": "ezra_jennings"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "diamond_curse,indians_are_brahmins,paint_wet,franklin_unconscious,nightgown_stained,rosanna_hid_nightgown,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker,rachel_witnessed",
+      "count": 10,
+      "source": "gabriel_betteredge",
+      "target": "dr._candy"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "franklin_drugged,rosanna_loves_franklin",
+      "count": 2,
+      "source": "franklin_blake",
+      "target": "gabriel_betteredge"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "paint_wet,franklin_drugged,nightgown_stained,rosanna_hid_nightgown,rosanna_loves_franklin,diamond_at_luker",
+      "count": 6,
+      "source": "franklin_blake",
+      "target": "rachel_verinder"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "diamond_curse,indians_are_brahmins,franklin_drugged,franklin_unconscious,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker,rachel_witnessed",
+      "count": 8,
+      "source": "franklin_blake",
+      "target": "rosanna_spearman"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "franklin_drugged,nightgown_stained,rosanna_hid_nightgown",
+      "count": 3,
+      "source": "franklin_blake",
+      "target": "sergeant_cuff"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "paint_wet,franklin_drugged,nightgown_stained,rosanna_hid_nightgown,rosanna_loves_franklin,rachel_witnessed",
+      "count": 6,
+      "source": "franklin_blake",
+      "target": "godfrey_ablewhite"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "indians_are_brahmins,rosanna_loves_franklin,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker",
+      "count": 5,
+      "source": "franklin_blake",
+      "target": "ezra_jennings"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "diamond_curse,indians_are_brahmins,paint_wet,franklin_unconscious,nightgown_stained,rosanna_hid_nightgown,rosanna_loves_franklin,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker,rachel_witnessed",
+      "count": 11,
+      "source": "franklin_blake",
+      "target": "dr._candy"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "franklin_entered_room",
+      "count": 1,
+      "source": "rachel_verinder",
+      "target": "gabriel_betteredge"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "franklin_entered_room",
+      "count": 1,
+      "source": "rachel_verinder",
+      "target": "franklin_blake"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "diamond_curse,indians_are_brahmins,franklin_entered_room,franklin_unconscious,godfrey_took_diamond,godfrey_embezzled,rachel_witnessed",
+      "count": 7,
+      "source": "rachel_verinder",
+      "target": "rosanna_spearman"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "franklin_entered_room",
+      "count": 1,
+      "source": "rachel_verinder",
+      "target": "sergeant_cuff"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "rachel_witnessed",
+      "count": 1,
+      "source": "rachel_verinder",
+      "target": "godfrey_ablewhite"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "indians_are_brahmins,godfrey_took_diamond,godfrey_embezzled",
+      "count": 3,
+      "source": "rachel_verinder",
+      "target": "ezra_jennings"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "diamond_curse,indians_are_brahmins,franklin_entered_room,franklin_unconscious,godfrey_took_diamond,godfrey_embezzled,rachel_witnessed",
+      "count": 7,
+      "source": "rachel_verinder",
+      "target": "dr._candy"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "rosanna_loves_franklin",
+      "count": 1,
+      "source": "rosanna_spearman",
+      "target": "gabriel_betteredge"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "paint_wet,nightgown_stained,rosanna_hid_nightgown,rosanna_loves_franklin",
+      "count": 4,
+      "source": "rosanna_spearman",
+      "target": "rachel_verinder"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "nightgown_stained,rosanna_hid_nightgown",
+      "count": 2,
+      "source": "rosanna_spearman",
+      "target": "sergeant_cuff"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "paint_wet,nightgown_stained,rosanna_hid_nightgown,rosanna_loves_franklin",
+      "count": 4,
+      "source": "rosanna_spearman",
+      "target": "godfrey_ablewhite"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "rosanna_loves_franklin",
+      "count": 1,
+      "source": "rosanna_spearman",
+      "target": "ezra_jennings"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "paint_wet,nightgown_stained,rosanna_hid_nightgown,rosanna_loves_franklin",
+      "count": 4,
+      "source": "rosanna_spearman",
+      "target": "dr._candy"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "rosanna_loves_franklin",
+      "count": 1,
+      "source": "sergeant_cuff",
+      "target": "gabriel_betteredge"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "paint_wet,rosanna_loves_franklin,diamond_at_luker",
+      "count": 3,
+      "source": "sergeant_cuff",
+      "target": "rachel_verinder"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "diamond_curse,indians_are_brahmins,franklin_unconscious,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker,rachel_witnessed",
+      "count": 7,
+      "source": "sergeant_cuff",
+      "target": "rosanna_spearman"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "paint_wet,rosanna_loves_franklin,rachel_witnessed",
+      "count": 3,
+      "source": "sergeant_cuff",
+      "target": "godfrey_ablewhite"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "indians_are_brahmins,rosanna_loves_franklin,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker",
+      "count": 5,
+      "source": "sergeant_cuff",
+      "target": "ezra_jennings"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "diamond_curse,indians_are_brahmins,paint_wet,franklin_unconscious,rosanna_loves_franklin,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker,rachel_witnessed",
+      "count": 9,
+      "source": "sergeant_cuff",
+      "target": "dr._candy"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "franklin_entered_room",
+      "count": 1,
+      "source": "godfrey_ablewhite",
+      "target": "gabriel_betteredge"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "franklin_entered_room",
+      "count": 1,
+      "source": "godfrey_ablewhite",
+      "target": "franklin_blake"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "diamond_at_luker",
+      "count": 1,
+      "source": "godfrey_ablewhite",
+      "target": "rachel_verinder"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "diamond_curse,indians_are_brahmins,franklin_entered_room,franklin_unconscious,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker",
+      "count": 7,
+      "source": "godfrey_ablewhite",
+      "target": "rosanna_spearman"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "franklin_entered_room",
+      "count": 1,
+      "source": "godfrey_ablewhite",
+      "target": "sergeant_cuff"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "indians_are_brahmins,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker",
+      "count": 4,
+      "source": "godfrey_ablewhite",
+      "target": "ezra_jennings"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "diamond_curse,indians_are_brahmins,franklin_entered_room,franklin_unconscious,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker",
+      "count": 7,
+      "source": "godfrey_ablewhite",
+      "target": "dr._candy"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "franklin_entered_room,franklin_drugged",
+      "count": 2,
+      "source": "ezra_jennings",
+      "target": "gabriel_betteredge"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "franklin_entered_room",
+      "count": 1,
+      "source": "ezra_jennings",
+      "target": "franklin_blake"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "paint_wet,franklin_drugged,nightgown_stained,rosanna_hid_nightgown",
+      "count": 4,
+      "source": "ezra_jennings",
+      "target": "rachel_verinder"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "diamond_curse,franklin_entered_room,franklin_drugged,franklin_unconscious,rachel_witnessed",
+      "count": 5,
+      "source": "ezra_jennings",
+      "target": "rosanna_spearman"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "franklin_entered_room,franklin_drugged,nightgown_stained,rosanna_hid_nightgown",
+      "count": 4,
+      "source": "ezra_jennings",
+      "target": "sergeant_cuff"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "paint_wet,franklin_drugged,nightgown_stained,rosanna_hid_nightgown,rachel_witnessed",
+      "count": 5,
+      "source": "ezra_jennings",
+      "target": "godfrey_ablewhite"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "diamond_curse,paint_wet,franklin_entered_room,franklin_unconscious,nightgown_stained,rosanna_hid_nightgown,rachel_witnessed",
+      "count": 7,
+      "source": "ezra_jennings",
+      "target": "dr._candy"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "franklin_drugged",
+      "count": 1,
+      "source": "dr._candy",
+      "target": "gabriel_betteredge"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "franklin_drugged",
+      "count": 1,
+      "source": "dr._candy",
+      "target": "rachel_verinder"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "franklin_drugged",
+      "count": 1,
+      "source": "dr._candy",
+      "target": "rosanna_spearman"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "franklin_drugged",
+      "count": 1,
+      "source": "dr._candy",
+      "target": "sergeant_cuff"
+    },
+    {
+      "relationship": "KNOWS_MORE",
+      "exclusive_facts": "franklin_drugged",
+      "count": 1,
+      "source": "dr._candy",
+      "target": "godfrey_ablewhite"
+    }
+  ]
+}

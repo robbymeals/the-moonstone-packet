@@ -1,0 +1,382 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-02-04">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="0" title="relationship" type="string" />
+      <attribute id="1" title="exclusive_facts" type="string" />
+      <attribute id="2" title="count" type="long" />
+    </attributes>
+    <nodes>
+      <node id="gabriel_betteredge" label="Gabriel Betteredge" />
+      <node id="franklin_blake" label="Franklin Blake" />
+      <node id="rachel_verinder" label="Rachel Verinder" />
+      <node id="rosanna_spearman" label="Rosanna Spearman" />
+      <node id="sergeant_cuff" label="Sergeant Cuff" />
+      <node id="godfrey_ablewhite" label="Godfrey Ablewhite" />
+      <node id="ezra_jennings" label="Ezra Jennings" />
+      <node id="dr._candy" label="Dr. Candy" />
+    </nodes>
+    <edges>
+      <edge source="gabriel_betteredge" target="rachel_verinder" id="0">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="paint_wet,nightgown_stained,rosanna_hid_nightgown,diamond_at_luker" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="gabriel_betteredge" target="rosanna_spearman" id="1">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="diamond_curse,indians_are_brahmins,franklin_unconscious,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker,rachel_witnessed" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="gabriel_betteredge" target="sergeant_cuff" id="2">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="nightgown_stained,rosanna_hid_nightgown" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="gabriel_betteredge" target="godfrey_ablewhite" id="3">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="paint_wet,nightgown_stained,rosanna_hid_nightgown,rachel_witnessed" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="gabriel_betteredge" target="ezra_jennings" id="4">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="indians_are_brahmins,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="gabriel_betteredge" target="dr._candy" id="5">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="diamond_curse,indians_are_brahmins,paint_wet,franklin_unconscious,nightgown_stained,rosanna_hid_nightgown,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker,rachel_witnessed" />
+          <attvalue for="2" value="10" />
+        </attvalues>
+      </edge>
+      <edge source="franklin_blake" target="gabriel_betteredge" id="6">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="franklin_drugged,rosanna_loves_franklin" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="franklin_blake" target="rachel_verinder" id="7">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="paint_wet,franklin_drugged,nightgown_stained,rosanna_hid_nightgown,rosanna_loves_franklin,diamond_at_luker" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="franklin_blake" target="rosanna_spearman" id="8">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="diamond_curse,indians_are_brahmins,franklin_drugged,franklin_unconscious,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker,rachel_witnessed" />
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </edge>
+      <edge source="franklin_blake" target="sergeant_cuff" id="9">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="franklin_drugged,nightgown_stained,rosanna_hid_nightgown" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="franklin_blake" target="godfrey_ablewhite" id="10">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="paint_wet,franklin_drugged,nightgown_stained,rosanna_hid_nightgown,rosanna_loves_franklin,rachel_witnessed" />
+          <attvalue for="2" value="6" />
+        </attvalues>
+      </edge>
+      <edge source="franklin_blake" target="ezra_jennings" id="11">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="indians_are_brahmins,rosanna_loves_franklin,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="franklin_blake" target="dr._candy" id="12">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="diamond_curse,indians_are_brahmins,paint_wet,franklin_unconscious,nightgown_stained,rosanna_hid_nightgown,rosanna_loves_franklin,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker,rachel_witnessed" />
+          <attvalue for="2" value="11" />
+        </attvalues>
+      </edge>
+      <edge source="rachel_verinder" target="gabriel_betteredge" id="13">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="franklin_entered_room" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="rachel_verinder" target="franklin_blake" id="14">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="franklin_entered_room" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="rachel_verinder" target="rosanna_spearman" id="15">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="diamond_curse,indians_are_brahmins,franklin_entered_room,franklin_unconscious,godfrey_took_diamond,godfrey_embezzled,rachel_witnessed" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="rachel_verinder" target="sergeant_cuff" id="16">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="franklin_entered_room" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="rachel_verinder" target="godfrey_ablewhite" id="17">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="rachel_witnessed" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="rachel_verinder" target="ezra_jennings" id="18">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="indians_are_brahmins,godfrey_took_diamond,godfrey_embezzled" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="rachel_verinder" target="dr._candy" id="19">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="diamond_curse,indians_are_brahmins,franklin_entered_room,franklin_unconscious,godfrey_took_diamond,godfrey_embezzled,rachel_witnessed" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="rosanna_spearman" target="gabriel_betteredge" id="20">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="rosanna_loves_franklin" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="rosanna_spearman" target="rachel_verinder" id="21">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="paint_wet,nightgown_stained,rosanna_hid_nightgown,rosanna_loves_franklin" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="rosanna_spearman" target="sergeant_cuff" id="22">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="nightgown_stained,rosanna_hid_nightgown" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="rosanna_spearman" target="godfrey_ablewhite" id="23">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="paint_wet,nightgown_stained,rosanna_hid_nightgown,rosanna_loves_franklin" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="rosanna_spearman" target="ezra_jennings" id="24">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="rosanna_loves_franklin" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="rosanna_spearman" target="dr._candy" id="25">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="paint_wet,nightgown_stained,rosanna_hid_nightgown,rosanna_loves_franklin" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="sergeant_cuff" target="gabriel_betteredge" id="26">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="rosanna_loves_franklin" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="sergeant_cuff" target="rachel_verinder" id="27">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="paint_wet,rosanna_loves_franklin,diamond_at_luker" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="sergeant_cuff" target="rosanna_spearman" id="28">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="diamond_curse,indians_are_brahmins,franklin_unconscious,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker,rachel_witnessed" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="sergeant_cuff" target="godfrey_ablewhite" id="29">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="paint_wet,rosanna_loves_franklin,rachel_witnessed" />
+          <attvalue for="2" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="sergeant_cuff" target="ezra_jennings" id="30">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="indians_are_brahmins,rosanna_loves_franklin,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="sergeant_cuff" target="dr._candy" id="31">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="diamond_curse,indians_are_brahmins,paint_wet,franklin_unconscious,rosanna_loves_franklin,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker,rachel_witnessed" />
+          <attvalue for="2" value="9" />
+        </attvalues>
+      </edge>
+      <edge source="godfrey_ablewhite" target="gabriel_betteredge" id="32">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="franklin_entered_room" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="godfrey_ablewhite" target="franklin_blake" id="33">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="franklin_entered_room" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="godfrey_ablewhite" target="rachel_verinder" id="34">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="diamond_at_luker" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="godfrey_ablewhite" target="rosanna_spearman" id="35">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="diamond_curse,indians_are_brahmins,franklin_entered_room,franklin_unconscious,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="godfrey_ablewhite" target="sergeant_cuff" id="36">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="franklin_entered_room" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="godfrey_ablewhite" target="ezra_jennings" id="37">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="indians_are_brahmins,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="godfrey_ablewhite" target="dr._candy" id="38">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="diamond_curse,indians_are_brahmins,franklin_entered_room,franklin_unconscious,godfrey_took_diamond,godfrey_embezzled,diamond_at_luker" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="ezra_jennings" target="gabriel_betteredge" id="39">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="franklin_entered_room,franklin_drugged" />
+          <attvalue for="2" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="ezra_jennings" target="franklin_blake" id="40">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="franklin_entered_room" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="ezra_jennings" target="rachel_verinder" id="41">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="paint_wet,franklin_drugged,nightgown_stained,rosanna_hid_nightgown" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="ezra_jennings" target="rosanna_spearman" id="42">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="diamond_curse,franklin_entered_room,franklin_drugged,franklin_unconscious,rachel_witnessed" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ezra_jennings" target="sergeant_cuff" id="43">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="franklin_entered_room,franklin_drugged,nightgown_stained,rosanna_hid_nightgown" />
+          <attvalue for="2" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="ezra_jennings" target="godfrey_ablewhite" id="44">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="paint_wet,franklin_drugged,nightgown_stained,rosanna_hid_nightgown,rachel_witnessed" />
+          <attvalue for="2" value="5" />
+        </attvalues>
+      </edge>
+      <edge source="ezra_jennings" target="dr._candy" id="45">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="diamond_curse,paint_wet,franklin_entered_room,franklin_unconscious,nightgown_stained,rosanna_hid_nightgown,rachel_witnessed" />
+          <attvalue for="2" value="7" />
+        </attvalues>
+      </edge>
+      <edge source="dr._candy" target="gabriel_betteredge" id="46">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="franklin_drugged" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="dr._candy" target="rachel_verinder" id="47">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="franklin_drugged" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="dr._candy" target="rosanna_spearman" id="48">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="franklin_drugged" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="dr._candy" target="sergeant_cuff" id="49">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="franklin_drugged" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="dr._candy" target="godfrey_ablewhite" id="50">
+        <attvalues>
+          <attvalue for="0" value="KNOWS_MORE" />
+          <attvalue for="1" value="franklin_drugged" />
+          <attvalue for="2" value="1" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

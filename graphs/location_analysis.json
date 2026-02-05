@@ -1,0 +1,75 @@
+{
+  "total_locations": 30,
+  "total_relationships": 52,
+  "location_types": {
+    "building": 9,
+    "room": 10,
+    "feature": 1,
+    "passage": 1,
+    "outdoor": 4,
+    "village": 1,
+    "town": 1,
+    "city": 2,
+    "country": 1
+  },
+  "key_narrative_locations": [
+    {
+      "location": "rachels_sitting_room",
+      "feature": "Indian cabinet where diamond was kept"
+    },
+    {
+      "location": "painted_door",
+      "feature": "Paint wet on night of June 21"
+    },
+    {
+      "location": "shivering_sand",
+      "feature": "Where Rosanna hid the nightgown and drowned herself"
+    },
+    {
+      "location": "wheel_of_fortune",
+      "feature": "Site of Godfrey's death"
+    },
+    {
+      "location": "somnauth_shrine",
+      "feature": "The Moon-God idol"
+    }
+  ],
+  "perception_constraints": [
+    {
+      "constraint": "Rachel could see into her sitting-room from her bedroom",
+      "locations": [
+        "rachels_bedroom",
+        "rachels_sitting_room"
+      ],
+      "implication": "She could witness Franklin without being seen"
+    },
+    {
+      "constraint": "The first-floor corridor connects all guest bedrooms",
+      "locations": [
+        "first_floor_corridor",
+        "franklins_room",
+        "godfreys_room",
+        "rachels_sitting_room"
+      ],
+      "implication": "Godfrey could observe/follow Franklin from the corridor"
+    },
+    {
+      "constraint": "Servants' quarters separate from family rooms",
+      "locations": [
+        "servants_hall",
+        "rosannas_room",
+        "betteredges_room"
+      ],
+      "implication": "Betteredge unaware of night events on upper floor"
+    },
+    {
+      "constraint": "Shivering Sand accessible from both estate and Cobb's Hole",
+      "locations": [
+        "shivering_sand",
+        "verinder_grounds",
+        "cobbs_hole"
+      ],
+      "implication": "Rosanna could reach it secretly; Limping Lucy could observe"
+    }
+  ]
+}

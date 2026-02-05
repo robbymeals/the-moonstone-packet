@@ -1,0 +1,234 @@
+{
+  "verinder_house": {
+    "visible": [],
+    "audible": [],
+    "accessible": [
+      "entrance_hall",
+      "drawing_room",
+      "dining_room",
+      "rachels_sitting_room",
+      "rachels_bedroom",
+      "franklins_room",
+      "godfreys_room",
+      "servants_hall",
+      "betteredges_room",
+      "rosannas_room",
+      "first_floor_corridor",
+      "terrace",
+      "verinder_grounds"
+    ]
+  },
+  "entrance_hall": {
+    "visible": [],
+    "audible": [],
+    "accessible": [
+      "drawing_room"
+    ]
+  },
+  "drawing_room": {
+    "visible": [
+      "terrace"
+    ],
+    "audible": [],
+    "accessible": [
+      "entrance_hall",
+      "dining_room"
+    ]
+  },
+  "dining_room": {
+    "visible": [],
+    "audible": [],
+    "accessible": [
+      "drawing_room"
+    ]
+  },
+  "rachels_sitting_room": {
+    "visible": [
+      "painted_door"
+    ],
+    "audible": [
+      "rachels_bedroom"
+    ],
+    "accessible": [
+      "painted_door",
+      "rachels_bedroom",
+      "first_floor_corridor"
+    ]
+  },
+  "rachels_bedroom": {
+    "visible": [],
+    "audible": [
+      "rachels_sitting_room"
+    ],
+    "accessible": [
+      "rachels_sitting_room",
+      "first_floor_corridor"
+    ]
+  },
+  "franklins_room": {
+    "visible": [],
+    "audible": [],
+    "accessible": [
+      "first_floor_corridor"
+    ]
+  },
+  "godfreys_room": {
+    "visible": [],
+    "audible": [],
+    "accessible": [
+      "first_floor_corridor"
+    ]
+  },
+  "servants_hall": {
+    "visible": [],
+    "audible": [],
+    "accessible": []
+  },
+  "betteredges_room": {
+    "visible": [],
+    "audible": [],
+    "accessible": []
+  },
+  "rosannas_room": {
+    "visible": [],
+    "audible": [],
+    "accessible": []
+  },
+  "painted_door": {
+    "visible": [
+      "rachels_sitting_room",
+      "first_floor_corridor"
+    ],
+    "audible": [],
+    "accessible": []
+  },
+  "first_floor_corridor": {
+    "visible": [
+      "painted_door"
+    ],
+    "audible": [],
+    "accessible": [
+      "rachels_sitting_room",
+      "franklins_room",
+      "godfreys_room",
+      "rachels_bedroom"
+    ]
+  },
+  "verinder_grounds": {
+    "visible": [],
+    "audible": [],
+    "accessible": [
+      "terrace",
+      "shrubbery",
+      "shivering_sand",
+      "verinder_house"
+    ]
+  },
+  "terrace": {
+    "visible": [
+      "shrubbery",
+      "drawing_room"
+    ],
+    "audible": [],
+    "accessible": [
+      "verinder_house",
+      "shrubbery"
+    ]
+  },
+  "shrubbery": {
+    "visible": [
+      "terrace"
+    ],
+    "audible": [],
+    "accessible": [
+      "terrace"
+    ]
+  },
+  "shivering_sand": {
+    "visible": [],
+    "audible": [],
+    "accessible": [
+      "verinder_grounds",
+      "cobbs_hole"
+    ]
+  },
+  "cobbs_hole": {
+    "visible": [],
+    "audible": [],
+    "accessible": [
+      "yolland_cottage",
+      "shivering_sand"
+    ]
+  },
+  "yolland_cottage": {
+    "visible": [],
+    "audible": [],
+    "accessible": []
+  },
+  "frizinghall": {
+    "visible": [],
+    "audible": [],
+    "accessible": [
+      "frizinghall_bank",
+      "dr_candys_house"
+    ]
+  },
+  "frizinghall_bank": {
+    "visible": [],
+    "audible": [],
+    "accessible": []
+  },
+  "dr_candys_house": {
+    "visible": [],
+    "audible": [],
+    "accessible": []
+  },
+  "london": {
+    "visible": [],
+    "audible": [],
+    "accessible": [
+      "lukers_bank",
+      "bruffs_office",
+      "wheel_of_fortune",
+      "lady_verinder_london"
+    ]
+  },
+  "lukers_bank": {
+    "visible": [],
+    "audible": [],
+    "accessible": []
+  },
+  "bruffs_office": {
+    "visible": [],
+    "audible": [],
+    "accessible": []
+  },
+  "wheel_of_fortune": {
+    "visible": [],
+    "audible": [],
+    "accessible": []
+  },
+  "lady_verinder_london": {
+    "visible": [],
+    "audible": [],
+    "accessible": []
+  },
+  "india": {
+    "visible": [],
+    "audible": [],
+    "accessible": [
+      "seringapatam",
+      "somnauth_shrine"
+    ]
+  },
+  "seringapatam": {
+    "visible": [],
+    "audible": [],
+    "accessible": []
+  },
+  "somnauth_shrine": {
+    "visible": [],
+    "audible": [],
+    "accessible": []
+  }
+}

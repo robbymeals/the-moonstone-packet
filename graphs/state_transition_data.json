@@ -1,0 +1,227 @@
+[
+  {
+    "id": "T01",
+    "prior_state": "Herncastle at Seringapatam, diamond guarded by priests",
+    "transition": "Herncastle steals the diamond",
+    "actual_outcome": "steals_diamond",
+    "prior_factors": [
+      "Herncastle is morally corrupt",
+      "Siege provides cover",
+      "Diamond is unprotected moment",
+      "Herncastle has motive (greed/obsession)"
+    ],
+    "p_actual": 0.6,
+    "p_other": 0.4,
+    "counterfactuals": [
+      "Herncastle killed in siege",
+      "Priests successfully defend",
+      "Herncastle has attack of conscience",
+      "Another soldier gets there first"
+    ],
+    "inevitability": "moderate"
+  },
+  {
+    "id": "T02",
+    "prior_state": "Herncastle has diamond, family ostracizes him, he's dying",
+    "transition": "Herncastle bequeaths diamond to Rachel",
+    "actual_outcome": "bequeaths_to_rachel",
+    "prior_factors": [
+      "Herncastle is vindictive/bitter",
+      "Rachel is innocent/vulnerable",
+      "Herncastle wants to spread the curse/trouble",
+      "Or: genuine affection for niece"
+    ],
+    "p_actual": 0.5,
+    "p_other": 0.5,
+    "counterfactuals": [
+      "Diamond destroyed",
+      "Sold to collector",
+      "Left to museum",
+      "Buried with him"
+    ],
+    "inevitability": "contingent"
+  },
+  {
+    "id": "T03",
+    "prior_state": "Diamond at Verinder house, birthday dinner, Franklin protective",
+    "transition": "Dr. Candy doses Franklin with laudanum",
+    "actual_outcome": "candy_doses_franklin",
+    "prior_factors": [
+      "Candy offended by Franklin's dinner remarks",
+      "Candy has professional pride wounded",
+      "Candy has access to laudanum",
+      "Victorian culture of casual drugging"
+    ],
+    "p_actual": 0.15,
+    "p_other": 0.85,
+    "counterfactuals": [
+      "Candy lets insult go",
+      "Candy confronts Franklin directly",
+      "Someone notices the drugging",
+      "Candy lacks opportunity"
+    ],
+    "inevitability": "surprising"
+  },
+  {
+    "id": "T04",
+    "prior_state": "Franklin drugged, anxious about diamond, paint wet on door",
+    "transition": "Franklin takes diamond while unconscious",
+    "actual_outcome": "franklin_takes_diamond",
+    "prior_factors": [
+      "Laudanum effects on memory and volition",
+      "Franklin's anxiety about diamond security",
+      "Somnambulism is documented effect",
+      "No obstacles between rooms"
+    ],
+    "p_actual": 0.7,
+    "p_other": 0.3,
+    "counterfactuals": [
+      "Franklin sleeps through the night",
+      "Franklin wakes up normally",
+      "Someone intercepts him"
+    ],
+    "inevitability": "likely_given_prior"
+  },
+  {
+    "id": "T05",
+    "prior_state": "Franklin has taken diamond to his room unconsciously",
+    "transition": "Godfrey steals diamond from Franklin",
+    "actual_outcome": "godfrey_steals",
+    "prior_factors": [
+      "Godfrey is awake (why?)",
+      "Godfrey has financial desperation",
+      "Godfrey sees opportunity",
+      "Franklin is unconscious/vulnerable"
+    ],
+    "p_actual": 0.4,
+    "p_other": 0.6,
+    "counterfactuals": [
+      "Godfrey asleep",
+      "Godfrey doesn't see Franklin",
+      "Franklin wakes",
+      "Godfrey has moral qualm"
+    ],
+    "inevitability": "moderate"
+  },
+  {
+    "id": "T06",
+    "prior_state": "Rachel saw Franklin take diamond, believes he stole it",
+    "transition": "Rachel maintains silence to protect Franklin",
+    "actual_outcome": "rachel_silent",
+    "prior_factors": [
+      "Rachel loves Franklin",
+      "Rachel has fierce pride/principles",
+      "Rachel would rather suffer than betray",
+      "Victorian women expected to be passive"
+    ],
+    "p_actual": 0.8,
+    "p_other": 0.2,
+    "counterfactuals": [
+      "Rachel tells her mother",
+      "Rachel confronts Franklin",
+      "Rachel tells Cuff"
+    ],
+    "inevitability": "highly_likely"
+  },
+  {
+    "id": "T07",
+    "prior_state": "Rosanna finds stained nightgown, loves Franklin",
+    "transition": "Rosanna hides the evidence",
+    "actual_outcome": "rosanna_hides_evidence",
+    "prior_factors": [
+      "Rosanna's love for Franklin",
+      "Rosanna's outsider status (former thief)",
+      "Rosanna's desperation",
+      "Rosanna can access Shivering Sand"
+    ],
+    "p_actual": 0.75,
+    "p_other": 0.25,
+    "counterfactuals": [
+      "Rosanna reports to Betteredge",
+      "Rosanna confronts Franklin",
+      "Rosanna uses evidence as leverage"
+    ],
+    "inevitability": "highly_likely"
+  },
+  {
+    "id": "T08",
+    "prior_state": "Rosanna has hidden evidence, Franklin oblivious, she despairs",
+    "transition": "Rosanna commits suicide",
+    "actual_outcome": "rosanna_suicide",
+    "prior_factors": [
+      "Rosanna's hopeless love",
+      "Rosanna's isolation",
+      "Victorian limited options for women of her class",
+      "The Shivering Sand nearby"
+    ],
+    "p_actual": 0.4,
+    "p_other": 0.6,
+    "counterfactuals": [
+      "Rosanna lives with secret",
+      "Rosanna leaves service",
+      "Someone notices her distress",
+      "Franklin shows her kindness"
+    ],
+    "inevitability": "moderate"
+  },
+  {
+    "id": "T09",
+    "prior_state": "Diamond at Luker's for a year, Godfrey desperate, pledge expires",
+    "transition": "Godfrey reclaims diamond to flee",
+    "actual_outcome": "godfrey_reclaims",
+    "prior_factors": [
+      "Pledge term expiring",
+      "Godfrey's embezzlement about to be discovered",
+      "Diamond is his only escape"
+    ],
+    "p_actual": 0.9,
+    "p_other": 0.1,
+    "counterfactuals": [
+      "Godfrey confesses",
+      "Godfrey found dead before",
+      "Trust discovery happens first"
+    ],
+    "inevitability": "nearly_inevitable"
+  },
+  {
+    "id": "T10",
+    "prior_state": "Godfrey has diamond, Indians have tracked it for 50 years",
+    "transition": "Indians kill Godfrey, recover diamond",
+    "actual_outcome": "indians_kill_godfrey",
+    "prior_factors": [
+      "Indians' 50-year sacred mission",
+      "They've been patient and determined",
+      "Godfrey is alone and vulnerable",
+      "No witnesses at the inn"
+    ],
+    "p_actual": 0.85,
+    "p_other": 0.15,
+    "counterfactuals": [
+      "Godfrey escapes",
+      "Police intervene",
+      "Indians captured before"
+    ],
+    "inevitability": "highly_likely"
+  },
+  {
+    "id": "T11",
+    "prior_state": "Franklin confused, Rachel hostile, evidence hidden",
+    "transition": "Ezra Jennings discovers the truth",
+    "actual_outcome": "jennings_discovers",
+    "prior_factors": [
+      "Jennings has Candy's fever-notes",
+      "Jennings is brilliant and desperate for meaning",
+      "Jennings understands opium",
+      "Franklin seeks help"
+    ],
+    "p_actual": 0.3,
+    "p_other": 0.7,
+    "counterfactuals": [
+      "Candy dies without raving",
+      "Jennings doesn't record ravings",
+      "Jennings doesn't meet Franklin",
+      "Pattern never emerges"
+    ],
+    "inevitability": "surprising"
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "chain_probability": 0.0006940080000000001,
+  "chain_probability_log10": -0.999305992,
+  "total_transitions": 11,
+  "most_surprising": [
+    {
+      "id": "T03",
+      "transition": "Dr. Candy doses Franklin with laudanum",
+      "p_actual": 0.15,
+      "surprise_bits": 2.736965594166206,
+      "inevitability": "surprising"
+    },
+    {
+      "id": "T11",
+      "transition": "Ezra Jennings discovers the truth",
+      "p_actual": 0.3,
+      "surprise_bits": 1.7369655941662063,
+      "inevitability": "surprising"
+    },
+    {
+      "id": "T05",
+      "transition": "Godfrey steals diamond from Franklin",
+      "p_actual": 0.4,
+      "surprise_bits": 1.3219280948873622,
+      "inevitability": "moderate"
+    }
+  ],
+  "most_inevitable": [
+    {
+      "id": "T06",
+      "transition": "Rachel maintains silence to protect Franklin",
+      "p_actual": 0.8,
+      "surprise_bits": 0.3219280948873623,
+      "inevitability": "highly_likely"
+    },
+    {
+      "id": "T10",
+      "transition": "Indians kill Godfrey, recover diamond",
+      "p_actual": 0.85,
+      "surprise_bits": 0.23446525363702297,
+      "inevitability": "highly_likely"
+    },
+    {
+      "id": "T09",
+      "transition": "Godfrey reclaims diamond to flee",
+      "p_actual": 0.9,
+      "surprise_bits": 0.15200309344504995,
+      "inevitability": "nearly_inevitable"
+    }
+  ],
+  "average_p_actual": 0.5772727272727273
+}

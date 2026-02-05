@@ -1,0 +1,573 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-02-04">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="2" title="relationship" type="string" />
+      <attribute id="3" title="since" type="string" />
+      <attribute id="4" title="belief" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="node_type" type="string" />
+      <attribute id="1" title="description" type="string" />
+    </attributes>
+    <nodes>
+      <node id="fact:diamond_curse" label="diamond_curse">
+        <attvalues>
+          <attvalue for="0" value="fact" />
+          <attvalue for="1" value="The Moonstone carries a curse and is pursued by Brahmin guardians" />
+        </attvalues>
+      </node>
+      <node id="fact:indians_are_brahmins" label="indians_are_brahmins">
+        <attvalues>
+          <attvalue for="0" value="fact" />
+          <attvalue for="1" value="The three Indians are high-caste Brahmins, not common jugglers" />
+        </attvalues>
+      </node>
+      <node id="fact:paint_wet" label="paint_wet">
+        <attvalues>
+          <attvalue for="0" value="fact" />
+          <attvalue for="1" value="The sitting-room door paint was wet on the night of June 21" />
+        </attvalues>
+      </node>
+      <node id="fact:franklin_entered_room" label="franklin_entered_room">
+        <attvalues>
+          <attvalue for="0" value="fact" />
+          <attvalue for="1" value="Franklin Blake entered Rachel's sitting-room and took the diamond" />
+        </attvalues>
+      </node>
+      <node id="fact:franklin_drugged" label="franklin_drugged">
+        <attvalues>
+          <attvalue for="0" value="fact" />
+          <attvalue for="1" value="Dr. Candy secretly administered laudanum to Franklin" />
+        </attvalues>
+      </node>
+      <node id="fact:franklin_unconscious" label="franklin_unconscious">
+        <attvalues>
+          <attvalue for="0" value="fact" />
+          <attvalue for="1" value="Franklin was in a laudanum trance and has no memory" />
+        </attvalues>
+      </node>
+      <node id="fact:nightgown_stained" label="nightgown_stained">
+        <attvalues>
+          <attvalue for="0" value="fact" />
+          <attvalue for="1" value="Franklin's nightgown has a paint smear proving he touched the door" />
+        </attvalues>
+      </node>
+      <node id="fact:rosanna_hid_nightgown" label="rosanna_hid_nightgown">
+        <attvalues>
+          <attvalue for="0" value="fact" />
+          <attvalue for="1" value="Rosanna hid the stained nightgown in the Shivering Sand" />
+        </attvalues>
+      </node>
+      <node id="fact:rosanna_loves_franklin" label="rosanna_loves_franklin">
+        <attvalues>
+          <attvalue for="0" value="fact" />
+          <attvalue for="1" value="Rosanna is in love with Franklin Blake" />
+        </attvalues>
+      </node>
+      <node id="fact:godfrey_took_diamond" label="godfrey_took_diamond">
+        <attvalues>
+          <attvalue for="0" value="fact" />
+          <attvalue for="1" value="Godfrey Ablewhite took the diamond from Franklin's room" />
+        </attvalues>
+      </node>
+      <node id="fact:godfrey_embezzled" label="godfrey_embezzled">
+        <attvalues>
+          <attvalue for="0" value="fact" />
+          <attvalue for="1" value="Godfrey embezzled from a trust fund he managed" />
+        </attvalues>
+      </node>
+      <node id="fact:diamond_at_luker" label="diamond_at_luker">
+        <attvalues>
+          <attvalue for="0" value="fact" />
+          <attvalue for="1" value="The diamond was pledged to Mr. Luker's bank" />
+        </attvalues>
+      </node>
+      <node id="fact:rachel_witnessed" label="rachel_witnessed">
+        <attvalues>
+          <attvalue for="0" value="fact" />
+          <attvalue for="1" value="Rachel saw Franklin take the diamond from her room" />
+        </attvalues>
+      </node>
+      <node id="char:gabriel_betteredge" label="Gabriel Betteredge">
+        <attvalues>
+          <attvalue for="0" value="character" />
+        </attvalues>
+      </node>
+      <node id="char:franklin_blake" label="Franklin Blake">
+        <attvalues>
+          <attvalue for="0" value="character" />
+        </attvalues>
+      </node>
+      <node id="char:rachel_verinder" label="Rachel Verinder">
+        <attvalues>
+          <attvalue for="0" value="character" />
+        </attvalues>
+      </node>
+      <node id="char:rosanna_spearman" label="Rosanna Spearman">
+        <attvalues>
+          <attvalue for="0" value="character" />
+        </attvalues>
+      </node>
+      <node id="char:sergeant_cuff" label="Sergeant Cuff">
+        <attvalues>
+          <attvalue for="0" value="character" />
+        </attvalues>
+      </node>
+      <node id="char:godfrey_ablewhite" label="Godfrey Ablewhite">
+        <attvalues>
+          <attvalue for="0" value="character" />
+        </attvalues>
+      </node>
+      <node id="char:ezra_jennings" label="Ezra Jennings">
+        <attvalues>
+          <attvalue for="0" value="character" />
+        </attvalues>
+      </node>
+      <node id="char:dr._candy" label="Dr. Candy">
+        <attvalues>
+          <attvalue for="0" value="character" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="char:gabriel_betteredge" target="fact:diamond_curse" id="0" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="before_birthday" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:gabriel_betteredge" target="fact:indians_are_brahmins" id="1" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="birthday_dinner" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:gabriel_betteredge" target="fact:paint_wet" id="2" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="june_22_morning" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:gabriel_betteredge" target="fact:franklin_unconscious" id="3" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="opium_experiment" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:gabriel_betteredge" target="fact:nightgown_stained" id="4" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="june_1849" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:gabriel_betteredge" target="fact:rosanna_hid_nightgown" id="5" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="june_1849" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:gabriel_betteredge" target="fact:rosanna_loves_franklin" id="6" weight="0.5">
+        <attvalues>
+          <attvalue for="2" value="SUSPECTS" />
+          <attvalue for="3" value="june_1848" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:gabriel_betteredge" target="fact:godfrey_took_diamond" id="7" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="resolution" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:gabriel_betteredge" target="fact:godfrey_embezzled" id="8" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="resolution" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:gabriel_betteredge" target="fact:diamond_at_luker" id="9" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="resolution" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:gabriel_betteredge" target="fact:rachel_witnessed" id="10" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="opium_experiment" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:franklin_blake" target="fact:diamond_curse" id="11" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="before_birthday" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:franklin_blake" target="fact:indians_are_brahmins" id="12" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="birthday_dinner" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:franklin_blake" target="fact:paint_wet" id="13" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="june_22_morning" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:franklin_blake" target="fact:franklin_drugged" id="14" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="june_1849_jennings" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:franklin_blake" target="fact:franklin_unconscious" id="15" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="june_1849_jennings" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:franklin_blake" target="fact:nightgown_stained" id="16" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="june_1849_shivering_sand" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:franklin_blake" target="fact:rosanna_hid_nightgown" id="17" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="june_1849_letter" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:franklin_blake" target="fact:rosanna_loves_franklin" id="18" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="june_1849_letter" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:franklin_blake" target="fact:godfrey_took_diamond" id="19" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="resolution" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:franklin_blake" target="fact:godfrey_embezzled" id="20" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="resolution" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:franklin_blake" target="fact:diamond_at_luker" id="21" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="investigation_1849" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:franklin_blake" target="fact:rachel_witnessed" id="22" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="confrontation_1849" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:rachel_verinder" target="fact:diamond_curse" id="23" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="birthday_dinner" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:rachel_verinder" target="fact:indians_are_brahmins" id="24" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="birthday_dinner" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:rachel_verinder" target="fact:franklin_entered_room" id="25" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="june_21_night" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:rachel_verinder" target="fact:franklin_unconscious" id="26" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="opium_experiment" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:rachel_verinder" target="fact:godfrey_took_diamond" id="27" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="resolution" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:rachel_verinder" target="fact:godfrey_embezzled" id="28" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="resolution" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:rachel_verinder" target="fact:rachel_witnessed" id="29" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="june_21_night" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:rosanna_spearman" target="fact:paint_wet" id="30" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="june_22_morning" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:rosanna_spearman" target="fact:franklin_entered_room" id="31" weight="0.5">
+        <attvalues>
+          <attvalue for="2" value="SUSPECTS" />
+          <attvalue for="3" value="june_22" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:rosanna_spearman" target="fact:nightgown_stained" id="32" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="june_22" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:rosanna_spearman" target="fact:rosanna_hid_nightgown" id="33" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="june_22" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:rosanna_spearman" target="fact:rosanna_loves_franklin" id="34" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="always" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:sergeant_cuff" target="fact:diamond_curse" id="35" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="investigation_start" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:sergeant_cuff" target="fact:indians_are_brahmins" id="36" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="investigation" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:sergeant_cuff" target="fact:paint_wet" id="37" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="june_23" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:sergeant_cuff" target="fact:franklin_unconscious" id="38" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="final_report" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:sergeant_cuff" target="fact:nightgown_stained" id="39" weight="0.5">
+        <attvalues>
+          <attvalue for="2" value="SUSPECTS" />
+          <attvalue for="3" value="june_1848" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:sergeant_cuff" target="fact:rosanna_hid_nightgown" id="40" weight="0.5">
+        <attvalues>
+          <attvalue for="2" value="SUSPECTS" />
+          <attvalue for="3" value="june_1848" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:sergeant_cuff" target="fact:rosanna_loves_franklin" id="41" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="june_1848" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:sergeant_cuff" target="fact:godfrey_took_diamond" id="42" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="investigation_1849" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:sergeant_cuff" target="fact:godfrey_embezzled" id="43" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="investigation_1849" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:sergeant_cuff" target="fact:diamond_at_luker" id="44" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="investigation_1849" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:sergeant_cuff" target="fact:rachel_witnessed" id="45" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="final_report" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:godfrey_ablewhite" target="fact:diamond_curse" id="46" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="birthday_dinner" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:godfrey_ablewhite" target="fact:indians_are_brahmins" id="47" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="birthday_dinner" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:godfrey_ablewhite" target="fact:franklin_entered_room" id="48" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="june_21_night" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:godfrey_ablewhite" target="fact:franklin_unconscious" id="49" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="june_21_night" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:godfrey_ablewhite" target="fact:godfrey_took_diamond" id="50" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="june_21_night" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:godfrey_ablewhite" target="fact:godfrey_embezzled" id="51" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="always" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:godfrey_ablewhite" target="fact:diamond_at_luker" id="52" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="june_23" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:ezra_jennings" target="fact:diamond_curse" id="53" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="1849" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:ezra_jennings" target="fact:paint_wet" id="54" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="1849" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:ezra_jennings" target="fact:franklin_entered_room" id="55" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="reconstruction" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:ezra_jennings" target="fact:franklin_drugged" id="56" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="reconstruction" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:ezra_jennings" target="fact:franklin_unconscious" id="57" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="reconstruction" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:ezra_jennings" target="fact:nightgown_stained" id="58" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="1849" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:ezra_jennings" target="fact:rosanna_hid_nightgown" id="59" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="1849" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:ezra_jennings" target="fact:rachel_witnessed" id="60" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="experiment" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+      <edge source="char:dr._candy" target="fact:franklin_drugged" id="61" weight="1.0">
+        <attvalues>
+          <attvalue for="2" value="KNOWS" />
+          <attvalue for="3" value="june_21_night" />
+          <attvalue for="4" value="true" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

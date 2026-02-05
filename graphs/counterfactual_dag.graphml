@@ -1,0 +1,467 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="edge" attr.name="relationship" attr.type="string" />
+  <key id="d4" for="node" attr.name="p_actual" attr.type="double" />
+  <key id="d3" for="node" attr.name="hinge" attr.type="string" />
+  <key id="d2" for="node" attr.name="actual" attr.type="string" />
+  <key id="d1" for="node" attr.name="node_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="description" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="herncastle_corrupt">
+      <data key="d0">Herncastle is morally corrupt</data>
+      <data key="d1">condition</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="diamond_exists">
+      <data key="d0">The Moonstone exists at Seringapatam</data>
+      <data key="d1">condition</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="siege_happens">
+      <data key="d0">Siege of Seringapatam occurs</data>
+      <data key="d1">condition</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="herncastle_steals">
+      <data key="d0">Herncastle steals the diamond</data>
+      <data key="d1">event</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="brahmins_pursue">
+      <data key="d0">Brahmins begin pursuing the diamond</data>
+      <data key="d1">event</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="herncastle_vindictive">
+      <data key="d0">Herncastle is bitter/vindictive toward family</data>
+      <data key="d1">condition</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="bequeaths_to_rachel">
+      <data key="d0">Herncastle leaves diamond to Rachel</data>
+      <data key="d1">event</data>
+      <data key="d2">True</data>
+      <data key="d3">True</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="franklin_brings">
+      <data key="d0">Franklin brings diamond to Verinder house</data>
+      <data key="d1">event</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="birthday_dinner">
+      <data key="d0">Birthday dinner occurs</data>
+      <data key="d1">event</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="candy_offended">
+      <data key="d0">Dr. Candy is offended by Franklin's remarks</data>
+      <data key="d1">condition</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="candy_has_laudanum">
+      <data key="d0">Dr. Candy has access to laudanum</data>
+      <data key="d1">condition</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="candy_doses_franklin">
+      <data key="d0">Dr. Candy secretly doses Franklin with laudanum</data>
+      <data key="d1">event</data>
+      <data key="d2">True</data>
+      <data key="d3">True</data>
+      <data key="d4">0.15</data>
+    </node>
+    <node id="candy_does_nothing">
+      <data key="d0">Dr. Candy lets the insult go</data>
+      <data key="d1">counterfactual</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="franklin_drugged">
+      <data key="d0">Franklin is under laudanum influence</data>
+      <data key="d1">state</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="franklin_anxious">
+      <data key="d0">Franklin is anxious about diamond security</data>
+      <data key="d1">condition</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="franklin_takes_diamond">
+      <data key="d0">Franklin takes diamond in trance</data>
+      <data key="d1">event</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="franklin_sleeps_normally">
+      <data key="d0">Franklin sleeps through the night normally</data>
+      <data key="d1">counterfactual</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="rachel_awake">
+      <data key="d0">Rachel is awake and watching</data>
+      <data key="d1">condition</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="rachel_witnesses">
+      <data key="d0">Rachel sees Franklin take the diamond</data>
+      <data key="d1">event</data>
+      <data key="d2">True</data>
+      <data key="d3">True</data>
+      <data key="d4">0.3</data>
+    </node>
+    <node id="rachel_asleep">
+      <data key="d0">Rachel is asleep, doesn't witness</data>
+      <data key="d1">counterfactual</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="godfrey_awake">
+      <data key="d0">Godfrey is awake in the night</data>
+      <data key="d1">condition</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="godfrey_desperate">
+      <data key="d0">Godfrey is financially desperate (embezzlement)</data>
+      <data key="d1">condition</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="godfrey_sees_opportunity">
+      <data key="d0">Godfrey observes Franklin with diamond</data>
+      <data key="d1">event</data>
+      <data key="d2">True</data>
+      <data key="d3">True</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="godfrey_steals">
+      <data key="d0">Godfrey takes diamond from unconscious Franklin</data>
+      <data key="d1">event</data>
+      <data key="d2">True</data>
+      <data key="d3">True</data>
+      <data key="d4">0.6</data>
+    </node>
+    <node id="godfrey_doesnt_steal">
+      <data key="d0">Godfrey doesn't take the opportunity</data>
+      <data key="d1">counterfactual</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="rachel_loves_franklin">
+      <data key="d0">Rachel loves Franklin</data>
+      <data key="d1">condition</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="rachel_silent">
+      <data key="d0">Rachel maintains silence to protect Franklin</data>
+      <data key="d1">event</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.85</data>
+    </node>
+    <node id="rachel_tells">
+      <data key="d0">Rachel tells someone what she saw</data>
+      <data key="d1">counterfactual</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="rosanna_finds_nightgown">
+      <data key="d0">Rosanna discovers the stained nightgown</data>
+      <data key="d1">event</data>
+      <data key="d2">True</data>
+      <data key="d3">True</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="rosanna_loves_franklin">
+      <data key="d0">Rosanna is in love with Franklin</data>
+      <data key="d1">condition</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="rosanna_hides_evidence">
+      <data key="d0">Rosanna hides the nightgown</data>
+      <data key="d1">event</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="rosanna_reports">
+      <data key="d0">Rosanna reports what she found</data>
+      <data key="d1">counterfactual</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="rosanna_suicide">
+      <data key="d0">Rosanna commits suicide</data>
+      <data key="d1">event</data>
+      <data key="d2">True</data>
+      <data key="d3">True</data>
+      <data key="d4">0.4</data>
+    </node>
+    <node id="cuff_investigates">
+      <data key="d0">Sergeant Cuff investigates</data>
+      <data key="d1">event</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="investigation_stalls">
+      <data key="d0">Investigation stalls due to Rachel's silence</data>
+      <data key="d1">event</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="candy_ill">
+      <data key="d0">Dr. Candy falls ill with brain fever</data>
+      <data key="d1">event</data>
+      <data key="d2">True</data>
+      <data key="d3">True</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="jennings_records_ravings">
+      <data key="d0">Jennings records Candy's fever-ravings</data>
+      <data key="d1">event</data>
+      <data key="d2">True</data>
+      <data key="d3">True</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="jennings_reconstructs">
+      <data key="d0">Jennings reconstructs the truth about laudanum</data>
+      <data key="d1">event</data>
+      <data key="d2">True</data>
+      <data key="d3">True</data>
+      <data key="d4">0.25</data>
+    </node>
+    <node id="truth_never_discovered">
+      <data key="d0">The truth is never discovered</data>
+      <data key="d1">counterfactual</data>
+      <data key="d2">False</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="opium_experiment">
+      <data key="d0">The opium experiment proves Franklin's innocence</data>
+      <data key="d1">event</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="reconciliation">
+      <data key="d0">Rachel and Franklin reconcile</data>
+      <data key="d1">event</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="godfrey_reclaims">
+      <data key="d0">Godfrey reclaims diamond from Luker</data>
+      <data key="d1">event</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="brahmins_track">
+      <data key="d0">Brahmins track the diamond to Godfrey</data>
+      <data key="d1">event</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="godfrey_murdered">
+      <data key="d0">Brahmins kill Godfrey, recover diamond</data>
+      <data key="d1">event</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <node id="diamond_returns">
+      <data key="d0">Diamond returned to India</data>
+      <data key="d1">event</data>
+      <data key="d2">True</data>
+      <data key="d3">False</data>
+      <data key="d4">0.5</data>
+    </node>
+    <edge source="herncastle_corrupt" target="herncastle_steals">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="diamond_exists" target="herncastle_steals">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="siege_happens" target="herncastle_steals">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="herncastle_steals" target="brahmins_pursue">
+      <data key="d5">causes</data>
+    </edge>
+    <edge source="herncastle_steals" target="bequeaths_to_rachel">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="brahmins_pursue" target="brahmins_track">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="herncastle_vindictive" target="bequeaths_to_rachel">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="bequeaths_to_rachel" target="franklin_brings">
+      <data key="d5">causes</data>
+    </edge>
+    <edge source="franklin_brings" target="birthday_dinner">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="birthday_dinner" target="candy_offended">
+      <data key="d5">causes</data>
+    </edge>
+    <edge source="candy_offended" target="candy_doses_franklin">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="candy_offended" target="candy_does_nothing">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="candy_has_laudanum" target="candy_doses_franklin">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="candy_doses_franklin" target="franklin_drugged">
+      <data key="d5">causes</data>
+    </edge>
+    <edge source="candy_doses_franklin" target="candy_ill">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="candy_does_nothing" target="franklin_sleeps_normally">
+      <data key="d5">causes</data>
+    </edge>
+    <edge source="franklin_drugged" target="franklin_takes_diamond">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="franklin_anxious" target="franklin_takes_diamond">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="franklin_takes_diamond" target="rachel_witnesses">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="franklin_takes_diamond" target="rachel_asleep">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="franklin_takes_diamond" target="godfrey_sees_opportunity">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="franklin_takes_diamond" target="rosanna_finds_nightgown">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="rachel_awake" target="rachel_witnesses">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="rachel_witnesses" target="rachel_silent">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="rachel_witnesses" target="rachel_tells">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="godfrey_awake" target="godfrey_sees_opportunity">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="godfrey_desperate" target="godfrey_steals">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="godfrey_sees_opportunity" target="godfrey_steals">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="godfrey_sees_opportunity" target="godfrey_doesnt_steal">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="godfrey_steals" target="cuff_investigates">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="godfrey_steals" target="godfrey_reclaims">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="rachel_loves_franklin" target="rachel_silent">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="rachel_silent" target="investigation_stalls">
+      <data key="d5">causes</data>
+    </edge>
+    <edge source="rosanna_finds_nightgown" target="rosanna_hides_evidence">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="rosanna_finds_nightgown" target="rosanna_reports">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="rosanna_loves_franklin" target="rosanna_hides_evidence">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="rosanna_hides_evidence" target="rosanna_suicide">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="rosanna_hides_evidence" target="investigation_stalls">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="investigation_stalls" target="jennings_reconstructs">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="investigation_stalls" target="truth_never_discovered">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="candy_ill" target="jennings_records_ravings">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="jennings_records_ravings" target="jennings_reconstructs">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="jennings_reconstructs" target="opium_experiment">
+      <data key="d5">causes</data>
+    </edge>
+    <edge source="opium_experiment" target="reconciliation">
+      <data key="d5">causes</data>
+    </edge>
+    <edge source="godfrey_reclaims" target="brahmins_track">
+      <data key="d5">enables</data>
+    </edge>
+    <edge source="brahmins_track" target="godfrey_murdered">
+      <data key="d5">causes</data>
+    </edge>
+    <edge source="godfrey_murdered" target="diamond_returns">
+      <data key="d5">causes</data>
+    </edge>
+  </graph>
+</graphml>

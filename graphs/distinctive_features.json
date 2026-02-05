@@ -1,0 +1,109 @@
+{
+  "prologue_cousin": [
+    {
+      "feature": "semicolon_per_1k",
+      "value": 10.101010101010102,
+      "avg": 4.580397359708137,
+      "type": "punctuation"
+    }
+  ],
+  "betteredge": [
+    {
+      "feature": "class_markers_per_1k",
+      "value": 2.650056344655926,
+      "type": "lexical"
+    },
+    {
+      "feature": "superstition_per_1k",
+      "value": 1.3621784949165974,
+      "type": "lexical"
+    }
+  ],
+  "miss_clack": [
+    {
+      "feature": "religious_per_1k",
+      "value": 5.544268053307621,
+      "type": "lexical"
+    },
+    {
+      "feature": "tract_titles_per_1k",
+      "value": 1.721822376803609,
+      "type": "lexical"
+    },
+    {
+      "feature": "admiration_per_1k",
+      "value": 4.580047522297599,
+      "type": "lexical"
+    },
+    {
+      "feature": "godfrey_worship_per_1k",
+      "value": 3.3747718585350737,
+      "type": "lexical"
+    },
+    {
+      "feature": "exclamation_per_1k",
+      "value": 7.713764248080168,
+      "avg": 4.043981984690256,
+      "type": "punctuation"
+    }
+  ],
+  "bruff": [
+    {
+      "feature": "legal_per_1k",
+      "value": 1.2785907089075152,
+      "type": "lexical"
+    }
+  ],
+  "franklin_blake": [
+    {
+      "feature": "investigation_per_1k",
+      "value": 1.334768568353068,
+      "type": "lexical"
+    },
+    {
+      "feature": "question_per_1k",
+      "value": 7.771797631862217,
+      "avg": 4.897992009428846,
+      "type": "punctuation"
+    }
+  ],
+  "ezra_jennings": [
+    {
+      "feature": "medical_per_1k",
+      "value": 5.0926267621226655,
+      "type": "lexical"
+    },
+    {
+      "feature": "journal_per_1k",
+      "value": 1.5499298841242897,
+      "type": "lexical"
+    }
+  ],
+  "sergeant_cuff": [
+    {
+      "feature": "detective_per_1k",
+      "value": 1.9889311656866135,
+      "type": "lexical"
+    },
+    {
+      "feature": "parenthetical_per_1k",
+      "value": 5.188516084399862,
+      "avg": 3.1876080684629335,
+      "type": "punctuation"
+    }
+  ],
+  "murthwaite": [
+    {
+      "feature": "colon_per_1k",
+      "value": 1.5246807699637888,
+      "avg": 0.69281517482987,
+      "type": "punctuation"
+    },
+    {
+      "feature": "parenthetical_per_1k",
+      "value": 6.098723079855155,
+      "avg": 3.1876080684629335,
+      "type": "punctuation"
+    }
+  ]
+}
