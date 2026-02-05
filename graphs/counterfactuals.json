@@ -1,0 +1,64 @@
+{
+  "hinges": [
+    {
+      "id": "candy_doses_franklin",
+      "description": "Dr. Candy secretly doses Franklin with laudanum",
+      "actual_outcome": "Candy slips laudanum into Franklin's drink as petty revenge for being mocked about medicine",
+      "alternatives": []
+    },
+    {
+      "id": "rachel_witnesses",
+      "description": "Rachel sees Franklin take the diamond",
+      "actual_outcome": "Rachel stays silent, assumes Franklin is a thief, breaks off engagement",
+      "alternatives": []
+    },
+    {
+      "id": "rosanna_finds_nightgown",
+      "description": "Rosanna discovers the stained nightgown",
+      "actual_outcome": "Rosanna hides the nightgown to protect Franklin, whom she loves",
+      "alternatives": []
+    },
+    {
+      "id": "godfrey_steals",
+      "description": "Godfrey takes diamond from unconscious Franklin",
+      "actual_outcome": "Godfrey seizes opportunity, takes diamond from Franklin's hand, pawns it to cover debts",
+      "alternatives": []
+    },
+    {
+      "id": "rosanna_suicide",
+      "description": "Rosanna commits suicide at the Shivering Sand",
+      "actual_outcome": "Rosanna drowns herself, leaving letter and nightgown in the quicksand",
+      "alternatives": []
+    },
+    {
+      "id": "candy_ill",
+      "description": "Dr. Candy falls ill with brain fever",
+      "actual_outcome": "Candy's illness prevents him from remembering or revealing what he did",
+      "alternatives": []
+    },
+    {
+      "id": "jennings_records_ravings",
+      "description": "Ezra Jennings records Candy's fever-ravings",
+      "actual_outcome": "Jennings meticulously documents the fragmentary confessions",
+      "alternatives": []
+    },
+    {
+      "id": "jennings_reconstructs",
+      "description": "Jennings reconstructs the truth from fever-ravings",
+      "actual_outcome": "Jennings pieces together that Candy dosed Franklin, proposes experiment",
+      "alternatives": []
+    },
+    {
+      "id": "godfrey_sees_opportunity",
+      "description": "Godfrey observes Franklin with the diamond",
+      "actual_outcome": "Godfrey happens to see Franklin wandering with diamond, follows him",
+      "alternatives": []
+    },
+    {
+      "id": "bequeaths_to_rachel",
+      "description": "Colonel Herncastle leaves diamond to Rachel in his will",
+      "actual_outcome": "Herncastle's malicious bequest brings the cursed diamond into the Verinder household",
+      "alternatives": []
+    }
+  ]
+}

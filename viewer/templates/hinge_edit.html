@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }} — Moonstone Viewer{% endblock %}
+
+{% block content %}
+<div class="hinge-edit-page">
+    <header class="hinge-edit-header">
+        <a href="/hinges/{{ hinge.id }}" class="back-link">← Back to {{ hinge.description }}</a>
+        <h1>{{ title }}</h1>
+    </header>
+
+    <div class="context-box">
+        <h3>What Actually Happened</h3>
+        <p>{{ hinge.actual_outcome }}</p>
+    </div>
+
+    <form method="POST" class="alternative-form">
+        <div class="form-group">
+            <label for="outcome">Alternative Outcome</label>
+            <p class="form-help">What happens instead? One sentence.</p>
+            <input type="text"
+                   id="outcome"
+                   name="outcome"
+                   value="{{ alternative.outcome if alternative else '' }}"
+                   placeholder="e.g., Rachel confronts Franklin immediately"
+                   required>
+        </div>
+
+        <div class="form-group">
+            <label for="immediate_effects">Immediate Effects</label>
+            <p class="form-help">Direct consequences of this alternative. One per line.</p>
+            <textarea id="immediate_effects"
+                      name="immediate_effects"
+                      rows="5"
+                      placeholder="Franklin reveals he has no memory of taking the diamond&#10;Rachel's anger turns to confusion&#10;They begin investigating together">{{ alternative.immediate_effects|join('\n') if alternative else '' }}</textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="plausibility_notes">Plausibility Notes</label>
+            <p class="form-help">Is this in character? Physically possible? What makes it more or less likely?</p>
+            <textarea id="plausibility_notes"
+                      name="plausibility_notes"
+                      rows="3"
+                      placeholder="In character for Rachel — she's direct and principled. But her wounded pride might override this instinct.">{{ alternative.plausibility_notes if alternative else '' }}</textarea>
+        </div>
+
+        <div class="form-group">
+            <label>Would Block</label>
+            <p class="form-help">Which other hinge points would this alternative prevent from happening?</p>
+            <div class="checkbox-grid">
+                {% for hinge_id in all_hinge_ids %}
+                {% if hinge_id != hinge.id %}
+                <label class="checkbox-label">
+                    <input type="checkbox"
+                           name="blocks"
+                           value="{{ hinge_id }}"
+                           {{ 'checked' if alternative and hinge_id in alternative.blocks else '' }}>
+                    {{ hinge_id|replace('_', ' ') }}
+                </label>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="form-actions">
+            <a href="/hinges/{{ hinge.id }}" class="cancel-btn">Cancel</a>
+            <button type="submit" class="save-btn">{{ 'Save Changes' if mode == 'edit' else 'Add Alternative' }}</button>
+        </div>
+    </form>
+</div>
+{% endblock %}

@@ -369,3 +369,95 @@ The viewer is part of the larger system for growing the story into a meta-story.
 - Secrets view provides interpretable alternative to knowledge asymmetry graph
 - Documents view provides access to all foundation and meta documents with cross-references
 - Ready for: further iteration, generation testing, connecting graphs to narrative output
+
+---
+
+## 2026-02-04 — Session 8: Counterfactuals System
+
+### Requested
+Build a system for cooperatively filling in alternate paths at hinge points. Need to:
+- Browse an inventory of plausible immediate alternative outcomes
+- Assess plausibility of alternatives
+- Start minimal (no probability), layer probability later
+
+### Delivered
+
+**Plan Document** (`COUNTERFACTUALS_PLAN.md`):
+- Data model for hinges and alternatives
+- JSON schema with outcome, immediate_effects, plausibility_notes, blocks fields
+- View specifications for index, detail, and edit pages
+- Implementation order
+- Future probability layer design
+
+**Data File** (`graphs/counterfactuals.json`):
+- 10 hinge points seeded from existing hinge_points.json
+- Each with description and actual_outcome
+- Empty alternatives arrays ready to be filled
+
+**Backend** (`viewer/counterfactuals.py`):
+- load_counterfactuals / save_counterfactuals
+- get_hinge, add_alternative, update_alternative, delete_alternative
+- get_all_hinge_ids (for blocks dropdown)
+
+**Routes** (in `viewer/app.py`):
+- `/hinges` — Index of all hinge points
+- `/hinges/<id>` — Detail view with alternatives
+- `/hinges/<id>/add` — Form to add alternative (GET/POST)
+- `/hinges/<id>/<alt_id>/edit` — Edit existing alternative
+- `/hinges/<id>/<alt_id>/delete` — Delete alternative
+
+**Templates**:
+- `hinges_index.html` — Card list of hinges with alternative counts
+- `hinge_detail.html` — Shows actual outcome + all alternatives with effects, plausibility, blocks
+- `hinge_edit.html` — Form for adding/editing alternatives
+
+**Styling**: Full CSS for hinges pages including cards, forms, checkbox grids, action buttons
+
+**Nav**: Added "Hinges" link to navigation
+
+### Data Model (v1 — no probability)
+
+```json
+{
+  "id": "rachel_witnesses",
+  "description": "Rachel sees Franklin take the diamond",
+  "actual_outcome": "Rachel stays silent, assumes Franklin is a thief, breaks off engagement",
+  "alternatives": [
+    {
+      "id": "rachel_witnesses_alt_1",
+      "outcome": "Rachel confronts Franklin immediately",
+      "immediate_effects": [
+        "Franklin reveals he has no memory of it",
+        "Rachel's anger turns to confusion"
+      ],
+      "plausibility_notes": "In character — Rachel is direct. But wounded pride might override.",
+      "blocks": ["rosanna_hides_nightgown", "investigation_splits"]
+    }
+  ]
+}
+```
+
+### Files Changed
+- `COUNTERFACTUALS_PLAN.md` — Created
+- `graphs/counterfactuals.json` — Created (10 hinges seeded)
+- `viewer/counterfactuals.py` — Created
+- `viewer/app.py` — Added hinges routes
+- `viewer/templates/hinges_index.html` — Created
+- `viewer/templates/hinge_detail.html` — Created
+- `viewer/templates/hinge_edit.html` — Created
+- `viewer/templates/base.html` — Added Hinges nav link
+- `viewer/static/style.css` — Added hinges styling
+- `README.md` — Added Hinges section, COUNTERFACTUALS_PLAN.md link
+- `LOG.md` — This entry
+
+### What's NOT in v1
+- Probability scores
+- Cascading effects (alternative A affects hinge B)
+- AI-assisted generation
+- Versioning or history
+
+### Current State
+- Hinges system functional at http://localhost:5050/hinges
+- Can browse hinges, add alternatives, edit/delete them
+- Data persists to counterfactuals.json
+- Ready for: manual population of alternatives, then probability layer

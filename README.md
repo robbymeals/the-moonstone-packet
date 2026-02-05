@@ -24,6 +24,8 @@ Open http://localhost:5050
 - Locations — spatial relationships
 - Event-perspective matrix — which narrators cover which events
 
+**Hinges** — pivotal moments where the story could have diverged. Browse hinges, add alternative outcomes, note immediate effects and plausibility.
+
 **Stats**: word counts, character co-occurrence, n-grams, the usual.
 
 ## Documents
@@ -46,6 +48,7 @@ Documentation about the process.
 - [VIEWER_PLAN.md](VIEWER_PLAN.md) — Plan for the graph viewer application.
 - [LOG.md](LOG.md) — Session-by-session work record. What was requested, what was delivered, reasoning behind decisions.
 - [CHECKLIST.md](CHECKLIST.md) — Progress tracker for extraction phases.
+- [COUNTERFACTUALS_PLAN.md](COUNTERFACTUALS_PLAN.md) — Plan for the alternate outcomes system.
 - [CLAUDE.md](CLAUDE.md) — Instructions for Claude Code when working on this project.
 
 ## License

@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }} — Moonstone Viewer{% endblock %}
+
+{% block content %}
+<div class="hinge-detail-page">
+    <header class="hinge-detail-header">
+        <a href="/hinges" class="back-link">← All Hinges</a>
+        <h1>{{ hinge.description }}</h1>
+        <p class="question">{{ question }}</p>
+    </header>
+
+    <section class="actual-section">
+        <h2>What Actually Happened</h2>
+        <div class="actual-card">
+            <p>{{ hinge.actual_outcome }}</p>
+        </div>
+    </section>
+
+    <section class="alternatives-section">
+        <div class="section-header">
+            <h2>Alternatives ({{ hinge.alternatives|length }})</h2>
+            <a href="/hinges/{{ hinge.id }}/add" class="add-btn">+ Add Alternative</a>
+        </div>
+
+        {% if hinge.alternatives %}
+        <div class="alternatives-list">
+            {% for alt in hinge.alternatives %}
+            <div class="alternative-card">
+                <div class="alt-header">
+                    <h3>{{ alt.outcome }}</h3>
+                    <div class="alt-actions">
+                        <a href="/hinges/{{ hinge.id }}/{{ alt.id }}/edit" class="edit-link">Edit</a>
+                        <form action="/hinges/{{ hinge.id }}/{{ alt.id }}/delete" method="POST" style="display:inline;">
+                            <button type="submit" class="delete-btn" onclick="return confirm('Delete this alternative?')">Delete</button>
+                        </form>
+                    </div>
+                </div>
+
+                {% if alt.immediate_effects %}
+                <div class="alt-effects">
+                    <h4>Immediate Effects</h4>
+                    <ul>
+                        {% for effect in alt.immediate_effects %}
+                        <li>{{ effect }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+
+                {% if alt.plausibility_notes %}
+                <div class="alt-plausibility">
+                    <h4>Plausibility</h4>
+                    <p>{{ alt.plausibility_notes }}</p>
+                </div>
+                {% endif %}
+
+                {% if alt.blocks %}
+                <div class="alt-blocks">
+                    <h4>Would Block</h4>
+                    <div class="blocks-list">
+                        {% for block_id in alt.blocks %}
+                        <a href="/hinges/{{ block_id }}" class="block-tag">{{ block_id }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="empty-state">
+            <p>No alternatives yet. What else could have happened here?</p>
+            <a href="/hinges/{{ hinge.id }}/add" class="add-btn">Add the first alternative</a>
+        </div>
+        {% endif %}
+    </section>
+</div>
+{% endblock %}

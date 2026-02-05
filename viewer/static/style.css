@@ -882,6 +882,381 @@ main {
     font-weight: 500;
 }
 
+/* Hinges index page */
+.hinges-page {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hinges-header {
+    margin-bottom: 2rem;
+}
+
+.hinges-header h1 {
+    font-size: 1.75rem;
+    margin-bottom: 0.25rem;
+}
+
+.hinges-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.hinge-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-left: 4px solid #ffd700;
+    border-radius: 6px;
+    padding: 1.25rem;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.hinge-card:hover {
+    border-color: #ffd700;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.hinge-main h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.hinge-main .actual-outcome {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.hinge-main .actual-outcome .label {
+    font-weight: 500;
+    color: #999;
+}
+
+.hinge-meta .alt-count {
+    font-size: 0.85rem;
+    color: #999;
+    background: #f5f5f5;
+    padding: 0.25rem 0.6rem;
+    border-radius: 12px;
+    white-space: nowrap;
+}
+
+/* Hinge detail page */
+.hinge-detail-page {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hinge-detail-header {
+    margin-bottom: 2rem;
+}
+
+.hinge-detail-header h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.actual-section {
+    margin-bottom: 2rem;
+}
+
+.actual-section h2 {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.actual-card {
+    background: #e8f5e9;
+    border: 1px solid #c8e6c9;
+    border-left: 4px solid #4CAF50;
+    border-radius: 6px;
+    padding: 1rem 1.25rem;
+}
+
+.actual-card p {
+    color: #2e7d32;
+}
+
+.alternatives-section .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.alternatives-section h2 {
+    font-size: 1.1rem;
+}
+
+.add-btn {
+    background: #4CAF50;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background 0.15s;
+}
+
+.add-btn:hover {
+    background: #43a047;
+}
+
+.alternatives-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.alternative-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.alt-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem 1.25rem;
+    background: #fafafa;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.alt-header h3 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.alt-actions {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.edit-link {
+    font-size: 0.85rem;
+    color: #666;
+    text-decoration: none;
+}
+
+.edit-link:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+.delete-btn {
+    font-size: 0.85rem;
+    color: #e53935;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.delete-btn:hover {
+    text-decoration: underline;
+}
+
+.alt-effects, .alt-plausibility, .alt-blocks {
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.alt-effects:last-child, .alt-plausibility:last-child, .alt-blocks:last-child {
+    border-bottom: none;
+}
+
+.alt-effects h4, .alt-plausibility h4, .alt-blocks h4 {
+    font-size: 0.8rem;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.5rem;
+}
+
+.alt-effects ul {
+    margin: 0;
+    padding-left: 1.25rem;
+}
+
+.alt-effects li {
+    font-size: 0.9rem;
+    color: #444;
+    margin-bottom: 0.25rem;
+}
+
+.alt-plausibility p {
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
+    margin: 0;
+}
+
+.blocks-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.block-tag {
+    font-size: 0.8rem;
+    background: #fff3e0;
+    color: #e65100;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.block-tag:hover {
+    background: #ffe0b2;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 3rem;
+    background: #fafafa;
+    border-radius: 8px;
+}
+
+.empty-state p {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+/* Hinge edit page */
+.hinge-edit-page {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.hinge-edit-header {
+    margin-bottom: 1.5rem;
+}
+
+.hinge-edit-header h1 {
+    font-size: 1.5rem;
+}
+
+.context-box {
+    background: #f5f5f5;
+    border-radius: 6px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.context-box h3 {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.context-box p {
+    margin: 0;
+    color: #333;
+}
+
+.alternative-form {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.form-help {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    font-family: inherit;
+}
+
+.form-group input[type="text"]:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+}
+
+.checkbox-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 0.5rem;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    color: #444;
+    cursor: pointer;
+}
+
+.checkbox-label input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e0e0e0;
+}
+
+.cancel-btn {
+    padding: 0.6rem 1.25rem;
+    color: #666;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.cancel-btn:hover {
+    background: #f5f5f5;
+}
+
+.save-btn {
+    padding: 0.6rem 1.25rem;
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.save-btn:hover {
+    background: #43a047;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     nav {

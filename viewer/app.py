@@ -4,12 +4,21 @@ Moonstone Graph Viewer
 Minimal Flask app for viewing narrative structure graphs.
 """
 
-from flask import Flask, render_template, send_from_directory
+from flask import Flask, render_template, send_from_directory, request, redirect, url_for
 from markupsafe import Markup
 from pathlib import Path
 import json
 import re
 
+from counterfactuals import (
+    load_counterfactuals,
+    save_counterfactuals,
+    get_hinge,
+    add_alternative,
+    update_alternative,
+    delete_alternative,
+    get_all_hinge_ids,
+)
 from graphs import (
     render_counterfactual_dag,
     render_causal_chain,
@@ -343,6 +352,123 @@ def docs_view(doc_name):
                           content=Markup(html_content),
                           related=related,
                           all_docs=DOCUMENTS)
+
+
+@app.route("/hinges")
+def hinges_index():
+    """List all hinge points with their alternatives."""
+    data = load_counterfactuals(GRAPHS_DIR)
+    return render_template("hinges_index.html",
+                          title="Hinge Points",
+                          question="Where could the story have gone differently?",
+                          description="Pivotal moments where different choices or circumstances would have led to different outcomes. Click to explore alternatives.",
+                          hinges=data["hinges"])
+
+
+@app.route("/hinges/<hinge_id>")
+def hinge_detail(hinge_id):
+    """View a specific hinge and its alternatives."""
+    data = load_counterfactuals(GRAPHS_DIR)
+    hinge = get_hinge(data, hinge_id)
+    if hinge is None:
+        return "Hinge not found", 404
+
+    all_hinge_ids = get_all_hinge_ids(data)
+    return render_template("hinge_detail.html",
+                          title=hinge["description"],
+                          question="What else could have happened here?",
+                          hinge=hinge,
+                          all_hinge_ids=all_hinge_ids)
+
+
+@app.route("/hinges/<hinge_id>/add", methods=["GET", "POST"])
+def hinge_add_alternative(hinge_id):
+    """Add a new alternative to a hinge."""
+    data = load_counterfactuals(GRAPHS_DIR)
+    hinge = get_hinge(data, hinge_id)
+    if hinge is None:
+        return "Hinge not found", 404
+
+    if request.method == "POST":
+        # Parse form data
+        outcome = request.form.get("outcome", "").strip()
+        effects_raw = request.form.get("immediate_effects", "").strip()
+        effects = [e.strip() for e in effects_raw.split("\n") if e.strip()]
+        plausibility = request.form.get("plausibility_notes", "").strip()
+        blocks = request.form.getlist("blocks")
+
+        if outcome:
+            alternative = {
+                "outcome": outcome,
+                "immediate_effects": effects,
+                "plausibility_notes": plausibility,
+                "blocks": blocks,
+            }
+            add_alternative(data, hinge_id, alternative)
+            save_counterfactuals(GRAPHS_DIR, data)
+
+        return redirect(url_for("hinge_detail", hinge_id=hinge_id))
+
+    all_hinge_ids = get_all_hinge_ids(data)
+    return render_template("hinge_edit.html",
+                          title=f"Add Alternative: {hinge['description']}",
+                          hinge=hinge,
+                          alternative=None,
+                          all_hinge_ids=all_hinge_ids,
+                          mode="add")
+
+
+@app.route("/hinges/<hinge_id>/<alt_id>/edit", methods=["GET", "POST"])
+def hinge_edit_alternative(hinge_id, alt_id):
+    """Edit an existing alternative."""
+    data = load_counterfactuals(GRAPHS_DIR)
+    hinge = get_hinge(data, hinge_id)
+    if hinge is None:
+        return "Hinge not found", 404
+
+    alternative = None
+    for alt in hinge["alternatives"]:
+        if alt["id"] == alt_id:
+            alternative = alt
+            break
+    if alternative is None:
+        return "Alternative not found", 404
+
+    if request.method == "POST":
+        outcome = request.form.get("outcome", "").strip()
+        effects_raw = request.form.get("immediate_effects", "").strip()
+        effects = [e.strip() for e in effects_raw.split("\n") if e.strip()]
+        plausibility = request.form.get("plausibility_notes", "").strip()
+        blocks = request.form.getlist("blocks")
+
+        if outcome:
+            updates = {
+                "outcome": outcome,
+                "immediate_effects": effects,
+                "plausibility_notes": plausibility,
+                "blocks": blocks,
+            }
+            update_alternative(data, hinge_id, alt_id, updates)
+            save_counterfactuals(GRAPHS_DIR, data)
+
+        return redirect(url_for("hinge_detail", hinge_id=hinge_id))
+
+    all_hinge_ids = get_all_hinge_ids(data)
+    return render_template("hinge_edit.html",
+                          title=f"Edit Alternative: {hinge['description']}",
+                          hinge=hinge,
+                          alternative=alternative,
+                          all_hinge_ids=all_hinge_ids,
+                          mode="edit")
+
+
+@app.route("/hinges/<hinge_id>/<alt_id>/delete", methods=["POST"])
+def hinge_delete_alternative(hinge_id, alt_id):
+    """Delete an alternative."""
+    data = load_counterfactuals(GRAPHS_DIR)
+    delete_alternative(data, hinge_id, alt_id)
+    save_counterfactuals(GRAPHS_DIR, data)
+    return redirect(url_for("hinge_detail", hinge_id=hinge_id))
 
 
 @app.route("/static/<path:filename>")

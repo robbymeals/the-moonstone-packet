@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }} — Moonstone Viewer{% endblock %}
+
+{% block content %}
+<div class="hinges-page">
+    <header class="hinges-header">
+        <h1>{{ title }}</h1>
+        <p class="question">{{ question }}</p>
+        <p class="description">{{ description }}</p>
+    </header>
+
+    <div class="hinges-list">
+        {% for hinge in hinges %}
+        <a href="/hinges/{{ hinge.id }}" class="hinge-card">
+            <div class="hinge-main">
+                <h3>{{ hinge.description }}</h3>
+                <p class="actual-outcome">
+                    <span class="label">What happened:</span>
+                    {{ hinge.actual_outcome }}
+                </p>
+            </div>
+            <div class="hinge-meta">
+                <span class="alt-count">{{ hinge.alternatives|length }} alternative{{ 's' if hinge.alternatives|length != 1 else '' }}</span>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
