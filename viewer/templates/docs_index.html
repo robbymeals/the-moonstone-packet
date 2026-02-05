@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }} — Moonstone Viewer{% endblock %}
+
+{% block content %}
+<div class="docs-index-page">
+    <header class="docs-header">
+        <h1>{{ title }}</h1>
+        <p class="question">{{ question }}</p>
+        <p class="description">{{ description }}</p>
+    </header>
+
+    <section class="docs-section">
+        <h2>Foundation Documents</h2>
+        <p class="section-desc">The core extraction — what the packet is built from.</p>
+        <div class="docs-grid">
+            {% for name, doc in foundation.items() %}
+            <a href="/docs/{{ name }}" class="doc-card">
+                <h3>{{ doc.title }}</h3>
+                <p class="doc-question">{{ doc.question }}</p>
+                <p class="doc-desc">{{ doc.description }}</p>
+                <span class="doc-filename">{{ name }}.md</span>
+            </a>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="docs-section">
+        <h2>Meta Documents</h2>
+        <p class="section-desc">Documentation about the process and methodology.</p>
+        <div class="docs-grid">
+            {% for name, doc in meta.items() %}
+            <a href="/docs/{{ name }}" class="doc-card doc-card-meta">
+                <h3>{{ doc.title }}</h3>
+                <p class="doc-question">{{ doc.question }}</p>
+                <p class="doc-desc">{{ doc.description }}</p>
+                <span class="doc-filename">{{ name }}.md</span>
+            </a>
+            {% endfor %}
+        </div>
+    </section>
+</div>
+{% endblock %}

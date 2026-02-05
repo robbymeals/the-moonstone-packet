@@ -1,0 +1,168 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }} — Moonstone Viewer{% endblock %}
+
+{% block content %}
+<div class="stats-page">
+    <header class="stats-header">
+        <h1>{{ title }}</h1>
+        <p class="description">{{ description }}</p>
+    </header>
+
+    {% if stats.error %}
+    <div class="error">{{ stats.error }}</div>
+    {% else %}
+
+    <!-- Basic Stats -->
+    <section class="stats-section">
+        <h2>Basic Corpus Statistics</h2>
+        <p class="question">How big is this thing?</p>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-value">{{ "{:,}".format(stats.basic.words) }}</div>
+                <div class="stat-label">Words</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">{{ "{:,}".format(stats.basic.lines) }}</div>
+                <div class="stat-label">Lines</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">{{ "{:,}".format(stats.basic.sentences) }}</div>
+                <div class="stat-label">Sentences</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">{{ "{:,}".format(stats.basic.unique_words) }}</div>
+                <div class="stat-label">Unique Words</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">{{ "%.2f"|format(stats.basic.avg_word_length) }}</div>
+                <div class="stat-label">Avg Word Length</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">{{ "%.1f"|format(stats.basic.avg_sentence_length) }}</div>
+                <div class="stat-label">Avg Sentence Length</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">{{ "%.3f"|format(stats.basic.type_token_ratio) }}</div>
+                <div class="stat-label">Type-Token Ratio</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">{{ "{:,}".format(stats.basic.hapax_legomena) }}</div>
+                <div class="stat-label">Hapax Legomena</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Narrative Sections -->
+    <section class="stats-section">
+        <h2>Words Per Narrator</h2>
+        <p class="question">Who gets the most page time?</p>
+        <div class="bar-chart">
+            {% for s in stats.sections %}
+            <div class="bar-row">
+                <div class="bar-label">{{ s.section }}</div>
+                <div class="bar-container">
+                    <div class="bar" style="width: {{ (s.words / 80000 * 100)|int }}%">
+                        {{ "{:,}".format(s.words) }}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <!-- Character Mentions -->
+    <section class="stats-section">
+        <h2>Character Mentions</h2>
+        <p class="question">Who dominates the text?</p>
+        <div class="bar-chart">
+            {% for char, count in stats.character_mentions.items() %}
+            <div class="bar-row">
+                <div class="bar-label">{{ char }}</div>
+                <div class="bar-container">
+                    <div class="bar bar-pink" style="width: {{ (count / 600 * 100)|int }}%">
+                        {{ count }}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <!-- Co-occurrence Matrix -->
+    <section class="stats-section">
+        <h2>Character Co-occurrence Matrix</h2>
+        <p class="question">Who appears near whom? (within 50 words)</p>
+        <div class="matrix-container">
+            <table class="cooc-matrix">
+                <thead>
+                    <tr>
+                        <th></th>
+                        {% for char in stats.cooccurrence.characters %}
+                        <th class="rotated">{{ char }}</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for c1 in stats.cooccurrence.characters %}
+                    <tr>
+                        <td class="row-label">{{ c1 }}</td>
+                        {% for c2 in stats.cooccurrence.characters %}
+                        {% set val = stats.cooccurrence.matrix[c1][c2] %}
+                        {% set intensity = (val / 500 * 100)|int %}
+                        {% if intensity > 100 %}{% set intensity = 100 %}{% endif %}
+                        <td class="cooc-cell" style="background: rgba(233, 30, 99, {{ intensity / 100 }});" title="{{ c1 }} ↔ {{ c2 }}: {{ val }}">
+                            {% if val > 50 %}{{ val }}{% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Top Bigrams -->
+    <section class="stats-section">
+        <h2>Top Bigrams</h2>
+        <p class="question">What word pairs recur?</p>
+        <div class="ngram-grid">
+            {% for ngram, count in stats.bigrams %}
+            <div class="ngram-item">
+                <span class="ngram-text">"{{ ngram }}"</span>
+                <span class="ngram-count">{{ count }}</span>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <!-- Top Trigrams -->
+    <section class="stats-section">
+        <h2>Top Trigrams</h2>
+        <p class="question">What phrases repeat?</p>
+        <div class="ngram-grid">
+            {% for ngram, count in stats.trigrams %}
+            <div class="ngram-item">
+                <span class="ngram-text">"{{ ngram }}"</span>
+                <span class="ngram-count">{{ count }}</span>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <!-- Top Words -->
+    <section class="stats-section">
+        <h2>Top 50 Words</h2>
+        <p class="question">Zipf's law in action</p>
+        <div class="word-cloud">
+            {% for word, count in stats.vocabulary.top_50 %}
+            {% set size = 0.6 + (count / 5000) %}
+            {% if size > 2.5 %}{% set size = 2.5 %}{% endif %}
+            <span class="word-item" style="font-size: {{ size }}rem;" title="{{ word }}: {{ count }}">{{ word }}</span>
+            {% endfor %}
+        </div>
+    </section>
+
+    {% endif %}
+</div>
+{% endblock %}

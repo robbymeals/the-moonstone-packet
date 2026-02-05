@@ -303,3 +303,69 @@ The viewer is part of the larger system for growing the story into a meta-story.
 - Viewer running and functional
 - Ready for iteration via screenshots and discussion
 - Next: refine visualizations, add interactivity, connect to generation
+
+---
+
+## 2026-02-04 — Session 7: Stats View and Graph Annotations
+
+### Requested
+1. Add NLP statistics view with word counts, character co-occurrence matrix, and classic metrics
+2. Add helper text/questions to each graph view as "a way in"
+3. Add color legends explaining what node/edge colors mean
+4. Add hover tooltips with narrative detail
+5. Explain what transitions edges represent
+6. Fix knowledge asymmetry graph interpretability — add alternative view
+
+### Delivered
+
+**Stats View** (`viewer/stats.py`, `viewer/templates/stats.html`):
+- Basic corpus statistics: 197,940 words, 21,377 lines, type-token ratio, hapax legomena
+- Words per narrator section with bar charts
+- Character mention frequencies
+- Character co-occurrence matrix (within 50-word window) with heat coloring
+- Top bigrams and trigrams
+- Top 50 words visualization
+
+**Graph Annotations**:
+- Each graph now has a **question** as entry point (e.g., "What if things had gone differently?")
+- Each graph now has a **color legend** explaining node and edge colors
+- All nodes and edges now have **rich hover tooltips** with narrative context:
+  - Counterfactual DAG: Shows probability, hinge point status, counterfactual branches
+  - Causal Chain: Shows required vs. contingent events, CAUSES vs. ENABLES relationships
+  - Knowledge State: Shows character/fact type, KNOWS vs. SUSPECTS relationships
+  - Knowledge Asymmetry: Shows who holds secrets over whom, with fact lists
+  - Locations: Shows location type, spatial relationships (CONTAINS, ADJACENT, VISIBLE/AUDIBLE)
+
+**Secrets View** (`viewer/templates/secrets.html`, new route `/secrets`):
+- Alternative to Knowledge Asymmetry graph
+- Readable list format showing: who → who, count of secrets, list of facts
+- Sorted by number of secrets (most powerful asymmetries first)
+
+**Files Changed**:
+- `viewer/app.py` — Added stats route, secrets route, questions and legends for all graph routes
+- `viewer/graphs.py` — Added `load_knowledge_asymmetry_data()`, improved all render functions with rich tooltips
+- `viewer/static/style.css` — Added styles for stats page, graph legends, secrets page
+- `viewer/templates/graph.html` — Added question, description, and legend display
+- `viewer/templates/matrix.html` — Added question
+- `viewer/templates/stats.html` — Created
+- `viewer/templates/secrets.html` — Created
+- `viewer/templates/base.html` — Added Stats and Secrets nav links
+
+**Documents View** (`viewer/templates/docs_index.html`, `viewer/templates/docs_view.html`, new routes `/docs`, `/docs/<name>`):
+- Index page listing all documents grouped by category (Foundation vs. Meta)
+- Individual document view with rendered markdown
+- Cross-references between documents (document names become links)
+- Character name highlighting
+- Related documents sidebar (shows documents referenced within current document)
+- Quick navigation between all documents
+
+**Documents Included**:
+- Foundation: ACTIONS, CHARACTERS, PERSPECTIVES, TONE
+- Meta: PLAN, EXTRACTION_TECHNIQUES, LOG, CLAUDE
+
+### Current State
+- All graph views now have: questions, descriptions, color legends, rich hover tooltips
+- Stats view provides classic NLP metrics
+- Secrets view provides interpretable alternative to knowledge asymmetry graph
+- Documents view provides access to all foundation and meta documents with cross-references
+- Ready for: further iteration, generation testing, connecting graphs to narrative output

@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }} — Moonstone Viewer{% endblock %}
+
+{% block content %}
+<div class="docs-view-page">
+    <header class="docs-view-header">
+        <div class="header-main">
+            <a href="/docs" class="back-link">← Documents</a>
+            <h1>{{ title }}</h1>
+            <p class="question">{{ question }}</p>
+            <p class="description">{{ description }}</p>
+        </div>
+        {% if related %}
+        <div class="related-docs">
+            <h4>Referenced Documents</h4>
+            <div class="related-list">
+                {% for doc in related %}
+                <a href="/docs/{{ doc.name }}" class="related-link">{{ doc.title }}</a>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+    </header>
+
+    <nav class="doc-nav">
+        <span class="current-doc">{{ doc_name }}.md</span>
+        <div class="other-docs">
+            {% for name, doc in all_docs.items() %}
+            {% if name != doc_name %}
+            <a href="/docs/{{ name }}">{{ name }}</a>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </nav>
+
+    <article class="doc-content">
+        {{ content }}
+    </article>
+</div>
+{% endblock %}

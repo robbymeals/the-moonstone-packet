@@ -6,7 +6,34 @@
 <div class="graph-page">
     <header class="graph-header">
         <h1>{{ title }}</h1>
-        <p>{{ description }}</p>
+        <p class="question">{{ question }}</p>
+        <p class="description">{{ description }}</p>
+        {% if legend %}
+        <div class="graph-legend">
+            {% if legend.nodes %}
+            <div class="legend-group">
+                <span class="legend-label">Nodes:</span>
+                {% for item in legend.nodes %}
+                <span class="legend-item">
+                    <span class="legend-dot" style="background: {{ item.color }};"></span>
+                    {{ item.label }}
+                </span>
+                {% endfor %}
+            </div>
+            {% endif %}
+            {% if legend.edges %}
+            <div class="legend-group">
+                <span class="legend-label">Edges:</span>
+                {% for item in legend.edges %}
+                <span class="legend-item">
+                    <span class="legend-line {% if item.dashed %}dashed{% endif %}" style="background: {{ item.color }};"></span>
+                    {{ item.label }}
+                </span>
+                {% endfor %}
+            </div>
+            {% endif %}
+        </div>
+        {% endif %}
     </header>
     <div class="graph-container">
         {{ graph_html | safe }}
