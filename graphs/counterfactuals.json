@@ -4,61 +4,488 @@
       "id": "candy_doses_franklin",
       "description": "Dr. Candy secretly doses Franklin with laudanum",
       "actual_outcome": "Candy slips laudanum into Franklin's drink as petty revenge for being mocked about medicine",
-      "alternatives": []
+      "alternatives": [
+        {
+          "id": "candy_doses_alt_1",
+          "outcome": "Candy lets the insult go, does nothing",
+          "immediate_effects": [
+            "Franklin sleeps normally",
+            "Diamond remains in Rachel's cabinet",
+            "No sleepwalking episode occurs"
+          ],
+          "plausibility_notes": "Very plausible. Candy is a professional; petty revenge via drugging is out of character for most physicians. His wounded pride would need to be extreme.",
+          "blocks": ["rachel_witnesses", "godfrey_steals", "rosanna_finds_nightgown"]
+        },
+        {
+          "id": "candy_doses_alt_2",
+          "outcome": "Candy confronts Franklin directly about the insult",
+          "immediate_effects": [
+            "Public argument at the dinner party",
+            "Social awkwardness but no medical intervention",
+            "Franklin apologizes or doubles down"
+          ],
+          "plausibility_notes": "Moderately plausible. Candy is proud but not confrontational. More likely to seethe privately.",
+          "blocks": ["rachel_witnesses", "godfrey_steals"]
+        },
+        {
+          "id": "candy_doses_alt_3",
+          "outcome": "Candy doses Franklin but someone notices",
+          "immediate_effects": [
+            "Betteredge or a servant sees something suspicious",
+            "Franklin is warned or the drink is replaced",
+            "Candy's reputation is at risk"
+          ],
+          "plausibility_notes": "Low plausibility. Candy is discreet, but busy household means witnesses are possible.",
+          "blocks": ["rachel_witnesses", "godfrey_steals"]
+        }
+      ]
     },
     {
       "id": "rachel_witnesses",
       "description": "Rachel sees Franklin take the diamond",
       "actual_outcome": "Rachel stays silent, assumes Franklin is a thief, breaks off engagement",
-      "alternatives": []
+      "alternatives": [
+        {
+          "id": "rachel_witnesses_alt_1",
+          "outcome": "Rachel confronts Franklin immediately that night",
+          "immediate_effects": [
+            "Franklin reveals he has no memory of taking it",
+            "Rachel's anger turns to confusion",
+            "They search for the diamond together",
+            "Godfrey's theft is discovered quickly"
+          ],
+          "plausibility_notes": "Highly plausible. Rachel is direct and principled. Her silence requires wounded pride to override her natural directness.",
+          "blocks": ["rosanna_suicide", "investigation_splits"]
+        },
+        {
+          "id": "rachel_witnesses_alt_2",
+          "outcome": "Rachel tells her mother what she saw",
+          "immediate_effects": [
+            "Lady Verinder confronts Franklin privately",
+            "Family closes ranks, no police called",
+            "Sergeant Cuff never arrives",
+            "Matter handled as family shame"
+          ],
+          "plausibility_notes": "Moderately plausible. Rachel is secretive about emotional matters, but might seek her mother's guidance when frightened.",
+          "blocks": ["cuff_investigation"]
+        },
+        {
+          "id": "rachel_witnesses_alt_3",
+          "outcome": "Rachel screams, waking the household",
+          "immediate_effects": [
+            "Franklin caught in the act (though confused)",
+            "Immediate household investigation",
+            "Godfrey cannot steal from Franklin",
+            "Diamond found on sleepwalking Franklin"
+          ],
+          "plausibility_notes": "Low plausibility. Rachel is self-controlled. Screaming would be out of character unless truly terrified.",
+          "blocks": ["godfrey_steals", "rosanna_finds_nightgown"]
+        },
+        {
+          "id": "rachel_witnesses_alt_4",
+          "outcome": "Rachel doesn't see it — she's asleep or elsewhere",
+          "immediate_effects": [
+            "Diamond goes missing with no witness",
+            "Investigation proceeds without Rachel's secret knowledge",
+            "Rachel has no reason to break engagement",
+            "Mystery is purely external, no dramatic irony"
+          ],
+          "plausibility_notes": "Plausible as counterfactual. Her witnessing requires her to be awake and positioned correctly at exactly the right moment.",
+          "blocks": []
+        }
+      ]
     },
     {
       "id": "rosanna_finds_nightgown",
       "description": "Rosanna discovers the stained nightgown",
       "actual_outcome": "Rosanna hides the nightgown to protect Franklin, whom she loves",
-      "alternatives": []
+      "alternatives": [
+        {
+          "id": "rosanna_finds_alt_1",
+          "outcome": "Rosanna reports the nightgown to Betteredge",
+          "immediate_effects": [
+            "Evidence immediately connects Franklin to the scene",
+            "Cuff's investigation accelerates",
+            "Franklin must explain the paint stain",
+            "Rosanna doesn't become a suspect"
+          ],
+          "plausibility_notes": "Low plausibility given her feelings. Reporting would doom Franklin. Her love makes concealment almost inevitable.",
+          "blocks": ["rosanna_suicide"]
+        },
+        {
+          "id": "rosanna_finds_alt_2",
+          "outcome": "Rosanna destroys the nightgown completely",
+          "immediate_effects": [
+            "Evidence is permanently lost",
+            "No letter, no Shivering Sand package",
+            "Franklin can never be exonerated via the nightgown",
+            "Mystery may never be fully solved"
+          ],
+          "plausibility_notes": "Plausible. Simpler than her elaborate hiding scheme. But she wants to preserve it as proof of her devotion.",
+          "blocks": []
+        },
+        {
+          "id": "rosanna_finds_alt_3",
+          "outcome": "Rosanna confronts Franklin directly with the nightgown",
+          "immediate_effects": [
+            "Franklin is bewildered — has no memory",
+            "Rosanna realizes something is wrong",
+            "Potential alliance forms between them",
+            "Her feelings are exposed"
+          ],
+          "plausibility_notes": "Low plausibility. Rosanna is too shy and socially anxious to confront the man she loves. Her class position makes this even harder.",
+          "blocks": ["rosanna_suicide"]
+        },
+        {
+          "id": "rosanna_finds_alt_4",
+          "outcome": "Someone else finds the nightgown first",
+          "immediate_effects": [
+            "Penelope or another servant discovers it",
+            "Evidence goes directly to Cuff",
+            "Rosanna's love remains secret",
+            "Investigation focuses immediately on Franklin"
+          ],
+          "plausibility_notes": "Moderately plausible. Depends on timing and laundry procedures. Rosanna finding it first requires specific access.",
+          "blocks": ["rosanna_suicide"]
+        }
+      ]
     },
     {
       "id": "godfrey_steals",
       "description": "Godfrey takes diamond from unconscious Franklin",
       "actual_outcome": "Godfrey seizes opportunity, takes diamond from Franklin's hand, pawns it to cover debts",
-      "alternatives": []
+      "alternatives": [
+        {
+          "id": "godfrey_steals_alt_1",
+          "outcome": "Godfrey doesn't see Franklin with the diamond",
+          "immediate_effects": [
+            "Franklin leaves diamond somewhere in his room",
+            "Diamond found next morning in obvious location",
+            "No actual theft occurs",
+            "Mystery is about sleepwalking, not crime"
+          ],
+          "plausibility_notes": "Plausible. Godfrey seeing Franklin requires him to be awake and in the right place. Could easily miss it.",
+          "blocks": []
+        },
+        {
+          "id": "godfrey_steals_alt_2",
+          "outcome": "Godfrey sees but doesn't take it — too risky",
+          "immediate_effects": [
+            "Godfrey calculates odds, decides against theft",
+            "His debts remain a problem",
+            "Diamond found with Franklin next morning",
+            "Godfrey's financial crisis continues"
+          ],
+          "plausibility_notes": "Moderately plausible. Godfrey is calculating. But his desperation and the perfect opportunity make theft very tempting.",
+          "blocks": []
+        },
+        {
+          "id": "godfrey_steals_alt_3",
+          "outcome": "Godfrey takes it but is seen by a servant",
+          "immediate_effects": [
+            "Witness creates immediate suspicion",
+            "Godfrey must bribe, threaten, or explain",
+            "His perfect crime becomes messy",
+            "Investigation has a real lead"
+          ],
+          "plausibility_notes": "Low plausibility. Godfrey is careful and the household is asleep. But servants do move at night.",
+          "blocks": []
+        },
+        {
+          "id": "godfrey_steals_alt_4",
+          "outcome": "Godfrey tries to return it later when things get hot",
+          "immediate_effects": [
+            "Diamond mysteriously reappears",
+            "Investigation becomes very confused",
+            "Godfrey's debts resurface later",
+            "No one is exonerated or condemned"
+          ],
+          "plausibility_notes": "Low plausibility. Once pawned, the diamond is in the moneylender's hands. Godfrey can't easily retrieve it.",
+          "blocks": []
+        }
+      ]
     },
     {
       "id": "rosanna_suicide",
       "description": "Rosanna commits suicide at the Shivering Sand",
       "actual_outcome": "Rosanna drowns herself, leaving letter and nightgown in the quicksand",
-      "alternatives": []
+      "alternatives": [
+        {
+          "id": "rosanna_suicide_alt_1",
+          "outcome": "Rosanna runs away instead of killing herself",
+          "immediate_effects": [
+            "She takes the nightgown with her",
+            "Letter never written or delivered",
+            "Franklin never learns the truth from her",
+            "She lives but in hiding/poverty"
+          ],
+          "plausibility_notes": "Moderately plausible. Flight is an alternative to death. But where would she go? Her criminal record limits options.",
+          "blocks": []
+        },
+        {
+          "id": "rosanna_suicide_alt_2",
+          "outcome": "Rosanna confesses everything to Franklin before dying",
+          "immediate_effects": [
+            "Franklin learns about nightgown directly",
+            "Her feelings are revealed in person",
+            "Franklin might try to stop her",
+            "Evidence and motive are immediately clear"
+          ],
+          "plausibility_notes": "Low plausibility. Rosanna is too ashamed and shy. The letter is her way of speaking without facing him.",
+          "blocks": []
+        },
+        {
+          "id": "rosanna_suicide_alt_3",
+          "outcome": "Someone stops her at the Shivering Sand",
+          "immediate_effects": [
+            "Fisherman or local intervenes",
+            "Rosanna is saved but exposed",
+            "Her hiding of evidence comes out",
+            "She must explain her actions"
+          ],
+          "plausibility_notes": "Low plausibility. The Shivering Sand is isolated. Her timing is deliberate.",
+          "blocks": []
+        },
+        {
+          "id": "rosanna_suicide_alt_4",
+          "outcome": "Rosanna survives the attempt",
+          "immediate_effects": [
+            "Quicksand doesn't fully take her",
+            "Rescued but traumatized",
+            "Must face consequences of her concealment",
+            "Living testimony rather than posthumous letter"
+          ],
+          "plausibility_notes": "Low plausibility given the nature of the Shivering Sand. But quicksand deaths aren't always certain.",
+          "blocks": []
+        }
+      ]
     },
     {
       "id": "candy_ill",
       "description": "Dr. Candy falls ill with brain fever",
       "actual_outcome": "Candy's illness prevents him from remembering or revealing what he did",
-      "alternatives": []
+      "alternatives": [
+        {
+          "id": "candy_ill_alt_1",
+          "outcome": "Candy doesn't get ill — remembers everything",
+          "immediate_effects": [
+            "Candy realizes what the laudanum caused",
+            "He could confess and exonerate Franklin",
+            "Professional ruin vs. moral obligation",
+            "Mystery solved but Candy's career destroyed"
+          ],
+          "plausibility_notes": "Plausible as counterfactual. His illness is convenient but medically arbitrary. He could easily have stayed healthy.",
+          "blocks": ["jennings_records_ravings", "jennings_reconstructs"]
+        },
+        {
+          "id": "candy_ill_alt_2",
+          "outcome": "Candy dies from the fever",
+          "immediate_effects": [
+            "No fever-ravings to record",
+            "Secret dies with him",
+            "Franklin may never be exonerated",
+            "Jennings has no puzzle to solve"
+          ],
+          "plausibility_notes": "Plausible. Brain fever was often fatal. His survival is fortunate.",
+          "blocks": ["jennings_records_ravings", "jennings_reconstructs"]
+        },
+        {
+          "id": "candy_ill_alt_3",
+          "outcome": "Candy confesses during the fever clearly enough to be understood",
+          "immediate_effects": [
+            "Attendants hear 'I drugged Franklin Blake'",
+            "No need for Jennings' reconstruction",
+            "Scandal breaks immediately",
+            "Franklin exonerated but Candy ruined"
+          ],
+          "plausibility_notes": "Low plausibility. Fever-ravings are fragmentary by nature. Clear confession would be unusual.",
+          "blocks": ["jennings_reconstructs"]
+        }
+      ]
     },
     {
       "id": "jennings_records_ravings",
       "description": "Ezra Jennings records Candy's fever-ravings",
       "actual_outcome": "Jennings meticulously documents the fragmentary confessions",
-      "alternatives": []
+      "alternatives": [
+        {
+          "id": "jennings_records_alt_1",
+          "outcome": "Jennings doesn't think to record the ravings",
+          "immediate_effects": [
+            "Candy's words are forgotten",
+            "No documentary evidence of the dosing",
+            "Jennings has nothing to reconstruct",
+            "Franklin remains under suspicion indefinitely"
+          ],
+          "plausibility_notes": "Moderately plausible. Recording ravings is unusual medical practice. Jennings' curiosity is the key variable.",
+          "blocks": ["jennings_reconstructs"]
+        },
+        {
+          "id": "jennings_records_alt_2",
+          "outcome": "Jennings records but keeps it private, never shares",
+          "immediate_effects": [
+            "Evidence exists but is never used",
+            "Jennings' loyalty to Candy overrides justice",
+            "Franklin's fate depends on other evidence",
+            "Jennings carries the secret"
+          ],
+          "plausibility_notes": "Low plausibility given Jennings' character. He's dying and wants to do good. But doctor-patient loyalty is strong.",
+          "blocks": ["jennings_reconstructs"]
+        },
+        {
+          "id": "jennings_records_alt_3",
+          "outcome": "Someone else attends Candy and hears the ravings",
+          "immediate_effects": [
+            "Less careful documentation",
+            "Fragments might be misinterpreted",
+            "Different person must piece it together",
+            "May or may not reach Franklin"
+          ],
+          "plausibility_notes": "Plausible. Jennings being the attendant is somewhat coincidental. Another doctor or nurse could have been present.",
+          "blocks": []
+        }
+      ]
     },
     {
       "id": "jennings_reconstructs",
       "description": "Jennings reconstructs the truth from fever-ravings",
       "actual_outcome": "Jennings pieces together that Candy dosed Franklin, proposes experiment",
-      "alternatives": []
+      "alternatives": [
+        {
+          "id": "jennings_reconstructs_alt_1",
+          "outcome": "Jennings fails to make sense of the fragments",
+          "immediate_effects": [
+            "The puzzle remains unsolved",
+            "Jennings dies without breakthrough",
+            "Franklin's name never cleared via this route",
+            "Rachel's secret knowledge becomes the only path"
+          ],
+          "plausibility_notes": "Plausible. The reconstruction requires brilliance and luck. Many would fail where Jennings succeeded.",
+          "blocks": []
+        },
+        {
+          "id": "jennings_reconstructs_alt_2",
+          "outcome": "Jennings reconstructs it but dies before sharing",
+          "immediate_effects": [
+            "Knowledge dies with him",
+            "His notes might be found posthumously",
+            "Delay in exoneration",
+            "Someone else must interpret his work"
+          ],
+          "plausibility_notes": "Plausible. Jennings is terminally ill. Timing is everything.",
+          "blocks": []
+        },
+        {
+          "id": "jennings_reconstructs_alt_3",
+          "outcome": "Jennings shares with the wrong person first",
+          "immediate_effects": [
+            "Recipient doesn't believe him",
+            "Jennings' reputation (already damaged) undermines the claim",
+            "Must find another ally",
+            "Delay and complications"
+          ],
+          "plausibility_notes": "Moderately plausible. Jennings is a social outcast. His word might not be trusted.",
+          "blocks": []
+        }
+      ]
     },
     {
       "id": "godfrey_sees_opportunity",
       "description": "Godfrey observes Franklin with the diamond",
       "actual_outcome": "Godfrey happens to see Franklin wandering with diamond, follows him",
-      "alternatives": []
+      "alternatives": [
+        {
+          "id": "godfrey_sees_alt_1",
+          "outcome": "Godfrey is asleep and misses the whole thing",
+          "immediate_effects": [
+            "No opportunistic theft",
+            "Diamond ends up wherever sleepwalking Franklin leaves it",
+            "Found next morning, returned to Rachel",
+            "No real crime occurs"
+          ],
+          "plausibility_notes": "Very plausible. Godfrey being awake and positioned to see Franklin is coincidental.",
+          "blocks": ["godfrey_steals"]
+        },
+        {
+          "id": "godfrey_sees_alt_2",
+          "outcome": "Godfrey sees but interprets it as a dream/hallucination",
+          "immediate_effects": [
+            "Doesn't act on what he saw",
+            "Dismisses it as impossible",
+            "Later regrets not seizing the chance",
+            "No theft occurs"
+          ],
+          "plausibility_notes": "Low plausibility. Godfrey is sharp and desperate. He'd recognize the opportunity.",
+          "blocks": ["godfrey_steals"]
+        },
+        {
+          "id": "godfrey_sees_alt_3",
+          "outcome": "Godfrey wakes someone else to witness it",
+          "immediate_effects": [
+            "Multiple witnesses to Franklin's sleepwalking",
+            "Immediate household awareness",
+            "Franklin's innocence might be more obvious",
+            "Godfrey can't steal without being suspected"
+          ],
+          "plausibility_notes": "Very low plausibility. Why would Godfrey create witnesses to his opportunity? Against his interests.",
+          "blocks": ["godfrey_steals"]
+        }
+      ]
     },
     {
       "id": "bequeaths_to_rachel",
       "description": "Colonel Herncastle leaves diamond to Rachel in his will",
       "actual_outcome": "Herncastle's malicious bequest brings the cursed diamond into the Verinder household",
-      "alternatives": []
+      "alternatives": [
+        {
+          "id": "bequeaths_alt_1",
+          "outcome": "Herncastle destroys the diamond before death",
+          "immediate_effects": [
+            "No Moonstone, no story",
+            "Curse ends with Herncastle",
+            "Rachel receives ordinary inheritance",
+            "Indian pursuers have no target"
+          ],
+          "plausibility_notes": "Plausible. A guilty man might destroy the evidence of his crime. But Herncastle was proud of his conquest.",
+          "blocks": ["candy_doses_franklin", "rachel_witnesses", "godfrey_steals"]
+        },
+        {
+          "id": "bequeaths_alt_2",
+          "outcome": "Herncastle returns the diamond to India",
+          "immediate_effects": [
+            "Restitution before death",
+            "Moral redemption arc",
+            "No curse on the family",
+            "Brahmins' mission succeeds early"
+          ],
+          "plausibility_notes": "Low plausibility. Herncastle showed no remorse. Restitution would require character change.",
+          "blocks": ["candy_doses_franklin", "rachel_witnesses", "godfrey_steals"]
+        },
+        {
+          "id": "bequeaths_alt_3",
+          "outcome": "Herncastle leaves diamond to a museum",
+          "immediate_effects": [
+            "Public possession, harder to steal",
+            "Brahmins must target institution not family",
+            "No personal drama for the Verinders",
+            "Different kind of story entirely"
+          ],
+          "plausibility_notes": "Plausible. Many collectors donated to museums. But Herncastle's bequest was malicious, targeting the family that rejected him.",
+          "blocks": ["candy_doses_franklin", "rachel_witnesses", "godfrey_steals"]
+        },
+        {
+          "id": "bequeaths_alt_4",
+          "outcome": "The family refuses the bequest",
+          "immediate_effects": [
+            "Diamond goes elsewhere or to the state",
+            "Verinders avoid the curse",
+            "Rachel never has her birthday disrupted",
+            "Herncastle's revenge fails"
+          ],
+          "plausibility_notes": "Moderately plausible. The family knew the diamond was tainted. But refusing valuable inheritance is hard, and Rachel wanted it.",
+          "blocks": ["candy_doses_franklin", "rachel_witnesses", "godfrey_steals"]
+        }
+      ]
     }
   ]
 }
