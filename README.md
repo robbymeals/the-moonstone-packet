@@ -4,6 +4,9 @@ Extracting the narrative structure of Wilkie Collins' *The Moonstone* (1868) int
 
 Collins wrote the novel as multiple witnesses testifying about the same events. We're pulling that structure apart to see what's load-bearing. And seeing what else that structure can be used to plausibly grow, in terms of interesting alternate narratives in this specific set of circumstances. Or boring alternatives. We're trying to understand the alternatives. For fun.
 
+Telemetry and tooling for directing and authoring a probabilistic expansion of an existing high quality fictional world at a higher abstraction level than the text itself?
+
+
 ## Quickstart
 
 ```bash
